@@ -7,8 +7,8 @@ namespace Valve.VR.InteractionSystem.Sample
 {
     public class LevelTeleporter : MonoBehaviour
     {
-
-        public string SceneName;
+        private Scene SceneOrigin = SceneManager.GetActiveScene();
+        public string SceneDestination;
 
         // Start is called before the first frame update
         public void OnButtonDown(Hand fromHand)
@@ -20,8 +20,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         public void OnButtonUp(Hand fromHand)
         {
-            SceneManager.LoadScene(SceneName);
-            print("Changing Scene");
+            ScreenLoad();
         }
 
         private void ColorSelf(Color newColor)
@@ -31,6 +30,13 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 renderers[rendererIndex].material.color = newColor;
             }
+        }
+
+        private void ScreenLoad()
+        {
+            print("Unloading Current Scene");
+            SceneManager.UnloadSceneAsync(SceneOrigin);
+            SceneManager.LoadScene(SceneDestination);
         }
     }
 
