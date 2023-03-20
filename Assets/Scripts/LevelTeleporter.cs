@@ -7,7 +7,7 @@ namespace Valve.VR.InteractionSystem.Sample
 {
     public class LevelTeleporter : MonoBehaviour
     {
-        private Scene SceneOrigin = SceneManager.GetActiveScene();
+        public string SceneOrigin;
         public string SceneDestination;
 
         // Start is called before the first frame update
