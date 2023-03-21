@@ -6,33 +6,31 @@ namespace Valve.VR.InteractionSystem.Sample
 {
     public class InventorySystem : MonoBehaviour
     {
-        private Interactable interactable;
+        public GameObject inventory;
 
-        public GameObject leftStorage;
-
-        // private void Update()
-        // {
-        //     if (interactable.attachedToHand)
-        //     {
-        //         GameObject item = interactable.gameObject;
-        //     }
-        // }
+        void Update()
+        {
+            transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
+        }
 
         private void OnTriggerEnter(Collider other)
         {
-            other.gameObject.GetComponent<Rigidbody>().useGravity = false;
+            Rigidbody rb = other.gameObject.GetComponent<Rigidbody>();
+
+            rb.useGravity = false;
 
             // object becomes child of storage container
-            other.transform.parent = leftStorage.transform;
+            other.transform.parent = inventory.transform;
 
             // figure out how to shrink object upon enter
 
+            // set velocity to zero to stop it from floating out
+            rb.angularVelocity = Vector3.zero;
+            rb.velocity = Vector3.zero;
+            // rb.Sleep();
+
             // sets object position to the orgin of parent
             other.transform.localPosition = Vector3.zero;
-
-            // maybe set velocity to zero to stop it from floating out
-            
-
         }
     }
 }
