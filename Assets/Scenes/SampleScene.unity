@@ -349,7 +349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 586389973}
-  targetSize: 0.48
+  delay: 1
 --- !u!135 &586389976
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -539,7 +539,7 @@ GameObject:
   - component: {fileID: 1065935038}
   m_Layer: 0
   m_Name: BlueCube
-  m_TagString: Untagged
+  m_TagString: Storeable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -792,7 +792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 1094728779}
-  targetSize: 0.48
+  delay: 1
 --- !u!135 &1094728782
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -986,7 +986,7 @@ GameObject:
   - component: {fileID: 1907508000}
   m_Layer: 0
   m_Name: BrownCube
-  m_TagString: Untagged
+  m_TagString: Storeable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
