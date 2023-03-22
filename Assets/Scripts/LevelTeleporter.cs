@@ -36,7 +36,7 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             print("Unloading Current Scene");
             SceneManager.UnloadSceneAsync(SceneOrigin);
-            SceneManager.LoadScene(SceneDestination);
+            SceneManager.LoadScene(SceneDestination);        
         }
     }
 
