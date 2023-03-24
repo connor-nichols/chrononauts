@@ -61,6 +61,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         IEnumerator TriggerExitWithDelay()
         {
+            yield return new WaitForSeconds(0.6f);
             inventory.GetComponent<SphereCollider>().isTrigger = false;
             yield return new WaitForSeconds(1f);
             inventory.GetComponent<SphereCollider>().isTrigger = true;
