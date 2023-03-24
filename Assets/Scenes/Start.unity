@@ -222,6 +222,18 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
+--- !u!114 &440599364 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2754469989421680090, guid: 5405f2be072e7e64d82133ee6628d04f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1454162327498276037}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60fcd29a13d86c544a9ee2df26b52db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &501456940
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,6 +452,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6851245646194213172}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1280943926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7030679057303324309, guid: 5405f2be072e7e64d82133ee6628d04f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1454162327498276037}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1280943933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280943926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf6cf21770829ee49865ba294fdc9fc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elevatorController: {fileID: 440599364}
 --- !u!1 &1596199845
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,6 +853,26 @@ PrefabInstance:
         type: 3}
       propertyPath: SceneOrigin
       value: Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 6919625467612821719, guid: 5405f2be072e7e64d82133ee6628d04f,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1280943933}
+    - target: {fileID: 6919625467612821719, guid: 5405f2be072e7e64d82133ee6628d04f,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1280943933}
+    - target: {fileID: 6919625467612821719, guid: 5405f2be072e7e64d82133ee6628d04f,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorButtonController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6919625467612821719, guid: 5405f2be072e7e64d82133ee6628d04f,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorButtonController, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5405f2be072e7e64d82133ee6628d04f, type: 3}
