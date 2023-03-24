@@ -54,14 +54,13 @@ namespace Valve.VR.InteractionSystem.Sample
                 other.transform.localScale = originalSize;
 
                 inBall = false;
-
+                
                 StartCoroutine(TriggerExitWithDelay());
             }
         }
 
         IEnumerator TriggerExitWithDelay()
         {
-            yield return new WaitForSeconds(0.6f);
             inventory.GetComponent<SphereCollider>().isTrigger = false;
             yield return new WaitForSeconds(1f);
             inventory.GetComponent<SphereCollider>().isTrigger = true;
