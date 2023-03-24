@@ -10,12 +10,10 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private Vector3 originalSize;
 
-        private bool inBall = false;
-
         private void OnTriggerEnter(Collider other)
         {
             
-            if (!inBall && other.tag == "Storeable")
+            if (other.tag == "Storeable")
             {
                 Rigidbody rb = other.gameObject.GetComponent<Rigidbody>();
 
@@ -36,14 +34,12 @@ namespace Valve.VR.InteractionSystem.Sample
 
                 // sets object position to the orgin of parent
                 other.transform.localPosition = Vector3.zero;
-
-                inBall = true;
             }
         }
 
         private void OnTriggerExit(Collider other)
         {
-            if (inBall && other.tag == "Storeable")
+            if (other.tag == "Storeable")
             {
                 Rigidbody rb = other.gameObject.GetComponent<Rigidbody>();
 
@@ -52,8 +48,6 @@ namespace Valve.VR.InteractionSystem.Sample
                 other.transform.SetParent(null);
 
                 other.transform.localScale = originalSize;
-
-                inBall = false;
                 
                 StartCoroutine(TriggerExitWithDelay());
             }
