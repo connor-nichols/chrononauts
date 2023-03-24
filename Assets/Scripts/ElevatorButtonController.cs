@@ -1,25 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using Valve.VR.InteractionSystem;
 
-public class LevelTeleporter : MonoBehaviour
+public class ElevatorButtonController : MonoBehaviour
 {
-    public string SceneOrigin;
-    public string SceneDestination;
 
-    // Start is called before the first frame update
     public void OnButtonDown(Hand fromHand)
     {
         ColorSelf(Color.cyan);
         fromHand.TriggerHapticPulse(1000);
-        print("Button Down");
     }
 
     public void OnButtonUp(Hand fromHand)
     {
-        ScreenLoad();
+        CloseDoor();
+    }
+
+    private void CloseDoor()
+    {
+
     }
 
     private void ColorSelf(Color newColor)
@@ -29,12 +29,5 @@ public class LevelTeleporter : MonoBehaviour
         {
             renderers[rendererIndex].material.color = newColor;
         }
-    }
-
-    private void ScreenLoad()
-    {
-        print("Unloading Current Scene");
-        SceneManager.UnloadSceneAsync(SceneOrigin);
-        SceneManager.LoadScene(SceneDestination);        
     }
 }
