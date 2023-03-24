@@ -12,4 +12,9 @@ public class ElevatorController : MonoBehaviour
         else
             doorClosed = true;
     }
+
+    public bool getDoorPosition()
+    {
+        return doorClosed;
+    }
 }
