@@ -12,10 +12,6 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private bool inBall = false;
 
-        public float delay = 1f;
-        private float timer = 0;
-        private bool trigger = false;
-
         private void OnTriggerEnter(Collider other)
         {
             
@@ -58,41 +54,22 @@ namespace Valve.VR.InteractionSystem.Sample
                 other.transform.localScale = originalSize;
 
                 inBall = false;
+
+                StartCoroutine(TriggerExitWithDelay());
             }
-
-            inventory.GetComponent<SphereCollider>().isTrigger = false;
-            trigger = true;
-            // StartCoroutine(delay());
-            
         }
 
-        private void triggerOn()
+        IEnumerator TriggerExitWithDelay()
         {
+            inventory.GetComponent<SphereCollider>().isTrigger = false;
+            yield return new WaitForSeconds(1f);
             inventory.GetComponent<SphereCollider>().isTrigger = true;
-            trigger = false;
-            timer = 0;
         }
-        //IEnumerator delay()
-        //{
-          //  print(Time.time);
-            //yield return new WaitForSeconds(100f);
-            //print(Time.time);
-        //}
 
         void Update()
         {
             // rotate object/container
             transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
-
-            if (trigger)
-            {
-                timer += Time.deltaTime;
-                if (timer > delay)
-                {
-                    print(Time.time);
-                    triggerOn();
-                }
-            }
         }
 
 
