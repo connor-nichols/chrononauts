@@ -12,53 +12,62 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private void OnTriggerEnter(Collider other)
         {
-            
-            if (other.tag == "Storeable")
+            AddInteractable(other.gameObject);
+        }
+
+        private void AddInteractable(GameObject newObject)
+        {
+            if (newObject.tag == "Storeable")
             {
-                Rigidbody rb = other.gameObject.GetComponent<Rigidbody>();
+                Rigidbody rb = newObject.GetComponent<Rigidbody>();
 
                 // Store object size
-                originalSize = other.transform.localScale;
+                originalSize = newObject.transform.localScale;
 
                 rb.useGravity = false;
 
                 // object becomes child of inventory container
-                other.transform.SetParent(inventory.transform);
+                newObject.transform.SetParent(inventory.transform);
 
                 // Shrink object 
-                other.transform.localScale = new Vector3(0.48f, 0.48f, 0.48f);
+                newObject.transform.localScale = new Vector3(0.48f, 0.48f, 0.48f);
 
                 // set velocity to zero to stop it from floating out
                 rb.angularVelocity = Vector3.zero;
                 rb.velocity = Vector3.zero;
 
                 // sets object position to the orgin of parent
-                other.transform.localPosition = Vector3.zero;
+                newObject.transform.localPosition = Vector3.zero;
             }
         }
 
         private void OnTriggerExit(Collider other)
         {
-            if (other.tag == "Storeable")
+            RemoveInteractable(other.gameObject);
+        }
+
+        private void RemoveInteractable(GameObject newObject)
+        {
+            if (newObject.tag == "Storeable")
             {
-                Rigidbody rb = other.gameObject.GetComponent<Rigidbody>();
+                Rigidbody rb = newObject.GetComponent<Rigidbody>();
 
                 rb.useGravity = true;
 
-                other.transform.SetParent(null);
+                newObject.transform.SetParent(null);
 
-                other.transform.localScale = originalSize;
+                newObject.transform.localScale = originalSize;
                 
-                StartCoroutine(TriggerExitWithDelay());
+                // StartCoroutine(TriggerExitWithDelay());
             }
         }
 
-        IEnumerator TriggerExitWithDelay()
-        {
-            inventory.GetComponent<SphereCollider>().isTrigger = false;
-            yield return new WaitForSeconds(1f);
-            inventory.GetComponent<SphereCollider>().isTrigger = true;
-        }
+        // IEnumerator TriggerExitWithDelay()
+        // {
+        //     inventory.GetComponent<SphereCollider>().isTrigger = false;
+        //     yield return new WaitForSeconds(1f);
+        //     inventory.GetComponent<SphereCollider>().isTrigger = true;
+        // }
 
         void Update()
         {
