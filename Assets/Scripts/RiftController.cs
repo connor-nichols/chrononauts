@@ -42,6 +42,7 @@ public class RiftController : MonoBehaviour
 
             rb.angularVelocity = Vector3.zero;
             rb.velocity = Vector3.zero;
+            rb.isKinematic = true;
 
             newObject.transform.localPosition = Vector3.zero;
         }
@@ -63,7 +64,15 @@ public class RiftController : MonoBehaviour
             newObject.transform.SetParent(null);
 
             newObject.transform.localScale = originalSize;
+
+            StartCoroutine(TriggerExitWithDelay(rb));
         }
+    }
+
+    IEnumerator TriggerExitWithDelay(Rigidbody rb)
+    {
+        yield return new WaitForSeconds(1f);
+        rb.isKinematic = false;
     }
 
     void Update()

@@ -17,7 +17,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private void AddInteractable(GameObject newObject)
         {
-            if (newObject.tag == "Storeable")
+            if (newObject.tag == "Storeable" && inventory.transform.childCount == 0)
             {
                 Rigidbody rb = newObject.GetComponent<Rigidbody>();
 
@@ -35,6 +35,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 // set velocity to zero to stop it from floating out
                 rb.angularVelocity = Vector3.zero;
                 rb.velocity = Vector3.zero;
+                rb.isKinematic = true;
 
                 // sets object position to the orgin of parent
                 newObject.transform.localPosition = Vector3.zero;
@@ -58,16 +59,15 @@ namespace Valve.VR.InteractionSystem.Sample
 
                 newObject.transform.localScale = originalSize;
                 
-                // StartCoroutine(TriggerExitWithDelay());
+                StartCoroutine(TriggerExitWithDelay(rb));
             }
         }
 
-        // IEnumerator TriggerExitWithDelay()
-        // {
-        //     inventory.GetComponent<SphereCollider>().isTrigger = false;
-        //     yield return new WaitForSeconds(1f);
-        //     inventory.GetComponent<SphereCollider>().isTrigger = true;
-        // }
+        IEnumerator TriggerExitWithDelay(Rigidbody rb)
+        {
+            yield return new WaitForSeconds(1f);
+            rb.isKinematic = false;
+        }
 
         void Update()
         {
