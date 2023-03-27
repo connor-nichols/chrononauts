@@ -12,21 +12,57 @@ public class RiftController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        AddInteractable(other.gameObject);
+    }
 
-        if (other.tag == "Storeable")
+    private void AddInteractable(GameObject newObject)
+    {
+        if (newObject.tag == "Storeable")
         {
-            Rigidbody rb = other.gameObject.GetComponent<Rigidbody>();
+            Rigidbody rb = newObject.GetComponent<Rigidbody>();
+
+            originalSize = newObject.transform.localScale;
 
             rb.useGravity = false;
 
-            other.transform.SetParent(riftOne.transform);
+            if (riftOne.transform.childCount == 0)
+            {
+                newObject.transform.SetParent(riftOne.transform);
+            }
+            else if (riftTwo.transform.childCount == 0)
+            {
+                newObject.transform.SetParent(riftTwo.transform);
+            }
+            else if (riftThree.transform.childCount == 0)
+            {
+                newObject.transform.SetParent(riftThree.transform);
+            }
 
-            other.transform.localScale = new Vector3(0.48f, 0.48f, 0.48f);
+            newObject.transform.localScale = new Vector3(0.48f, 0.48f, 0.48f);
 
             rb.angularVelocity = Vector3.zero;
             rb.velocity = Vector3.zero;
 
-            other.transform.localPosition = Vector3.zero;
+            newObject.transform.localPosition = Vector3.zero;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        RemoveInteractable(other.gameObject);
+    }
+
+    private void RemoveInteractable(GameObject newObject)
+    {
+        if (newObject.tag == "Storeable")
+        {
+            Rigidbody rb = newObject.GetComponent<Rigidbody>();
+
+            rb.useGravity = true;
+
+            newObject.transform.SetParent(null);
+
+            newObject.transform.localScale = originalSize;
         }
     }
 
