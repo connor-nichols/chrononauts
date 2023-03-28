@@ -35,7 +35,6 @@ namespace Valve.VR.InteractionSystem.Sample
                 // set velocity to zero to stop it from floating out
                 rb.angularVelocity = Vector3.zero;
                 rb.velocity = Vector3.zero;
-                rb.isKinematic = true;
 
                 // sets object position to the orgin of parent
                 newObject.transform.localPosition = Vector3.zero;
@@ -58,15 +57,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 newObject.transform.SetParent(null);
 
                 newObject.transform.localScale = originalSize;
-                
-                StartCoroutine(TriggerExitWithDelay(rb));
             }
-        }
-
-        IEnumerator TriggerExitWithDelay(Rigidbody rb)
-        {
-            yield return new WaitForSeconds(1f);
-            rb.isKinematic = false;
         }
 
         void Update()
@@ -75,13 +66,9 @@ namespace Valve.VR.InteractionSystem.Sample
             transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
         }
 
-
         // Problems that need fixing
         // 1. If you hit the inventory container when it has an object the object will fly out.
         // Idea to fix: Give hands a tag and if something other than hands it touching negate the effects
         // 2. Resizing does not work well with nonuniform objects.
-        // 3. Delay is 3 seconds when set to one.
-
-
     }
 }
