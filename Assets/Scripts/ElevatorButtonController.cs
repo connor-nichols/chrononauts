@@ -10,6 +10,8 @@ public class ElevatorButtonController : MonoBehaviour
     public void OnButtonDown(Hand fromHand)
     {
         print("Elevator Button Pressed");
+
+        ColorSelf(Color.cyan);
         if (elevatorController.getDoorPosition())
             ColorSelf(Color.cyan);
         else
