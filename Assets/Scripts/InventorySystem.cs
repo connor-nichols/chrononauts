@@ -12,6 +12,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private Vector3 originalSize;
 
+        public bool riftsSpawned = false;
         public bool fileInteracted = false;
 
         private void OnTriggerEnter(Collider other)
@@ -73,7 +74,7 @@ namespace Valve.VR.InteractionSystem.Sample
         private void riftSpawn()
         {
             Instantiate(riftPrefab, new Vector3(0, 1.65f, 0), Quaternion.identity);
-            fileInteracted = false;
+            riftsSpawned = true;
         }
 
         void Update()
@@ -81,7 +82,7 @@ namespace Valve.VR.InteractionSystem.Sample
             // rotate object/container
             transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
 
-            if (SceneManager.GetActiveScene().name == "LevelFour" && fileInteracted)
+            if (SceneManager.GetActiveScene().name == "LevelFour" && fileInteracted && !riftsSpawned)
             {
                riftSpawn();
             }
