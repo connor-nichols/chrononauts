@@ -70,6 +70,12 @@ namespace Valve.VR.InteractionSystem.Sample
             }
         }
 
+        private void riftSpawn()
+        {
+            Instantiate(riftPrefab, new Vector3(0, 1.65f, 0), Quaternion.identity);
+            fileInteracted = false;
+        }
+
         void Update()
         {
             // rotate object/container
@@ -77,7 +83,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
             if (SceneManager.GetActiveScene().name == "LevelFour" && fileInteracted)
             {
-                Instantiate(riftPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+               riftSpawn();
             }
         }
 
