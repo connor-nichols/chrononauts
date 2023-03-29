@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 namespace Valve.VR.InteractionSystem.Sample
@@ -7,8 +8,11 @@ namespace Valve.VR.InteractionSystem.Sample
     public class InventorySystem : MonoBehaviour
     {
         public GameObject inventory;
+        public GameObject riftPrefab;
 
         private Vector3 originalSize;
+
+        public bool fileInteracted = false;
 
         private void OnTriggerEnter(Collider other)
         {
@@ -19,6 +23,12 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             if (newObject.tag == "Storeable" && inventory.transform.childCount == 0)
             {
+
+                if (newObject.name == "File")
+                {
+                    fileInteracted = true;
+                }
+
                 Rigidbody rb = newObject.GetComponent<Rigidbody>();
 
                 // Store object size
@@ -64,11 +74,20 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             // rotate object/container
             transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
+
+            if (SceneManager.GetActiveScene().name == "LevelFour" && fileInteracted)
+            {
+                Instantiate(riftPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+            }
         }
 
         // Problems that need fixing
         // 1. If you hit the inventory container when it has an object the object will fly out.
         // Idea to fix: Give hands a tag and if something other than hands it touching negate the effects
         // 2. Resizing does not work well with nonuniform objects.
+
+        // TODO for starting condition:
+        // want to check if we have grabbed the file by checking if its a child of player (inventory)
+        // check scene manager for specific scene (SceneManage.ActiveScene)
     }
 }
