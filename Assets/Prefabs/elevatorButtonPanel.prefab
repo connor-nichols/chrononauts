@@ -1705,11 +1705,31 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4623552857937414273}
     - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 4623552857937414273}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnButtonUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnButtonDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelTeleporter, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelTeleporter, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3375926494541706318, guid: b49a576ef1d596946a5acd3fd529bd4a,
         type: 3}
@@ -1837,11 +1857,31 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4623552857937414273}
     - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 4623552857937414273}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnButtonUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnButtonDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelTeleporter, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelTeleporter, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3375926494541706318, guid: b49a576ef1d596946a5acd3fd529bd4a,
         type: 3}
@@ -1969,11 +2009,31 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4623552857937414273}
     - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 4623552857937414273}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnButtonUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnButtonDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelTeleporter, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelTeleporter, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3375926494541706318, guid: b49a576ef1d596946a5acd3fd529bd4a,
         type: 3}
@@ -2192,11 +2252,31 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4623552857937414273}
     - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 4623552857937414273}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnButtonUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnButtonDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelTeleporter, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelTeleporter, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3375926494541706318, guid: b49a576ef1d596946a5acd3fd529bd4a,
         type: 3}
@@ -2324,11 +2404,31 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4623552857937414273}
     - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 4623552857937414273}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnButtonUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnButtonDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelTeleporter, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 679970313931376698, guid: b49a576ef1d596946a5acd3fd529bd4a,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelTeleporter, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3375926494541706318, guid: b49a576ef1d596946a5acd3fd529bd4a,
         type: 3}
