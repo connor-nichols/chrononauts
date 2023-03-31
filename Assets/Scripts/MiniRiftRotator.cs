@@ -7,6 +7,6 @@ public class MiniRiftRotator : MonoBehaviour
     void Update()
     {
         // rotate object/container
-        transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
+        transform.Rotate(new Vector3(15, 45, 30) * Time.deltaTime);
     }
 }

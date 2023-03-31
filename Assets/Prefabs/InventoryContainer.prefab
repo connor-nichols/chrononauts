@@ -111,7 +111,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 7997991791329557482}
-  riftPrefab: {fileID: 3504377264248924930, guid: 5fdf0b9ba42a3a6439f33d67fd3bb342,
-    type: 3}
-  riftsSpawned: 0
-  fileInteracted: 0

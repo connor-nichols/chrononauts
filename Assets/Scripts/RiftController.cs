@@ -51,7 +51,6 @@ namespace Valve.VR.InteractionSystem.Sample
                 rb.velocity = Vector3.zero;
 
                 newObject.transform.localPosition = Vector3.zero;
-
             }
         }
 
@@ -76,7 +75,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         void Update()
         {
-            transform.Rotate(new Vector3(0, 0, 15) * Time.deltaTime);
+            // transform.Rotate(new Vector3(0, 0, 15) * Time.deltaTime);
         }
     }
 }
