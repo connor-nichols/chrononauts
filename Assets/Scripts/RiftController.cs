@@ -25,17 +25,26 @@ namespace Valve.VR.InteractionSystem.Sample
 
                 originalSize = newObject.transform.localScale;
 
-                if (riftOne.transform.childCount == 0)
+                if (riftOne != null)
                 {
-                    newObject.transform.SetParent(riftOne.transform);
+                    if (riftOne.transform.childCount == 0)
+                    {
+                        newObject.transform.SetParent(riftOne.transform);
+                    }
                 }
-                else if (riftTwo.transform.childCount == 0)
+                else if (riftTwo != null)
                 {
-                    newObject.transform.SetParent(riftTwo.transform);
+                    if (riftTwo.transform.childCount == 0)
+                    {
+                        newObject.transform.SetParent(riftTwo.transform);
+                    }
                 }
-                else if (riftThree.transform.childCount == 0)
+                else if (riftThree != null)
                 {
-                    newObject.transform.SetParent(riftThree.transform);
+                    if (riftThree.transform.childCount == 0)
+                    {
+                        newObject.transform.SetParent(riftThree.transform);
+                    }
                 }
                 else {
                     // object comes out below the rift if its full
@@ -76,6 +85,10 @@ namespace Valve.VR.InteractionSystem.Sample
         void Update()
         {
             // transform.Rotate(new Vector3(0, 0, 15) * Time.deltaTime);
+            if (transform.childCount == 0)
+            {
+                Destroy(transform.parent.gameObject);
+            }
         }
     }
 }
