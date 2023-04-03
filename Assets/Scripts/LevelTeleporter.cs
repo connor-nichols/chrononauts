@@ -13,16 +13,16 @@ public class LevelTeleporter : MonoBehaviour
     // Start is called before the first frame update
     public void OnButtonDown(Hand fromHand)
     {
+        print("Level Button coming down");
         ColorSelf(Color.cyan);
         fromHand.TriggerHapticPulse(1000);
+        print(Elevator.getDoorPosition());
+        if (Elevator.getDoorPosition())
+            ScreenLoad();
     }
 
     public void OnButtonUp(Hand fromHand)
     {
-        print("Level Button coming up");
-        print(Elevator.getDoorPosition());
-        if (Elevator.getDoorPosition())
-            ScreenLoad();
     }
 
     private void ColorSelf(Color newColor)
@@ -37,6 +37,8 @@ public class LevelTeleporter : MonoBehaviour
     private void ScreenLoad()
     {
         print("Unloading Current Scene");
+        print(SceneOrigin);
+        print(SceneDestination);
         SceneManager.UnloadSceneAsync(SceneOrigin);
         SceneManager.LoadScene(SceneDestination);        
     }

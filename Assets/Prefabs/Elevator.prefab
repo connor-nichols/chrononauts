@@ -931,7 +931,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60fcd29a13d86c544a9ee2df26b52db9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorClosed: 0
   door: {fileID: 0}
   duration: 1
 --- !u!1 &8704086086547296656
@@ -1029,6 +1028,21 @@ PrefabInstance:
       propertyPath: Elevator
       value: 
       objectReference: {fileID: 3830915350922535158}
+    - target: {fileID: 365199016895081965, guid: f84b40bcf487049449ae70da2123deb3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 795910369548289313, guid: f84b40bcf487049449ae70da2123deb3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2020550174893507181, guid: f84b40bcf487049449ae70da2123deb3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.125
+      objectReference: {fileID: 0}
     - target: {fileID: 2175302789368308194, guid: f84b40bcf487049449ae70da2123deb3,
         type: 3}
       propertyPath: m_Name
@@ -1062,17 +1076,17 @@ PrefabInstance:
     - target: {fileID: 2465284960459070214, guid: f84b40bcf487049449ae70da2123deb3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 100
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 2465284960459070214, guid: f84b40bcf487049449ae70da2123deb3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 75
+      value: 93.75
       objectReference: {fileID: 0}
     - target: {fileID: 2465284960459070214, guid: f84b40bcf487049449ae70da2123deb3,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 100
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 2465284960459070214, guid: f84b40bcf487049449ae70da2123deb3,
         type: 3}
@@ -1087,7 +1101,7 @@ PrefabInstance:
     - target: {fileID: 2465284960459070214, guid: f84b40bcf487049449ae70da2123deb3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30
+      value: 27.08
       objectReference: {fileID: 0}
     - target: {fileID: 2465284960459070214, guid: f84b40bcf487049449ae70da2123deb3,
         type: 3}
@@ -1154,6 +1168,11 @@ PrefabInstance:
       propertyPath: Elevator
       value: 
       objectReference: {fileID: 3830915350922535158}
+    - target: {fileID: 4870390542508872976, guid: f84b40bcf487049449ae70da2123deb3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.025
+      objectReference: {fileID: 0}
     - target: {fileID: 5096043325495844942, guid: f84b40bcf487049449ae70da2123deb3,
         type: 3}
       propertyPath: Elevator
@@ -1183,6 +1202,16 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnButtonDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 5739922238403960510, guid: f84b40bcf487049449ae70da2123deb3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 5739922238403960510, guid: f84b40bcf487049449ae70da2123deb3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0013
       objectReference: {fileID: 0}
     - target: {fileID: 7336605952285489348, guid: f84b40bcf487049449ae70da2123deb3,
         type: 3}
@@ -1234,6 +1263,11 @@ PrefabInstance:
       propertyPath: Elevator
       value: 
       objectReference: {fileID: 3830915350922535158}
+    - target: {fileID: 9100869712618115450, guid: f84b40bcf487049449ae70da2123deb3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.025
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4800375694926316488, guid: f84b40bcf487049449ae70da2123deb3, type: 3}
     - {fileID: 4064109634179943113, guid: f84b40bcf487049449ae70da2123deb3, type: 3}
