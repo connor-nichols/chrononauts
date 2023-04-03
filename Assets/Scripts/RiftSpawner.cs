@@ -1,27 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEditor;
 
 public class RiftSpawner : MonoBehaviour
 {
-    public GameObject riftPrefab;
+    private bool canSpawnRift = false;
+    private bool riftActivated = false;
 
-    public bool riftsSpawned = false;
+    public GameObject rift;
 
     private void riftSpawn()
     {
-        // Need to put rifts in each scene then enable when you enter the scene - might break
-        PrefabUtility.InstantiatePrefab(riftPrefab);
-        riftsSpawned = true;
+        rift.SetActive(true);
+        rift.transform.parent = null;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (GameObject.Find("File") && !riftsSpawned)
-            {
-               riftSpawn();
-            }
+        // check if file has been brought back to level, if so activate rift spawning
+        if (SceneManager.GetActiveScene().name == "LevelFour" && GameObject.Find("File") && !canSpawnRift)
+        {
+            canSpawnRift = true;
+        }
+
+        // check if level has portal, if so activate it
+        if (transform.childCount == 1 && canSpawnRift)
+        {
+            riftSpawn();
+            // make portal not child of rift spawner
+        }
     }
 }
