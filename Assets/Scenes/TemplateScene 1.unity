@@ -12140,6 +12140,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 838022990535791125}
     m_Modifications:
+    - target: {fileID: 754576709653253354, guid: 7882bcd7b2ca21d4a948d50861c2b831,
+        type: 3}
+      propertyPath: Elevator
+      value: 
+      objectReference: {fileID: 3891245501577963428}
+    - target: {fileID: 754576709653253354, guid: 7882bcd7b2ca21d4a948d50861c2b831,
+        type: 3}
+      propertyPath: SceneOrigin
+      value: TemplateScene 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 754576709653253354, guid: 7882bcd7b2ca21d4a948d50861c2b831,
+        type: 3}
+      propertyPath: SceneDestination
+      value: LevelOne1
+      objectReference: {fileID: 0}
     - target: {fileID: 1074992943107281780, guid: 7882bcd7b2ca21d4a948d50861c2b831,
         type: 3}
       propertyPath: m_IsActive
@@ -12161,6 +12176,11 @@ PrefabInstance:
       value: officeElevatorGROUP
       objectReference: {fileID: 0}
     - target: {fileID: 3518069093090670374, guid: 7882bcd7b2ca21d4a948d50861c2b831,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361039874963814693, guid: 7882bcd7b2ca21d4a948d50861c2b831,
         type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -12223,12 +12243,12 @@ PrefabInstance:
     - target: {fileID: 5718915583985502846, guid: 7882bcd7b2ca21d4a948d50861c2b831,
         type: 3}
       propertyPath: SceneOrigin
-      value: TemplateScene
+      value: TemplateScene 1
       objectReference: {fileID: 0}
     - target: {fileID: 7007242799762281121, guid: 7882bcd7b2ca21d4a948d50861c2b831,
         type: 3}
       propertyPath: SceneOrigin
-      value: TemplateScene
+      value: TemplateScene 1
       objectReference: {fileID: 0}
     - target: {fileID: 7470445418825562734, guid: 7882bcd7b2ca21d4a948d50861c2b831,
         type: 3}
@@ -12245,8 +12265,30 @@ PrefabInstance:
       propertyPath: SceneDestination
       value: LevelTwo
       objectReference: {fileID: 0}
+    - target: {fileID: 8863977732710628910, guid: 7882bcd7b2ca21d4a948d50861c2b831,
+        type: 3}
+      propertyPath: SceneOrigin
+      value: TemplateScene 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863977732710628910, guid: 7882bcd7b2ca21d4a948d50861c2b831,
+        type: 3}
+      propertyPath: SceneDestination
+      value: LevelOne
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7882bcd7b2ca21d4a948d50861c2b831, type: 3}
+--- !u!114 &3891245501577963428 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3830915350922535158, guid: 7882bcd7b2ca21d4a948d50861c2b831,
+    type: 3}
+  m_PrefabInstance: {fileID: 3891245501577963427}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60fcd29a13d86c544a9ee2df26b52db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &3903681947911233883
 MeshRenderer:
   m_ObjectHideFlags: 0

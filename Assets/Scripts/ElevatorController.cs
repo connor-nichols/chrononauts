@@ -1,15 +1,13 @@
+using System.Collections;
 using UnityEngine;
 
 public class ElevatorController : MonoBehaviour
 {
     private bool doorClosed = false;
-    private Quaternion startRotation;
-    private Quaternion endRotation;
-    private float timeElapsed = 0.0f;
 
     public GameObject door;
 
-    public float duration = 1.0f;
+    public float rotation_speed = 10f;
 
     public void DoorOperator()
     {
@@ -35,19 +33,27 @@ public class ElevatorController : MonoBehaviour
 
     private void rotateDoor()
     {
-        timeElapsed += Time.deltaTime;
+        StartCoroutine(Rotatedoor());
+    }
 
-        // Calculate the interpolation factor
-        float t = Mathf.Clamp01(timeElapsed / duration);
-
+    IEnumerator Rotatedoor()
+    {
+        float time = 0f;
+        float startRotation = door.transform.eulerAngles.y;
+        float endRotation;
         if (doorClosed)
-        {
-            // Interpolate between the start and end rotation
-            transform.rotation = Quaternion.Lerp(Quaternion.Euler(0, -90, 0), Quaternion.Euler(0, 0, 0), t);
-        }
+            endRotation = 0f;
         else
+            endRotation = -90f;
+
+        while (time < 1f)
         {
-            transform.rotation = Quaternion.Lerp(Quaternion.Euler(0, 0, 0), Quaternion.Euler(0, -90, 0), t);
+            time += Time.deltaTime * rotation_speed;
+            float rotation = Mathf.Lerp(startRotation, endRotation, time);
+            door.transform.eulerAngles = new Vector3(0f, rotation, 0f);
         }
+
+        yield return null;
+
     }
 }

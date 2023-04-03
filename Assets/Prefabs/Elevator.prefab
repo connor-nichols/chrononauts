@@ -931,8 +931,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60fcd29a13d86c544a9ee2df26b52db9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 0}
-  duration: 1
+  door: {fileID: 5163826583005426842}
+  rotation_speed: 5
 --- !u!1 &8704086086547296656
 GameObject:
   m_ObjectHideFlags: 0
