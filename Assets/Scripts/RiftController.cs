@@ -10,6 +10,10 @@ namespace Valve.VR.InteractionSystem.Sample
         public GameObject riftTwo;
         public GameObject riftThree;
 
+        public string correctItemNameOne;
+        public string correctItemNameTwo;
+        public string correctItemNameThree;
+
         private Vector3 originalSize;
 
         private void OnTriggerEnter(Collider other)
@@ -25,21 +29,21 @@ namespace Valve.VR.InteractionSystem.Sample
 
                 originalSize = newObject.transform.localScale;
 
-                if (riftOne != null)
+                if (riftOne != null && newObject.transform.name == correctItemNameOne)
                 {
                     if (riftOne.transform.childCount == 0)
                     {
                         newObject.transform.SetParent(riftOne.transform);
                     }
                 }
-                else if (riftTwo != null)
+                else if (riftTwo != null && newObject.transform.name == correctItemNameTwo)
                 {
                     if (riftTwo.transform.childCount == 0)
                     {
                         newObject.transform.SetParent(riftTwo.transform);
                     }
                 }
-                else if (riftThree != null)
+                else if (riftThree != null && newObject.transform.name == correctItemNameThree)
                 {
                     if (riftThree.transform.childCount == 0)
                     {
@@ -87,8 +91,14 @@ namespace Valve.VR.InteractionSystem.Sample
             // transform.Rotate(new Vector3(0, 0, 15) * Time.deltaTime);
             if (transform.childCount == 0)
             {
-                Destroy(transform.parent.gameObject);
+                StartCoroutine(Delay());
             }
+        }
+
+        IEnumerator Delay()
+        {
+            yield return new WaitForSeconds(2f);
+            Destroy(transform.parent.gameObject);
         }
     }
 }

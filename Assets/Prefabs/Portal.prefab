@@ -9778,6 +9778,9 @@ MonoBehaviour:
   riftOne: {fileID: 5909874441115636607}
   riftTwo: {fileID: 2859209913908137192}
   riftThree: {fileID: 3590101886494450778}
+  correctItemNameOne: 
+  correctItemNameTwo: 
+  correctItemNameThree: 
 --- !u!135 &2495523858383055535
 SphereCollider:
   m_ObjectHideFlags: 0

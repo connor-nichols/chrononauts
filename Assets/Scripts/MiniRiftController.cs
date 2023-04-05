@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MiniRiftRotator : MonoBehaviour
+public class MiniRiftController : MonoBehaviour
 {
     private bool correctItem = false;
     public string correctItemName;
@@ -21,15 +21,14 @@ public class MiniRiftRotator : MonoBehaviour
 
         if (correctItem)
         {
-            StartCoroutine(Delay());
-            
+            StartCoroutine(Delay());        
         }
     }
 
     IEnumerator Delay()
     {
         transform.Rotate(new Vector3(270, 270, 270) * Time.deltaTime);
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
         Destroy(transform.gameObject);
     }
 }
