@@ -3,24 +3,22 @@ using UnityEngine;
 
 public class ElevatorController : MonoBehaviour
 {
-    private bool doorClosed = false;
+    public bool doorClosed = true;
 
-    public GameObject door;
+    public Animation door_animation;
 
-    public float rotation_speed = 10f;
 
     public void DoorOperator()
     {
-        print("operation accessed");
         if (doorClosed)
         {
-            rotateDoor();
+            door_animation.Play("OpenElevator");
             doorClosed = false;
 
         }
         else
         {
-            rotateDoor();
+            door_animation.Play("CloseElevator");
             doorClosed = true;
 
         }
@@ -29,31 +27,5 @@ public class ElevatorController : MonoBehaviour
     public bool getDoorPosition()
     {
         return doorClosed;
-    }
-
-    private void rotateDoor()
-    {
-        StartCoroutine(Rotatedoor());
-    }
-
-    IEnumerator Rotatedoor()
-    {
-        float time = 0f;
-        float startRotation = door.transform.eulerAngles.y;
-        float endRotation;
-        if (doorClosed)
-            endRotation = 0f;
-        else
-            endRotation = -90f;
-
-        while (time < 1f)
-        {
-            time += Time.deltaTime * rotation_speed;
-            float rotation = Mathf.Lerp(startRotation, endRotation, time);
-            door.transform.eulerAngles = new Vector3(0f, rotation, 0f);
-        }
-
-        yield return null;
-
     }
 }

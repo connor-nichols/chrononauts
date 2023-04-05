@@ -709,6 +709,29 @@ Transform:
   m_Father: {fileID: 1393376198}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &478852874 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5163826583005426842, guid: 7882bcd7b2ca21d4a948d50861c2b831,
+    type: 3}
+  m_PrefabInstance: {fileID: 3891245501577963427}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &478852875
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478852874}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: f1f1d9fa7de3485439d9e8bebb54214c, type: 2}
+  - {fileID: 7400000, guid: e1f313e6fc7982645a94f5db8c8b0347, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!114 &491139567 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8863977732710628910, guid: 7882bcd7b2ca21d4a948d50861c2b831,
@@ -12196,6 +12219,11 @@ PrefabInstance:
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnButtonDown
       objectReference: {fileID: 0}
+    - target: {fileID: 542337651725682535, guid: 7882bcd7b2ca21d4a948d50861c2b831,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -63.094574
+      objectReference: {fileID: 0}
     - target: {fileID: 754576709653253354, guid: 7882bcd7b2ca21d4a948d50861c2b831,
         type: 3}
       propertyPath: Elevator
@@ -12236,6 +12264,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3830915350922535158, guid: 7882bcd7b2ca21d4a948d50861c2b831,
+        type: 3}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 478852874}
+    - target: {fileID: 3830915350922535158, guid: 7882bcd7b2ca21d4a948d50861c2b831,
+        type: 3}
+      propertyPath: door_animation
+      value: 
+      objectReference: {fileID: 478852875}
     - target: {fileID: 4361039874963814693, guid: 7882bcd7b2ca21d4a948d50861c2b831,
         type: 3}
       propertyPath: m_IsActive
