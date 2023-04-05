@@ -1665,7 +1665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneOrigin: 
-  SceneDestination: 
+  SceneDestination: LevelScene-1970s
   Elevator: {fileID: 0}
 --- !u!4 &9049020399544630984 stripped
 Transform:
@@ -1817,7 +1817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneOrigin: 
-  SceneDestination: 
+  SceneDestination: LevelScene-30xx
   Elevator: {fileID: 0}
 --- !u!4 &8233362986197784678 stripped
 Transform:
@@ -1975,7 +1975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneOrigin: 
-  SceneDestination: 
+  SceneDestination: LevelScene-2000s
   Elevator: {fileID: 0}
 --- !u!1001 &5174252527607153445
 PrefabInstance:
@@ -2222,7 +2222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneOrigin: 
-  SceneDestination: 
+  SceneDestination: LevelScene-1990s
   Elevator: {fileID: 0}
 --- !u!4 &4080672169758893842 stripped
 Transform:
@@ -2374,7 +2374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneOrigin: 
-  SceneDestination: 
+  SceneDestination: LevelScene-1940s
   Elevator: {fileID: 0}
 --- !u!4 &3766474726732095980 stripped
 Transform:

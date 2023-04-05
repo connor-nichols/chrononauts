@@ -6,28 +6,28 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Start.unity
+    path: Assets/Scenes/Archived/Start.unity
     guid: 10325694e726b5945a7c8c21c98b7c86
   - enabled: 1
-    path: Assets/Scenes/TemplateScene 1.unity
+    path: Assets/Scenes/Archived/FinishedTemplateScene.unity
     guid: 6bf82846b91991a4bb5113288f3891a9
   - enabled: 1
-    path: Assets/Scenes/LevelOne.unity
+    path: Assets/Scenes/Archived/LevelOne.unity
     guid: 76c177d883060b94abed840ae6a7a6bb
   - enabled: 1
-    path: Assets/Scenes/LevelTwo.unity
+    path: Assets/Scenes/Archived/LevelTwo.unity
     guid: 54b8fd3e201a245449a543297f94cd92
   - enabled: 1
-    path: Assets/Scenes/LevelThree.unity
+    path: Assets/Scenes/Archived/LevelThree.unity
     guid: e2b94911bb442494fa1e04aaaac54634
   - enabled: 1
-    path: Assets/Scenes/LevelFour.unity
+    path: Assets/Scenes/Archived/LevelFour.unity
     guid: 53d1eaf7eff20d841a32e0f147286a7b
   - enabled: 1
-    path: Assets/Scenes/LevelFive.unity
+    path: Assets/Scenes/Archived/LevelFive.unity
     guid: 0d613079accde8e49ba8bd7427cdf8ab
   - enabled: 1
-    path: Assets/Scenes/LevelSix.unity
+    path: Assets/Scenes/Archived/LevelSix.unity
     guid: 84a7ec05bc559a94fb4819651b47c9a4
   - enabled: 1
     path: Assets/Scenes/TemplateScene 2.unity

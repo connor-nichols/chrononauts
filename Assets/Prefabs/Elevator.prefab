@@ -649,6 +649,7 @@ GameObject:
   - component: {fileID: 542337651725682535}
   - component: {fileID: 7027023256419536020}
   - component: {fileID: 772149191778342314}
+  - component: {fileID: 434014346323329683}
   m_Layer: 0
   m_Name: elevatorDoor
   m_TagString: Untagged
@@ -721,6 +722,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!111 &434014346323329683
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5163826583005426842}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: e1f313e6fc7982645a94f5db8c8b0347, type: 2}
+  - {fileID: 7400000, guid: f1f1d9fa7de3485439d9e8bebb54214c, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &6262839638534498528
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,8 +949,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60fcd29a13d86c544a9ee2df26b52db9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 5163826583005426842}
-  rotation_speed: 5
+  doorClosed: 1
+  door_animation: {fileID: 434014346323329683}
 --- !u!1 &8704086086547296656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1143,6 +1161,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: elevatorButtonPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 3128974128515569354, guid: f84b40bcf487049449ae70da2123deb3,
+        type: 3}
+      propertyPath: Elevator
+      value: 
+      objectReference: {fileID: 3830915350922535158}
     - target: {fileID: 4145058213860662678, guid: f84b40bcf487049449ae70da2123deb3,
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1213,6 +1236,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.0013
       objectReference: {fileID: 0}
+    - target: {fileID: 6491866468900463630, guid: f84b40bcf487049449ae70da2123deb3,
+        type: 3}
+      propertyPath: Elevator
+      value: 
+      objectReference: {fileID: 3830915350922535158}
     - target: {fileID: 7336605952285489348, guid: f84b40bcf487049449ae70da2123deb3,
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
