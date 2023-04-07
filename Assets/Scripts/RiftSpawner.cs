@@ -20,7 +20,7 @@ public class RiftSpawner : MonoBehaviour
     void Update()
     {
         // check if file has been brought back to level, if so activate rift spawning
-        if (SceneManager.GetActiveScene().name == "LevelFour" && GameObject.Find("File") && !canSpawnRift)
+        if (SceneManager.GetActiveScene().name == "LevelScene-2020s" && GameObject.Find("File") && !canSpawnRift)
         {
             canSpawnRift = true;
         }
