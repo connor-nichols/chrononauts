@@ -7,6 +7,13 @@ public class ElevatorController : MonoBehaviour
 
     public Animation door_animation;
 
+    private AudioSource doorSource;
+
+    private void Start()
+    {
+        doorSource = GetComponent<AudioSource>();
+    }
+
 
     public void DoorOperator()
     {
@@ -14,12 +21,14 @@ public class ElevatorController : MonoBehaviour
         {
             door_animation.Play("OpenElevator");
             doorClosed = false;
+            doorSource.Play();
 
         }
         else
         {
             door_animation.Play("CloseElevator");
             doorClosed = true;
+            doorSource.Play();
 
         }
     }

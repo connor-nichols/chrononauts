@@ -9,14 +9,19 @@ public class LevelTeleporter : MonoBehaviour
     public string SceneOrigin;
     public string SceneDestination;
     public ElevatorController Elevator;
+    private AudioSource audioSource;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     // Start is called before the first frame update
     public void OnButtonDown(Hand fromHand)
     {
-        print("Level Button coming down");
         ColorSelf(Color.cyan);
         fromHand.TriggerHapticPulse(1000);
-        print(Elevator.getDoorPosition());
+        audioSource.Play();
         if (Elevator.getDoorPosition())
             ScreenLoad();
     }
@@ -36,9 +41,6 @@ public class LevelTeleporter : MonoBehaviour
 
     private void ScreenLoad()
     {
-        print("Unloading Current Scene");
-        print(SceneOrigin);
-        print(SceneDestination);
         SceneManager.UnloadSceneAsync(SceneOrigin);
         SceneManager.LoadScene(SceneDestination);        
     }

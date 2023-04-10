@@ -9,19 +9,17 @@ public class ElevatorButtonController : MonoBehaviour
 
     public void OnButtonDown(Hand fromHand)
     {
-        print("Elevator Button Pressed");
-
         ColorSelf(Color.cyan);
         if (elevatorController.getDoorPosition())
             ColorSelf(Color.cyan);
         else
             ColorSelf(Color.red);
         fromHand.TriggerHapticPulse(1000);
+        CloseDoor();
     }
 
     public void OnButtonUp(Hand fromHand)
     {
-        CloseDoor();
     }
 
     private void CloseDoor()
