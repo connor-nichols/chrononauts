@@ -13,8 +13,12 @@ public class RiftSpawner : MonoBehaviour
 
     private void riftSpawn()
     {
-        rift.SetActive(true);
-        rift.transform.parent = null;
+        if (!GameObject.Find("Portal"))
+        {
+            Instantiate(rift, new Vector3(0, 0, 0), Quaternion.identity);
+        }
+        // rift.SetActive(true);
+        // rift.transform.parent = null;
     }
 
     void Update()
