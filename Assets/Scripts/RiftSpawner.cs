@@ -13,6 +13,7 @@ public class RiftSpawner : MonoBehaviour
     private string portalScene;
 
     public GameObject rift;
+    public SceneDataController sceneData;
 
     private void riftSpawn()
     {
@@ -44,6 +45,7 @@ public class RiftSpawner : MonoBehaviour
         if(portalScene != SceneManager.GetActiveScene().name)
         {
             portalSpawned = false;
+            sceneData.save();
         }
 
     }
