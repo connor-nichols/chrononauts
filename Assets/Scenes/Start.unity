@@ -1178,6 +1178,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rift Spawner
       objectReference: {fileID: 0}
+    - target: {fileID: 8029161351815884632, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
+        type: 3}
+      propertyPath: canSpawnRift
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fbcc44057e7db94d970dbd8cdb74f0d, type: 3}
 --- !u!1 &627124846

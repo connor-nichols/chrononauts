@@ -878,7 +878,7 @@ PrefabInstance:
     - target: {fileID: 7878479034427647312, guid: 8928720e75ef34844a910f3eadaaba28,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.747
+      value: 0.852
       objectReference: {fileID: 0}
     - target: {fileID: 7878479034427647312, guid: 8928720e75ef34844a910f3eadaaba28,
         type: 3}
@@ -2469,6 +2469,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a09bcf2ea939545498e1d252a31f228b, type: 3}
+--- !u!1 &1380261652 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7797213011117726734, guid: a09bcf2ea939545498e1d252a31f228b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1380261651}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1380261653
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380261652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3861478300804232965, guid: 1728244b8776ee044bfa6d781dc1b728, type: 3}
 --- !u!1 &1489559481
 GameObject:
   m_ObjectHideFlags: 0
@@ -20482,6 +20502,7 @@ GameObject:
   - component: {fileID: 6801785546430769680}
   - component: {fileID: 1329236899142980819}
   - component: {fileID: 1622326419564628829}
+  - component: {fileID: 6801785546430769681}
   m_Layer: 0
   m_Name: officeFloorPlane
   m_TagString: Untagged
@@ -22049,13 +22070,27 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6228598797041377937}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.2902975, y: -0.0000046508785, z: 0}
+  m_LocalPosition: {x: 9.2902975, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5746810238956890294}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &6801785546430769681
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6228598797041377937}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3441328507111050472, guid: 25d30c10604c03646a6dd9a916aecb68, type: 3}
 --- !u!1 &6817725717461187581
 GameObject:
   m_ObjectHideFlags: 0

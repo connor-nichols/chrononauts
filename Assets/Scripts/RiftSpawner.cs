@@ -7,18 +7,21 @@ using UnityEditor;
 public class RiftSpawner : MonoBehaviour
 {
     private bool canSpawnRift = false;
-    private bool riftActivated = false;
+    // private bool riftActivated = false;
+
+    private bool portalSpawned = false;
+    private string portalScene;
 
     public GameObject rift;
 
     private void riftSpawn()
     {
-        if (!GameObject.Find("Portal"))
+        if (!GameObject.Find("Portal(Clone)") && !portalSpawned)
         {
-            Instantiate(rift, new Vector3(0, 0, 0), Quaternion.identity);
+            Instantiate(rift, new Vector3(0f, 1.65f, 0f), Quaternion.identity);
         }
         // rift.SetActive(true);
-        // rift.transform.parent = null;
+        rift.transform.parent = null;
     }
 
     void Update()
@@ -30,10 +33,18 @@ public class RiftSpawner : MonoBehaviour
         }
 
         // check if level has portal, if so activate it
-        if (transform.childCount == 1 && canSpawnRift)
+        if (transform.childCount == 0 && canSpawnRift && !portalSpawned)
         {
             riftSpawn();
+            portalSpawned = true;
+            portalScene = SceneManager.GetActiveScene().name;
             // make portal not child of rift spawner
         }
+
+        if(portalScene != SceneManager.GetActiveScene().name)
+        {
+            portalSpawned = false;
+        }
+
     }
 }
