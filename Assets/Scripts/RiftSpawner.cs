@@ -34,14 +34,19 @@ public class RiftSpawner : MonoBehaviour
         }
 
         // check if level has portal, if so activate it
-        if (transform.childCount == 0 && canSpawnRift && !portalSpawned)
+        if (transform.childCount == 0 && canSpawnRift && !portalSpawned && !portalCompleted)
         {
             riftSpawn();
             portalSpawned = true;
-            portalScene = SceneManager.GetActiveScene().name;
-
+            portalScene = SceneManager.GetActiveScene().name;  
         }
-        if(portalScene != SceneManager.GetActiveScene().name)
+
+        if (!GameObject.Find("Portal(Clone)") && !portalCompleted && portalSpawned))
+        {
+            portalCompleted = true;
+        }
+
+        if (portalScene != SceneManager.GetActiveScene().name)
         {
             portalSpawned = false;
             sceneData.save();
