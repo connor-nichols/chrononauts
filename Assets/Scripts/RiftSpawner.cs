@@ -7,9 +7,8 @@ using UnityEditor;
 public class RiftSpawner : MonoBehaviour
 {
     private bool canSpawnRift = false;
-    // private bool riftActivated = false;
-
     private bool portalSpawned = false;
+
     private string portalScene;
 
     public GameObject rift;
@@ -21,7 +20,8 @@ public class RiftSpawner : MonoBehaviour
         {
             Instantiate(rift, new Vector3(0f, 1.65f, 0f), Quaternion.identity);
         }
-        // rift.SetActive(true);
+
+        // make portal not child of rift spawner
         rift.transform.parent = null;
     }
 
@@ -39,9 +39,8 @@ public class RiftSpawner : MonoBehaviour
             riftSpawn();
             portalSpawned = true;
             portalScene = SceneManager.GetActiveScene().name;
-            // make portal not child of rift spawner
-        }
 
+        }
         if(portalScene != SceneManager.GetActiveScene().name)
         {
             portalSpawned = false;
