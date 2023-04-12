@@ -8,6 +8,7 @@ public class RiftSpawner : MonoBehaviour
 {
     private bool canSpawnRift = false;
     private bool portalSpawned = false;
+    private bool portalCompleted = false;
 
     private string portalScene;
 
@@ -41,7 +42,7 @@ public class RiftSpawner : MonoBehaviour
             portalScene = SceneManager.GetActiveScene().name;  
         }
 
-        if (!GameObject.Find("Portal(Clone)") && !portalCompleted && portalSpawned))
+        if (!GameObject.Find("Portal(Clone)") && !portalCompleted && portalSpawned)
         {
             portalCompleted = true;
         }
