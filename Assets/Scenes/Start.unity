@@ -1111,80 +1111,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1001 &572723743
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 990295394}
-    m_Modifications:
-    - target: {fileID: 1303216577670344431, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1303216577670344431, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1303216577670344431, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1303216577670344431, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1303216577670344431, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1303216577670344431, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1303216577670344431, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1303216577670344431, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1303216577670344431, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1303216577670344431, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1303216577670344431, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892793405782977523, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
-        type: 3}
-      propertyPath: m_Name
-      value: Rift Spawner
-      objectReference: {fileID: 0}
-    - target: {fileID: 8029161351815884632, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
-        type: 3}
-      propertyPath: canSpawnRift
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2fbcc44057e7db94d970dbd8cdb74f0d, type: 3}
 --- !u!1 &627124846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,12 +1646,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7560e9323c302b24bb7378bc53e82fe3, type: 3}
---- !u!4 &990295394 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4616893646420907848, guid: 7560e9323c302b24bb7378bc53e82fe3,
-    type: 3}
-  m_PrefabInstance: {fileID: 990295393}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1038040767
 GameObject:
   m_ObjectHideFlags: 0
