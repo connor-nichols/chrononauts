@@ -19,16 +19,22 @@ public class ElevatorController : MonoBehaviour
     {
         if (doorClosed)
         {
-            door_animation.Play("OpenElevator");
-            doorClosed = false;
-            doorSource.Play();
+            if (doorSource.isPlaying)
+            {
+                door_animation.Play("OpenElevator");
+                doorClosed = false;
+                doorSource.Play();
+            }
 
         }
         else
         {
-            door_animation.Play("CloseElevator");
-            doorClosed = true;
-            doorSource.Play();
+            if (doorSource.isPlaying)
+            {
+                door_animation.Play("CloseElevator");
+                doorClosed = true;
+                doorSource.Play();
+            }
 
         }
     }
