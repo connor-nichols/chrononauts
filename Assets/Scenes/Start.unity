@@ -353,6 +353,18 @@ Transform:
   m_Father: {fileID: 1680610743}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &139219325 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5202725149622555317, guid: 63b2538e119f82343b5a1dc35c5010dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1118605815}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf6cf21770829ee49865ba294fdc9fc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &145855717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2114,6 +2126,36 @@ PrefabInstance:
       propertyPath: SceneOrigin
       value: Start
       objectReference: {fileID: 0}
+    - target: {fileID: 2475034176569773565, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2475034176569773565, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2475034176569773565, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: onButtonIsPressed.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2475034176569773565, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: onButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2475034176569773565, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: onButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1446874873}
+    - target: {fileID: 2475034176569773565, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: onButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3229679669276003939, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
       propertyPath: SceneOrigin
@@ -2128,6 +2170,36 @@ PrefabInstance:
         type: 3}
       propertyPath: SceneOrigin
       value: Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033659265140976057, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: onButtonIsPressed.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033659265140976057, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: onButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033659265140976057, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: onButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 139219325}
+    - target: {fileID: 8033659265140976057, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: onButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnButtonDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033659265140976057, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: onButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorButtonController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033659265140976057, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: onButtonIsPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 9168732562395040082, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
@@ -2487,6 +2559,18 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1446874873 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 366926841448642289, guid: 63b2538e119f82343b5a1dc35c5010dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1118605815}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf6cf21770829ee49865ba294fdc9fc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1489559481
 GameObject:
   m_ObjectHideFlags: 0

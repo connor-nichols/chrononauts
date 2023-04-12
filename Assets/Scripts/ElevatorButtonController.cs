@@ -18,10 +18,6 @@ public class ElevatorButtonController : MonoBehaviour
         CloseDoor();
     }
 
-    public void OnButtonUp(Hand fromHand)
-    {
-    }
-
     private void CloseDoor()
     {
         elevatorController.DoorOperator();
