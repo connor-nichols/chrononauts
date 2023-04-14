@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3200259248710373462}
   - component: {fileID: 5141882783954389352}
   - component: {fileID: 5470034068123377233}
+  - component: {fileID: 7941755970248217921}
   m_Layer: 0
   m_Name: elevatorDoor
   m_TagString: Untagged
@@ -101,6 +102,20 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!64 &7941755970248217921
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740000275552544856}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8318934868399054443, guid: 25d30c10604c03646a6dd9a916aecb68, type: 3}
 --- !u!1 &1698356697064280233
 GameObject:
   m_ObjectHideFlags: 0
@@ -112,6 +127,7 @@ GameObject:
   - component: {fileID: 227500627001328718}
   - component: {fileID: 5592553119183900885}
   - component: {fileID: 953482452102023574}
+  - component: {fileID: 3207351924454811112}
   m_Layer: 0
   m_Name: elevatorSheath01
   m_TagString: Untagged
@@ -184,6 +200,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3207351924454811112
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698356697064280233}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 484407003264610669, guid: 25d30c10604c03646a6dd9a916aecb68, type: 3}
 --- !u!1 &1700009539798809369
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,6 +369,7 @@ GameObject:
   - component: {fileID: 8152297678141602907}
   - component: {fileID: 5807696578973146920}
   - component: {fileID: 986126660541268524}
+  - component: {fileID: 7583702391183245215}
   m_Layer: 0
   m_Name: elevatorSheath02
   m_TagString: Untagged
@@ -411,6 +442,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7583702391183245215
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802921874627991188}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5857050049402712503, guid: 25d30c10604c03646a6dd9a916aecb68, type: 3}
 --- !u!1 &3973424678134640612
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,6 +467,7 @@ GameObject:
   - component: {fileID: 4254856095272483745}
   - component: {fileID: 8044823756114665323}
   - component: {fileID: 8410633340116728181}
+  - component: {fileID: 3901592985070128856}
   m_Layer: 0
   m_Name: elevatorRoof1
   m_TagString: Untagged
@@ -494,6 +540,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3901592985070128856
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3973424678134640612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2545359761553396811, guid: 25d30c10604c03646a6dd9a916aecb68, type: 3}
 --- !u!1 &6962588974522261578
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,6 +565,7 @@ GameObject:
   - component: {fileID: 9191276461277985596}
   - component: {fileID: 6464980744005791392}
   - component: {fileID: 7556484555800033177}
+  - component: {fileID: 2696451739957977315}
   m_Layer: 0
   m_Name: elevatorRoof2
   m_TagString: Untagged
@@ -577,6 +638,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2696451739957977315
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6962588974522261578}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4841024443496074117, guid: 25d30c10604c03646a6dd9a916aecb68, type: 3}
 --- !u!1 &7353807019702707156
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,6 +663,7 @@ GameObject:
   - component: {fileID: 5233336076579240923}
   - component: {fileID: 8269284984644280312}
   - component: {fileID: 4465729910401938434}
+  - component: {fileID: 5933129587218415288}
   m_Layer: 0
   m_Name: elevatorWall01
   m_TagString: Untagged
@@ -660,6 +736,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5933129587218415288
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7353807019702707156}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7312411957633993945, guid: 25d30c10604c03646a6dd9a916aecb68, type: 3}
 --- !u!1 &7418486334520100894
 GameObject:
   m_ObjectHideFlags: 0
