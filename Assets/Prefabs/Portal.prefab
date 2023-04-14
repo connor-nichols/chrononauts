@@ -9781,6 +9781,8 @@ MonoBehaviour:
   correctItemNameOne: Cube
   correctItemNameTwo: Sphere
   correctItemNameThree: Cylinder
+  riftSpawner: {fileID: 8029161351815884632, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
+    type: 3}
 --- !u!135 &2495523858383055535
 SphereCollider:
   m_ObjectHideFlags: 0

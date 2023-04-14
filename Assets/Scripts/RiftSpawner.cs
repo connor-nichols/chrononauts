@@ -7,17 +7,25 @@ using UnityEditor;
 public class RiftSpawner : MonoBehaviour
 {
     private bool canSpawnRift = false;
-    private bool portalSpawned = false;
-    private bool portalCompleted = false;
+    private bool riftSpawned = false;
+    private bool riftCompleted = false;
 
-    private string portalScene;
+    private string riftScene;
 
     public GameObject rift;
-    public SceneDataController sceneData;
+
+    public Dictionary<string, bool> riftData = new Dictionary<string, bool>
+    {
+        {"LevelScene-2020s", false },
+        {"LevelScene-1990s", false },
+        {"LevelScene-1970s", false },
+        {"LevelScene-1940s", false },
+        {"LevelScene-30xx", false },
+    };
 
     private void riftSpawn()
     {
-        if (!GameObject.Find("Portal(Clone)") && !portalSpawned)
+        if (!GameObject.Find("Portal(Clone)"))
         {
             Instantiate(rift, new Vector3(0f, 1.65f, 0f), Quaternion.identity);
         }
@@ -28,29 +36,25 @@ public class RiftSpawner : MonoBehaviour
 
     void Update()
     {
+        riftCompleted = riftData[SceneManager.GetActiveScene().name];
         // check if file has been brought back to level, if so activate rift spawning
         if (SceneManager.GetActiveScene().name == "LevelScene-2020s" && GameObject.Find("File") && !canSpawnRift)
         {
             canSpawnRift = true;
         }
-
+        
         // check if level has portal, if so activate it
-        if (transform.childCount == 0 && canSpawnRift && !portalSpawned && !portalCompleted)
+        if (canSpawnRift && !riftSpawned && !riftCompleted)
         {
             riftSpawn();
-            portalSpawned = true;
-            portalScene = SceneManager.GetActiveScene().name;  
+            riftSpawned = true;
+            // spawned a portal in active scene (prevents duplicating)
+            riftScene = SceneManager.GetActiveScene().name;  
         }
 
-        if (!GameObject.Find("Portal(Clone)") && !portalCompleted && portalSpawned)
+        if (riftScene != SceneManager.GetActiveScene().name)
         {
-            portalCompleted = true;
-        }
-
-        if (portalScene != SceneManager.GetActiveScene().name)
-        {
-            portalSpawned = false;
-            sceneData.save();
+            riftSpawned = false;
         }
 
     }
