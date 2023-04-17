@@ -96,13 +96,13 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 StartCoroutine(Delay());
             }
+            print($"RiftController: {riftSpawner.riftData[SceneManager.GetActiveScene().name]}");
         }
 
         IEnumerator Delay()
         {
             yield return new WaitForSeconds(2f);
             Destroy(transform.parent.gameObject);
-            riftSpawner.riftData[SceneManager.GetActiveScene().name] = true;
         }
     }
 }
