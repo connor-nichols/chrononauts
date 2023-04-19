@@ -22,6 +22,7 @@ public class RiftSpawner : MonoBehaviour
 
     public Dictionary<string, bool> riftData = new Dictionary<string, bool>
     {
+        {"Start", false},
         {"LevelScene-2020s", false },
         {"LevelScene-1990s", true },
         {"LevelScene-1970s", true },
@@ -66,7 +67,5 @@ public class RiftSpawner : MonoBehaviour
         }
 
         riftCompleted = riftData[sceneName];
-
-        print($"RiftSpawner: {riftData[sceneName]}");
     }
 }
