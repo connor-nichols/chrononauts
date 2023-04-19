@@ -16,16 +16,14 @@ public class LevelTeleporter : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    // Start is called before the first frame update
     public void OnButtonDown(Hand fromHand)
     {
+        audioSource.Play();
         ColorSelf(Color.cyan);
         fromHand.TriggerHapticPulse(1000);
-        audioSource.Play();
         if (Elevator.getDoorPosition())
             ScreenLoad();
     }
-
     public void OnButtonUp(Hand fromHand)
     {
     }

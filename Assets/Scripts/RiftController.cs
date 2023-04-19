@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 namespace Valve.VR.InteractionSystem.Sample
@@ -13,6 +14,8 @@ namespace Valve.VR.InteractionSystem.Sample
         public string correctItemNameOne;
         public string correctItemNameTwo;
         public string correctItemNameThree;
+
+        public RiftSpawner riftSpawner;
 
         private Vector3 originalSize;
 
@@ -99,6 +102,7 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             yield return new WaitForSeconds(2f);
             Destroy(transform.parent.gameObject);
+            riftSpawner.riftData[SceneManager.GetActiveScene().name] = true;
         }
     }
 }
