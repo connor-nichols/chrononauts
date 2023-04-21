@@ -28,50 +28,10 @@ public class RiftSpawner : MonoBehaviour
         {"LevelScene-30xx", false },
     };
 
-    private void Start()
-    {
-        if (previousScene == null)
-        {
-            sceneName = SceneManager.GetActiveScene().name;
-            previousScene = sceneName;
-        }
-        else
-        {
-            previousScene = sceneName;
-            sceneName = SceneManager.GetActiveScene().name;
-        }
-    }
-
     private void riftSpawn()
     {
-        if (previousScene != SceneManager.GetActiveScene().name)
-        {
-            switch (previousScene)
-            {
-                case "LevelScene-2020s":
-                    Portal20s.SetActive(false);
-                    break;
-
-                case "LevelScene-1990s":
-                    Portal90s.SetActive(false);
-                    break;
-
-                case "LevelScene-1970s":
-                    Portal70s.SetActive(false);
-                    break;
-
-                case "LevelScene-1940s":
-                    Portal40s.SetActive(false);
-                    break;
-
-                case "LevelScene-30XXs":
-                    PortalXXs.SetActive(false);
-                    break;
-            }
-
-        }
-
         // figure out how to setactive to false when changing scenes
+        sceneName = SceneManager.GetActiveScene().name;
 
         riftCompleted = riftData[sceneName];
 
@@ -106,7 +66,7 @@ public class RiftSpawner : MonoBehaviour
 
     void Update()
     {
-        // check if file has been brought back to level, if so activate rift spawning
+        // check if file has been brought back to level and put in tutorialRift, if so activate rift spawning
         if (SceneManager.GetActiveScene().name == "LevelScene-2020s" && !GameObject.Find("TutorialRift") && !canSpawnRift)
         {
             canSpawnRift = true;
@@ -115,7 +75,6 @@ public class RiftSpawner : MonoBehaviour
         if (canSpawnRift)
         {
             riftSpawn();
-            /*riftScene = SceneManager.GetActiveScene().name;*/
         }
     }
 }
