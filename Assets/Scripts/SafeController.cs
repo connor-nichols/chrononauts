@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
 
+
+[RequireComponent(typeof(Interactable))]
 public class SafeController : MonoBehaviour
 {
     private Interactable interactable;
@@ -15,8 +17,14 @@ public class SafeController : MonoBehaviour
         lockPlane = GetComponent<GameObject>();
     }
 
-    private void OnAttachedToHand(Hand hand)
+
+    public void playMinClick()
     {
-        print("attached");
+        print("min click");
+    }
+
+    public void playClickNoise()
+    {
+        print("click");
     }
 }
