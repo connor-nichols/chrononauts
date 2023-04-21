@@ -70,25 +70,6 @@ namespace Valve.VR.InteractionSystem.Sample
             }
         }
 
-        private void OnTriggerExit(Collider other)
-        {
-            RemoveInteractable(other.gameObject);
-        }
-
-        private void RemoveInteractable(GameObject newObject)
-        {
-            if (newObject.tag == "Storeable")
-            {
-                Rigidbody rb = newObject.GetComponent<Rigidbody>();
-                
-                rb.useGravity = true;
-
-                newObject.transform.SetParent(null);
-
-                newObject.transform.localScale = originalSize; 
-            }
-        }
-
         void Update()
         {
             // transform.Rotate(new Vector3(0, 0, 15) * Time.deltaTime);
