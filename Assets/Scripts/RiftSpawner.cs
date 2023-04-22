@@ -30,6 +30,32 @@ public class RiftSpawner : MonoBehaviour
 
     private void riftSpawn()
     {
+        if (previousScene != SceneManager.GetActiveScene().name && previousScene != null)
+        {
+            switch (previousScene)
+            {
+                case "LevelScene-2020s":
+                    Portal20s.SetActive(false);
+                    break;
+
+                case "LevelScene-1990s":
+                    Portal90s.SetActive(false);
+                    break;
+
+                case "LevelScene-1970s":
+                    Portal70s.SetActive(false);
+                    break;
+
+                case "LevelScene-1940s":
+                    Portal40s.SetActive(false);
+                    break;
+
+                case "LevelScene-30XXs":
+                    PortalXXs.SetActive(false);
+                    break;
+            }
+        }
+        
         // figure out how to setactive to false when changing scenes
         sceneName = SceneManager.GetActiveScene().name;
 
@@ -66,6 +92,7 @@ public class RiftSpawner : MonoBehaviour
 
     void Update()
     {
+        print(previousScene);
         // check if file has been brought back to level and put in tutorialRift, if so activate rift spawning
         if (SceneManager.GetActiveScene().name == "LevelScene-2020s" && !GameObject.Find("TutorialRift") && !canSpawnRift)
         {
@@ -75,6 +102,7 @@ public class RiftSpawner : MonoBehaviour
         if (canSpawnRift)
         {
             riftSpawn();
+            previousScene = sceneName;
         }
     }
 }
