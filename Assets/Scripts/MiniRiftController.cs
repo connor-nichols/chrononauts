@@ -11,12 +11,14 @@ public class MiniRiftController : MonoBehaviour
         // rotate object/container
         transform.Rotate(new Vector3(15, 45, 30) * Time.deltaTime);
 
-        if (transform.childCount == 1)
+        if (transform.childCount == 2)
         {
-            if (transform.GetChild(0).name == correctItemName)
+            if (transform.GetChild(1).name == correctItemName)
             {
                 correctItem = true;
             }
+             
+            transform.GetChild(0).gameObject.SetActive(false);
         }
 
         if (correctItem)
@@ -27,6 +29,8 @@ public class MiniRiftController : MonoBehaviour
 
     IEnumerator Delay()
     {
+        // Need to add audio/haptics when TutorialRift is being "destroyed"
+        // Need to change how rifts get spawned
         transform.Rotate(new Vector3(270, 270, 270) * Time.deltaTime);
         yield return new WaitForSeconds(4f);
         Destroy(transform.gameObject);

@@ -34,21 +34,21 @@ namespace Valve.VR.InteractionSystem.Sample
 
                 if (riftOne != null && newObject.transform.name == correctItemNameOne)
                 {
-                    if (riftOne.transform.childCount == 0)
+                    if (riftOne.transform.childCount == 1)
                     {
                         newObject.transform.SetParent(riftOne.transform);
                     }
                 }
                 else if (riftTwo != null && newObject.transform.name == correctItemNameTwo)
                 {
-                    if (riftTwo.transform.childCount == 0)
+                    if (riftTwo.transform.childCount == 1)
                     {
                         newObject.transform.SetParent(riftTwo.transform);
                     }
                 }
                 else if (riftThree != null && newObject.transform.name == correctItemNameThree)
                 {
-                    if (riftThree.transform.childCount == 0)
+                    if (riftThree.transform.childCount == 1)
                     {
                         newObject.transform.SetParent(riftThree.transform);
                     }
@@ -67,25 +67,6 @@ namespace Valve.VR.InteractionSystem.Sample
                 rb.velocity = Vector3.zero;
 
                 newObject.transform.localPosition = Vector3.zero;
-            }
-        }
-
-        private void OnTriggerExit(Collider other)
-        {
-            RemoveInteractable(other.gameObject);
-        }
-
-        private void RemoveInteractable(GameObject newObject)
-        {
-            if (newObject.tag == "Storeable")
-            {
-                Rigidbody rb = newObject.GetComponent<Rigidbody>();
-                
-                rb.useGravity = true;
-
-                newObject.transform.SetParent(null);
-
-                newObject.transform.localScale = originalSize; 
             }
         }
 
