@@ -8,7 +8,8 @@ using Valve.VR.InteractionSystem;
 [RequireComponent(typeof(CircularDrive))]
 public class SafeController : MonoBehaviour
 {
-    private AudioSource audio;
+    public Animation doorAnimation;
+    private AudioSource audioSource;
     private CircularDrive circularDrive;
     private bool clicked;
     private bool clicked2;
@@ -17,7 +18,7 @@ public class SafeController : MonoBehaviour
     void Start()
     {
         circularDrive = GetComponent<CircularDrive>();
-        audio = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void Update()
@@ -25,13 +26,14 @@ public class SafeController : MonoBehaviour
         if (circularDrive.outAngle > 100 && !clicked)
         {
             clicked = true;
-            audio.Play();
+            audioSource.Play();
         }
 
         if (circularDrive.outAngle < -100 && !clicked2 && clicked)
         {
             clicked2 = true;
-            audio.Play();
+            audioSource.Play();
+            doorAnimation.Play();
         }
     }
 }
