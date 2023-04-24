@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3504377264248924956}
   - component: {fileID: 3504377264248924957}
   m_Layer: 0
-  m_Name: Portal
+  m_Name: Portal40s
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -225,7 +225,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.043137256, g: 0.8235294, b: 0.9529412, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -9778,9 +9778,9 @@ MonoBehaviour:
   riftOne: {fileID: 5909874441115636607}
   riftTwo: {fileID: 2859209913908137192}
   riftThree: {fileID: 3590101886494450778}
-  correctItemNameOne: Cube
-  correctItemNameTwo: Sphere
-  correctItemNameThree: Cylinder
+  correctItemNameOne: 
+  correctItemNameTwo: 
+  correctItemNameThree: 
   riftSpawner: {fileID: 8029161351815884632, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
     type: 3}
 --- !u!135 &2495523858383055535
@@ -10019,7 +10019,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.043137256, g: 0.8235294, b: 0.9529412, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -19554,10 +19554,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1136866463552987067, guid: d854d7f6ba78f304c876a66d3f87ce3e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9bebd02696176de4394f371409b70a20, type: 2}
     - target: {fileID: 6607408896467739957, guid: d854d7f6ba78f304c876a66d3f87ce3e,
         type: 3}
       propertyPath: correctItemName
-      value: Sphere
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d854d7f6ba78f304c876a66d3f87ce3e, type: 3}
@@ -19640,10 +19645,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1136866463552987067, guid: d854d7f6ba78f304c876a66d3f87ce3e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9bebd02696176de4394f371409b70a20, type: 2}
     - target: {fileID: 6607408896467739957, guid: d854d7f6ba78f304c876a66d3f87ce3e,
         type: 3}
       propertyPath: correctItemName
-      value: Cylinder
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d854d7f6ba78f304c876a66d3f87ce3e, type: 3}
@@ -19726,10 +19736,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1136866463552987067, guid: d854d7f6ba78f304c876a66d3f87ce3e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9bebd02696176de4394f371409b70a20, type: 2}
     - target: {fileID: 6607408896467739957, guid: d854d7f6ba78f304c876a66d3f87ce3e,
         type: 3}
       propertyPath: correctItemName
-      value: Cube
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d854d7f6ba78f304c876a66d3f87ce3e, type: 3}
