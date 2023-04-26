@@ -18,6 +18,8 @@ public class RiftSpawner : MonoBehaviour
     public GameObject Portal70s;
     public GameObject Portal40s;
 
+    public GameObject TutorialRift;
+
     public Dictionary<string, bool> riftData = new Dictionary<string, bool>
     {
         {"Start", false },  
@@ -101,6 +103,11 @@ public class RiftSpawner : MonoBehaviour
         
         if (canSpawnRift)
         {
+            if (GameObject.Find("TutorialRift"))
+            {
+                TutorialRift.SetActive(false);
+            }
+
             riftSpawn();
             previousScene = sceneName;
         }
