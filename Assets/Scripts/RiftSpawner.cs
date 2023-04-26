@@ -112,13 +112,15 @@ public class RiftSpawner : MonoBehaviour
         //checking if the player swipes up on the touchpad to toggle the inventory on
         if (toggleInventoryOn != null && toggleInventoryOn.activeBinding)
         {
-            GameObject.Find("WaitInventory").SetActive(true);
+	    print("poop on");
+            GameObject.Find("WaistInventory").SetActive(true);
         }
 
         //checking if the player swipes down on the touchpad to toggle the inventory off
         if (toggleInventoryOff != null && toggleInventoryOff.activeBinding)
         {
-            GameObject.Find("WaitInventory").SetActive(false);
+	    print("poop off");
+            GameObject.Find("WaistInventory").SetActive(false);
         }
     }
 }
