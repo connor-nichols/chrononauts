@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{24869153-377C-41AB-92EB-C59A661E2DA5}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{24869153-377C-41AB-92EB-C59A661E2DA5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{ACBDA82F-88C0-4AC8-9641-F19B7C4D90A0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="LazyDayBlues_wav" ID="{A5A7AEC5-7C00-4729-8EBE-90EFE9E59F4D}" WorkUnitID="{B1DF442D-C01F-45AA-BA59-688B452E0874}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FlorescentBuzz" ID="{62B226BA-41BC-4BA1-B026-C3AAAE97052A}" WorkUnitID="{B1DF442D-C01F-45AA-BA59-688B452E0874}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

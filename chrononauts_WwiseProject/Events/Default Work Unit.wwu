@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_LazyDayBlues_wav" ID="{86A84741-C9E8-4D7B-9699-428AD1B0B3B3}">
+					<ChildrenList>
+						<Action Name="" ID="{F9D1A86B-519B-48AD-A2B5-868E86A3FD81}" ShortID="307212404">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LazyDayBlues_wav" ID="{A5A7AEC5-7C00-4729-8EBE-90EFE9E59F4D}" WorkUnitID="{B1DF442D-C01F-45AA-BA59-688B452E0874}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FlorescentBuzz" ID="{E0B083A6-1CD5-4322-893B-5CD60FE8D137}">
+					<ChildrenList>
+						<Action Name="" ID="{D1784673-AB7E-418A-B378-1161625382CF}" ShortID="575983280">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FlorescentBuzz" ID="{62B226BA-41BC-4BA1-B026-C3AAAE97052A}" WorkUnitID="{B1DF442D-C01F-45AA-BA59-688B452E0874}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
