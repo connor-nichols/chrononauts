@@ -84,7 +84,7 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             yield return new WaitForSeconds(2f);
             // Destroy(transform.parent.gameObject);
-            transform.parent.gameObject.SetActive(true);
+            transform.parent.gameObject.SetActive(false);
             riftSpawner.riftData[SceneManager.GetActiveScene().name] = true;
         }
     }

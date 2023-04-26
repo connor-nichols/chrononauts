@@ -30,7 +30,7 @@ public class MiniRiftController : MonoBehaviour
     IEnumerator Delay()
     {
         // Need to add audio/haptics when TutorialRift is being "destroyed"
-        // Need to change how rifts get spawned
+        // Need to make it so TutorialRift doesn't get spawned once destoryed
         transform.Rotate(new Vector3(270, 270, 270) * Time.deltaTime);
         yield return new WaitForSeconds(4f);
         Destroy(transform.gameObject);
