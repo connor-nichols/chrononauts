@@ -50,6 +50,14 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/ToggleInventoryOn",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/ToggleInventoryOff",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },

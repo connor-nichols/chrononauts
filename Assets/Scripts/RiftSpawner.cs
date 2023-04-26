@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEditor;
+using Valve.VR;
 
 public class RiftSpawner : MonoBehaviour
 {
@@ -27,6 +28,9 @@ public class RiftSpawner : MonoBehaviour
         {"LevelScene-1940s", false },
         {"LevelScene-30xx", false },
     };
+
+    public SteamVR_Action_Boolean toggleInventoryOn = SteamVR_Input.GetBooleanAction("ToggleInventoryOn");
+    public SteamVR_Action_Boolean toggleInventoryOff = SteamVR_Input.GetBooleanAction("ToggleInventoryOff");
 
     private void riftSpawn()
     {
@@ -92,7 +96,6 @@ public class RiftSpawner : MonoBehaviour
 
     void Update()
     {
-        print(previousScene);
         // check if file has been brought back to level and put in tutorialRift, if so activate rift spawning
         if (SceneManager.GetActiveScene().name == "LevelScene-2020s" && !GameObject.Find("TutorialRift") && !canSpawnRift)
         {
@@ -103,6 +106,19 @@ public class RiftSpawner : MonoBehaviour
         {
             riftSpawn();
             previousScene = sceneName;
+        }
+
+
+        //checking if the player swipes up on the touchpad to toggle the inventory on
+        if (toggleInventoryOn != null && toggleInventoryOn.activeBinding)
+        {
+            GameObject.Find("WaitInventory").SetActive(true);
+        }
+
+        //checking if the player swipes down on the touchpad to toggle the inventory off
+        if (toggleInventoryOff != null && toggleInventoryOff.activeBinding)
+        {
+            GameObject.Find("WaitInventory").SetActive(false);
         }
     }
 }
