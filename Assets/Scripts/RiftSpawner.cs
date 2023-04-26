@@ -92,7 +92,7 @@ public class RiftSpawner : MonoBehaviour
 
     void Update()
     {
-        print(previousScene);
+        // print(previousScene);
         // check if file has been brought back to level and put in tutorialRift, if so activate rift spawning
         if (SceneManager.GetActiveScene().name == "LevelScene-2020s" && !GameObject.Find("TutorialRift") && !canSpawnRift)
         {
