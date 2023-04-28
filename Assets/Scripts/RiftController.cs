@@ -83,8 +83,17 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             yield return new WaitForSeconds(2f);
             // Destroy(transform.parent.gameObject);
-            transform.parent.gameObject.SetActive(false);
-            riftSpawner.riftData[SceneManager.GetActiveScene().name] = true;
+            
+            if (transform.parent.gameObject.name == "TutorialRift")
+            {
+                transform.parent.gameObject.SetActive(false);
+            }
+            else
+            {
+                transform.parent.gameObject.SetActive(false);
+                riftSpawner.riftData[SceneManager.GetActiveScene().name] = true;
+            }
+            
         }
     }
 }
