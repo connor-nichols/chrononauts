@@ -3158,9 +3158,15 @@ PrefabInstance:
         type: 3}
       propertyPath: TutorialRift
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6454602474697755497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fbcc44057e7db94d970dbd8cdb74f0d, type: 3}
+--- !u!1 &6454602474697755497 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4064275776926223854, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7058389152720356999}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8350125724642764904 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1303216577670344431, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,

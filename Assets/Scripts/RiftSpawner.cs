@@ -52,7 +52,7 @@ public class RiftSpawner : MonoBehaviour
                     Portal40s.SetActive(false);
                     break;
 
-                case "LevelScene-30XXs":
+                case "LevelScene-30xx":
                     PortalXXs.SetActive(false);
                     break;
             }
@@ -83,7 +83,7 @@ public class RiftSpawner : MonoBehaviour
                     Portal40s.SetActive(true);
                     break;
 
-                case "LevelScene-30XXs":
+                case "LevelScene-30xx":
                     PortalXXs.SetActive(true);
                     break;
             }
@@ -98,17 +98,15 @@ public class RiftSpawner : MonoBehaviour
         {
             TutorialRift.SetActive(true);
         }
-        else
+        /*else
         {
             TutorialRift.SetActive(false);
-        }
-        // print(previousScene);
+        }*/
+
         // check if file has been brought back to level and put in tutorialRift, if so activate rift spawning
-        print(TutorialRift.activeSelf);
         if (SceneManager.GetActiveScene().name == "LevelScene-2020s" && !GameObject.Find("TutorialRift") && !canSpawnRift)
         {
             canSpawnRift = true;
-            TutorialRift.SetActive(false);
         }
         
         if (canSpawnRift)

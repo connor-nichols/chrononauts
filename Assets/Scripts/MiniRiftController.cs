@@ -32,7 +32,7 @@ public class MiniRiftController : MonoBehaviour
         // Need to add audio/haptics when TutorialRift is being "destroyed"
         // Need to make it so TutorialRift doesn't get spawned once destoryed
         transform.Rotate(new Vector3(270, 270, 270) * Time.deltaTime);
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(2.5f);
         Destroy(transform.gameObject);
     }
 }

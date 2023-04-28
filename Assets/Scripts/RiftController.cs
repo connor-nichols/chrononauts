@@ -77,7 +77,6 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 StartCoroutine(Delay());
             }
-            // print($"RiftController: {riftSpawner.riftData[SceneManager.GetActiveScene().name]}");
         }
 
         IEnumerator Delay()
