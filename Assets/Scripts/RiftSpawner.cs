@@ -18,6 +18,7 @@ public class RiftSpawner : MonoBehaviour
     public GameObject Portal90s;
     public GameObject Portal70s;
     public GameObject Portal40s;
+    public GameObject Inventory;
 
     public Dictionary<string, bool> riftData = new Dictionary<string, bool>
     {
@@ -29,8 +30,7 @@ public class RiftSpawner : MonoBehaviour
         {"LevelScene-30xx", false },
     };
 
-    public SteamVR_Action_Boolean toggleInventoryOn = SteamVR_Input.GetBooleanAction("ToggleInventoryOn");
-    public SteamVR_Action_Boolean toggleInventoryOff = SteamVR_Input.GetBooleanAction("ToggleInventoryOff");
+    public SteamVR_Action_Boolean ToggleInventory = SteamVR_Input.GetBooleanAction("ToggleInventory");
 
     private void riftSpawn()
     {
@@ -109,18 +109,20 @@ public class RiftSpawner : MonoBehaviour
         }
 
 
-        //checking if the player swipes up on the touchpad to toggle the inventory on
-        if (toggleInventoryOn != null && toggleInventoryOn.activeBinding)
+        if (ToggleInventory != null && ToggleInventory.activeBinding)
         {
-	    print("poop on");
-            GameObject.Find("WaistInventory").SetActive(true);
-        }
-
-        //checking if the player swipes down on the touchpad to toggle the inventory off
-        if (toggleInventoryOff != null && toggleInventoryOff.activeBinding)
-        {
-	    print("poop off");
-            GameObject.Find("WaistInventory").SetActive(false);
+            //checking if the player swipes down on the touchpad to toggle the inventory on and off
+            if (ToggleInventory.GetStateDown(SteamVR_Input_Sources.LeftHand) || ToggleInventory.GetStateDown(SteamVR_Input_Sources.RightHand))
+            {
+                if (Inventory.activeSelf)
+                {
+                    Inventory.SetActive(false);
+                }
+                else
+                {
+                    Inventory.SetActive(true);
+                }
+            }
         }
     }
 }

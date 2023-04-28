@@ -9,7 +9,7 @@ public class WaistTracking : MonoBehaviour
 
     void FixedUpdate()
     {
-        transform.localPosition = new Vector3(head.position.x, head.position.y, head.position.z);
+        transform.localPosition = new Vector3(head.position.x, waistHeight, head.position.z);
         // test making a waistInventory a child of VRCamera
         transform.rotation = Quaternion.Euler(0, head.rotation.y, 0 );
     }

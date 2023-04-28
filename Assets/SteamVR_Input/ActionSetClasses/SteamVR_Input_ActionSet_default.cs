@@ -105,19 +105,11 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean ToggleInventoryOn
+        public virtual SteamVR_Action_Boolean ToggleInventory
         {
             get
             {
-                return SteamVR_Actions.default_ToggleInventoryOn;
-            }
-        }
-        
-        public virtual SteamVR_Action_Boolean ToggleInventoryOff
-        {
-            get
-            {
-                return SteamVR_Actions.default_ToggleInventoryOff;
+                return SteamVR_Actions.default_ToggleInventory;
             }
         }
         
