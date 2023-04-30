@@ -94,14 +94,14 @@ public class RiftSpawner : MonoBehaviour
 
     void Update()
     {
-        if ( (SceneManager.GetActiveScene().name == "LevelScene-2020s" || SceneManager.GetActiveScene().name == "Start") && !canSpawnRift)
+        if ( (SceneManager.GetActiveScene().name == "LevelScene-2020s" || SceneManager.GetActiveScene().name == "Start") && TutorialRift.transform.GetChild(0).childCount != 0)
         {
             TutorialRift.SetActive(true);
         }
-        /*else
+        else
         {
             TutorialRift.SetActive(false);
-        }*/
+        }
 
         // check if file has been brought back to level and put in tutorialRift, if so activate rift spawning
         if (SceneManager.GetActiveScene().name == "LevelScene-2020s" && !GameObject.Find("TutorialRift") && !canSpawnRift)
