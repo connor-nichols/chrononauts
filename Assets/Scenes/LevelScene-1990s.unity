@@ -305,7 +305,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -415,7 +415,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -728,7 +728,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 5
+  m_Intensity: 10
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -958,7 +958,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -1073,7 +1073,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 5
+  m_Intensity: 10
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -1303,7 +1303,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 12
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -1555,7 +1555,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 12
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -1698,7 +1698,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &410087042
 MonoBehaviour:
@@ -2130,7 +2130,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -2444,7 +2444,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -3078,6 +3078,11 @@ PrefabInstance:
       propertyPath: SceneOrigin
       value: LevelScene-1990s
       objectReference: {fileID: 0}
+    - target: {fileID: 740000275552544856, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3229679669276003939, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
       propertyPath: SceneOrigin
@@ -3088,15 +3093,50 @@ PrefabInstance:
       propertyPath: SceneOrigin
       value: LevelScene-1990s
       objectReference: {fileID: 0}
+    - target: {fileID: 3973424678134640612, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4465729910401938434, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141882783954389352, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5157836789262290984, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
       propertyPath: SceneOrigin
       value: LevelScene-1990s
       objectReference: {fileID: 0}
+    - target: {fileID: 6962588974522261578, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353807019702707156, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7556484555800033177, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7866634576680547953, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
       propertyPath: SceneOrigin
       value: LevelScene-1990s
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410633340116728181, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9168732562395040082, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
@@ -3176,7 +3216,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 12
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -3291,7 +3331,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -3527,7 +3567,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -3757,7 +3797,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 12
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -4056,7 +4096,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 12
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -4930,7 +4970,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 12
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -5045,7 +5085,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 12
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -5505,7 +5545,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -5620,7 +5660,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -5735,7 +5775,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -5850,7 +5890,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -6655,7 +6695,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 12
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -6982,7 +7022,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -7670,7 +7710,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -7900,7 +7940,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -8130,7 +8170,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 12
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -8705,7 +8745,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -9050,7 +9090,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 0.81568635, g: 0.93725497, b: 0.8941177, a: 1}
-  m_Intensity: 10
+  m_Intensity: 15
   m_Range: 5
   m_SpotAngle: 179
   m_InnerSpotAngle: 140.982
@@ -11845,7 +11885,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12466,7 +12506,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12475,7 +12515,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7209f4f82b060bf4b9b14975fe5caeb3, type: 2}
+  - {fileID: 2100000, guid: 573c5a2fd34ab9242a4e31088d23359b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15618,7 +15658,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -15660,7 +15700,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16354,7 +16394,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16676,7 +16716,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16803,7 +16843,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16926,7 +16966,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17514,7 +17554,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17953,7 +17993,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -18195,7 +18235,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -18350,7 +18390,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -20188,7 +20228,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -20197,7 +20237,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 822ffc7dfc4687741a8d07b7188d0053, type: 2}
+  - {fileID: 2100000, guid: a181c766d341e3c43be1c5223b43821c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21203,7 +21243,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -21464,7 +21504,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -23304,7 +23344,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -23313,7 +23353,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7209f4f82b060bf4b9b14975fe5caeb3, type: 2}
+  - {fileID: 2100000, guid: bce968567f47eab4f926c40aa7494ff0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23564,7 +23604,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -24112,7 +24152,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -24806,7 +24846,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -27257,7 +27297,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -27266,7 +27306,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7209f4f82b060bf4b9b14975fe5caeb3, type: 2}
+  - {fileID: 2100000, guid: 573c5a2fd34ab9242a4e31088d23359b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -27747,7 +27787,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -28837,7 +28877,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -29463,7 +29503,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -30094,7 +30134,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -30103,7 +30143,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d6fcf9f69fed171429803a9ffe4214e7, type: 2}
+  - {fileID: 2100000, guid: 8a2836b727a331b4095a7d479a990c9a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -30934,7 +30974,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -31138,7 +31178,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -31147,7 +31187,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 17102c272dc67114982f96eb5779cbd9, type: 2}
+  - {fileID: 2100000, guid: 196262509f707df47ae7a5fce95e651b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31619,7 +31659,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -31787,7 +31827,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -31796,7 +31836,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e563672022cf55f48aaa7ac90a74bf42, type: 2}
+  - {fileID: 2100000, guid: 7209f4f82b060bf4b9b14975fe5caeb3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -32063,7 +32103,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -32367,7 +32407,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -33340,7 +33380,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -33651,7 +33691,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
