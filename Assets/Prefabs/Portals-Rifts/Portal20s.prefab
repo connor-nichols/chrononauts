@@ -9778,9 +9778,9 @@ MonoBehaviour:
   riftOne: {fileID: 5909874441115636607}
   riftTwo: {fileID: 2859209913908137192}
   riftThree: {fileID: 3590101886494450778}
-  correctItemNameOne: Sphere
-  correctItemNameTwo: JoeJeff
-  correctItemNameThree: Cube
+  correctItemNameOne: PocketWatch40s
+  correctItemNameTwo: typewriter_70s
+  correctItemNameThree: newtons_cradle
   riftSpawner: {fileID: 8029161351815884632, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
     type: 3}
 --- !u!135 &2495523858383055535
@@ -19658,7 +19658,7 @@ PrefabInstance:
     - target: {fileID: 6607408896467739957, guid: d854d7f6ba78f304c876a66d3f87ce3e,
         type: 3}
       propertyPath: correctItemName
-      value: JoeJeff
+      value: typewriter_70s
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d854d7f6ba78f304c876a66d3f87ce3e, type: 3}
@@ -19749,7 +19749,7 @@ PrefabInstance:
     - target: {fileID: 6607408896467739957, guid: d854d7f6ba78f304c876a66d3f87ce3e,
         type: 3}
       propertyPath: correctItemName
-      value: Cube
+      value: newtons_cradle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d854d7f6ba78f304c876a66d3f87ce3e, type: 3}
@@ -19941,7 +19941,7 @@ PrefabInstance:
     - target: {fileID: 6607408896467739957, guid: d854d7f6ba78f304c876a66d3f87ce3e,
         type: 3}
       propertyPath: correctItemName
-      value: Sphere
+      value: PocketWatch40s
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d854d7f6ba78f304c876a66d3f87ce3e, type: 3}

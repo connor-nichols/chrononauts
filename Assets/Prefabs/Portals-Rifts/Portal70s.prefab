@@ -9778,9 +9778,9 @@ MonoBehaviour:
   riftOne: {fileID: 5909874441115636607}
   riftTwo: {fileID: 2859209913908137192}
   riftThree: {fileID: 3590101886494450778}
-  correctItemNameOne: 
-  correctItemNameTwo: 
-  correctItemNameThree: 
+  correctItemNameOne: officeButton90s
+  correctItemNameTwo: computer90s
+  correctItemNameThree: TrashBin2020s
   riftSpawner: {fileID: 8029161351815884632, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
     type: 3}
 --- !u!135 &2495523858383055535
