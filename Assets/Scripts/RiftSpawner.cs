@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEditor;
+using Valve.VR;
 
 public class RiftSpawner : MonoBehaviour
 {
@@ -17,6 +18,9 @@ public class RiftSpawner : MonoBehaviour
     public GameObject Portal90s;
     public GameObject Portal70s;
     public GameObject Portal40s;
+    public GameObject Inventory;
+
+    public GameObject TutorialRift;
 
     public Dictionary<string, bool> riftData = new Dictionary<string, bool>
     {
@@ -27,6 +31,8 @@ public class RiftSpawner : MonoBehaviour
         {"LevelScene-1940s", false },
         {"LevelScene-30xx", false },
     };
+
+    public SteamVR_Action_Boolean ToggleInventory = SteamVR_Input.GetBooleanAction("ToggleInventory");
 
     private void riftSpawn()
     {
@@ -50,7 +56,7 @@ public class RiftSpawner : MonoBehaviour
                     Portal40s.SetActive(false);
                     break;
 
-                case "LevelScene-30XXs":
+                case "LevelScene-30xx":
                     PortalXXs.SetActive(false);
                     break;
             }
@@ -81,7 +87,7 @@ public class RiftSpawner : MonoBehaviour
                     Portal40s.SetActive(true);
                     break;
 
-                case "LevelScene-30XXs":
+                case "LevelScene-30xx":
                     PortalXXs.SetActive(true);
                     break;
             }
@@ -92,7 +98,15 @@ public class RiftSpawner : MonoBehaviour
 
     void Update()
     {
-        print(previousScene);
+        if ( (SceneManager.GetActiveScene().name == "LevelScene-2020s" || SceneManager.GetActiveScene().name == "Start") && TutorialRift.transform.GetChild(0).childCount != 0)
+        {
+            TutorialRift.SetActive(true);
+        }
+        else
+        {
+            TutorialRift.SetActive(false);
+        }
+
         // check if file has been brought back to level and put in tutorialRift, if so activate rift spawning
         if (SceneManager.GetActiveScene().name == "LevelScene-2020s" && !GameObject.Find("TutorialRift") && !canSpawnRift)
         {
@@ -103,6 +117,23 @@ public class RiftSpawner : MonoBehaviour
         {
             riftSpawn();
             previousScene = sceneName;
+        }
+
+
+        if (ToggleInventory != null && ToggleInventory.activeBinding)
+        {
+            //checking if the player swipes down on the touchpad to toggle the inventory on and off
+            if (ToggleInventory.GetStateDown(SteamVR_Input_Sources.LeftHand) || ToggleInventory.GetStateDown(SteamVR_Input_Sources.RightHand))
+            {
+                if (Inventory.activeSelf)
+                {
+                    Inventory.SetActive(false);
+                }
+                else
+                {
+                    Inventory.SetActive(true);
+                }
+            }
         }
     }
 }
