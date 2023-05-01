@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3191176734	Play_FlorescentBuzz			\Default Work Unit\Play_FlorescentBuzz	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	347652226	FlorescentBuzz	C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\FlorescentBuzz_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\FlorescentBuzz		304344
+

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEditor;
+using Valve.VR;
 
 public class RiftSpawner : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class RiftSpawner : MonoBehaviour
     public GameObject Portal90s;
     public GameObject Portal70s;
     public GameObject Portal40s;
+    public GameObject Inventory;
 
     public GameObject TutorialRift;
 
@@ -29,6 +31,8 @@ public class RiftSpawner : MonoBehaviour
         {"LevelScene-1940s", false },
         {"LevelScene-30xx", false },
     };
+
+    public SteamVR_Action_Boolean ToggleInventory = SteamVR_Input.GetBooleanAction("ToggleInventory");
 
     private void riftSpawn()
     {
@@ -113,6 +117,23 @@ public class RiftSpawner : MonoBehaviour
         {
             riftSpawn();
             previousScene = sceneName;
+        }
+
+
+        if (ToggleInventory != null && ToggleInventory.activeBinding)
+        {
+            //checking if the player swipes down on the touchpad to toggle the inventory on and off
+            if (ToggleInventory.GetStateDown(SteamVR_Input_Sources.LeftHand) || ToggleInventory.GetStateDown(SteamVR_Input_Sources.RightHand))
+            {
+                if (Inventory.activeSelf)
+                {
+                    Inventory.SetActive(false);
+                }
+                else
+                {
+                    Inventory.SetActive(true);
+                }
+            }
         }
     }
 }

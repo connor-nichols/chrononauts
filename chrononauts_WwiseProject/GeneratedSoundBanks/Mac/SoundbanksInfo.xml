@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1974945608" Language="SFX" Hash="2780572640">
+			<ObjectPath>\SoundBanks\Default Work Unit\Scene1940s</ObjectPath>
+			<ShortName>Scene1940s</ShortName>
+			<Path>Scene1940s.bnk</Path>
+			<IncludedEvents>
+				<Event Id="119164842" Name="Play_LazyDayBlues_wav" ObjectPath="\Events\Default Work Unit\Play_LazyDayBlues_wav" DurationType="OneShot" DurationMin="168.64653" DurationMax="168.64653"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="394686312" Language="SFX">
+					<ShortName>LazyDayBlues.wav.wav</ShortName>
+					<Path>SFX\LazyDayBlues.wav_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="4157757229" Language="SFX" Hash="248263423">
+			<ObjectPath>\SoundBanks\Default Work Unit\Scene1990s</ObjectPath>
+			<ShortName>Scene1990s</ShortName>
+			<Path>Scene1990s.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3191176734" Name="Play_FlorescentBuzz" ObjectPath="\Events\Default Work Unit\Play_FlorescentBuzz" DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="347652226" Language="SFX">
+					<ShortName>FlorescentBuzz.wav</ShortName>
+					<Path>SFX\FlorescentBuzz_C5579977.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
