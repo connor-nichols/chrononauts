@@ -643,6 +643,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8734302244811316740}
+  - component: {fileID: 3666402128455705612}
+  - component: {fileID: 436989523942669931}
   m_Layer: 0
   m_Name: antique_Chair
   m_TagString: Untagged
@@ -666,3 +668,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -145.844, z: 0}
+--- !u!65 &3666402128455705612
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249936120806130878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.064947784, y: 0.06702839, z: 0.06600771}
+  m_Center: {x: 0.0025641595, y: 0.032513443, z: 0.10896717}
+--- !u!65 &436989523942669931
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249936120806130878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06005184, y: 0.16473421, z: 0.015880605}
+  m_Center: {x: 0.0014258345, y: 0.08191136, z: 0.1446275}
