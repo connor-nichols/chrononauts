@@ -4298,7 +4298,7 @@ PrefabInstance:
     - target: {fileID: 1256446416212000047, guid: f37e80e7af6640b418fa2df8d3450927,
         type: 3}
       propertyPath: m_Name
-      value: ibm_3178_PREFAB
+      value: computer90s
       objectReference: {fileID: 0}
     - target: {fileID: 1883661293279291285, guid: f37e80e7af6640b418fa2df8d3450927,
         type: 3}
