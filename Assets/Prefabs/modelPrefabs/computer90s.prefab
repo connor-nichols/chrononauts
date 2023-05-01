@@ -99,8 +99,8 @@ GameObject:
   - component: {fileID: 18023238209040887}
   - component: {fileID: 1607096993023527961}
   m_Layer: 0
-  m_Name: ibm_3178_PREFAB
-  m_TagString: Untagged
+  m_Name: computer90s
+  m_TagString: Storeable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
