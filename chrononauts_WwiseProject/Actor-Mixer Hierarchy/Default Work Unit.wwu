@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B1DF442D-C01F-45AA-BA59-688B452E0874}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{B1DF442D-C01F-45AA-BA59-688B452E0874}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="LazyDayBlues_wav" ID="{A5A7AEC5-7C00-4729-8EBE-90EFE9E59F4D}" ShortID="764870421">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LazyDayBlues_wav" ID="{2AEC3857-D77D-4FE8-A2FF-EF14F7EA0ECF}">
+							<Language>SFX</Language>
+							<AudioFile>LazyDayBlues.wav.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="394686312"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="LazyDayBlues_wav" ID="{2AEC3857-D77D-4FE8-A2FF-EF14F7EA0ECF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="FlorescentBuzz" ID="{62B226BA-41BC-4BA1-B026-C3AAAE97052A}" ShortID="602312392">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FlorescentBuzz" ID="{10E03A1D-7581-418B-80AF-50408E47378F}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>FlorescentBuzz.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="347652226"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="FlorescentBuzz" ID="{10E03A1D-7581-418B-80AF-50408E47378F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
