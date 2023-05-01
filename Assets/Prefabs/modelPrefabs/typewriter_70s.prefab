@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 2454863488777556401}
   m_Layer: 0
   m_Name: typewriter_70s
-  m_TagString: Untagged
+  m_TagString: Storeable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
