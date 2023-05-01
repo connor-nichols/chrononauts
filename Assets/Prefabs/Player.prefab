@@ -3151,6 +3151,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8029161351815884632, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
         type: 3}
+      propertyPath: Inventory
+      value: 
+      objectReference: {fileID: 4899717282051264868}
+    - target: {fileID: 8029161351815884632, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
+        type: 3}
       propertyPath: sceneData
       value: 
       objectReference: {fileID: 0}

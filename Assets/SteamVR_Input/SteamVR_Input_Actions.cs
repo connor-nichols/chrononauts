@@ -39,9 +39,9 @@ namespace Valve.VR
         
         private static SteamVR_Action_Boolean p_default_SnapTurnRight;
         
-        private static SteamVR_Action_Boolean p_default_ToggleInventory;
-        
         private static SteamVR_Action_Boolean p_default_Fire;
+        
+        private static SteamVR_Action_Boolean p_default_ToggleInventory;
         
         private static SteamVR_Action_Vibration p_default_Haptic;
         
@@ -241,8 +241,8 @@ namespace Valve.VR
                     SteamVR_Actions.default_HeadsetOnHead,
                     SteamVR_Actions.default_SnapTurnLeft,
                     SteamVR_Actions.default_SnapTurnRight,
-                    SteamVR_Actions.default_ToggleInventory,
                     SteamVR_Actions.default_Fire,
+                    SteamVR_Actions.default_ToggleInventory,
                     SteamVR_Actions.default_Haptic,
                     SteamVR_Actions.platformer_Move,
                     SteamVR_Actions.platformer_Jump,
@@ -263,8 +263,8 @@ namespace Valve.VR
                     SteamVR_Actions.default_HeadsetOnHead,
                     SteamVR_Actions.default_SnapTurnLeft,
                     SteamVR_Actions.default_SnapTurnRight,
-                    SteamVR_Actions.default_ToggleInventory,
                     SteamVR_Actions.default_Fire,
+                    SteamVR_Actions.default_ToggleInventory,
                     SteamVR_Actions.platformer_Move,
                     SteamVR_Actions.platformer_Jump,
                     SteamVR_Actions.buggy_Steering,
@@ -311,8 +311,8 @@ namespace Valve.VR
                     SteamVR_Actions.default_HeadsetOnHead,
                     SteamVR_Actions.default_SnapTurnLeft,
                     SteamVR_Actions.default_SnapTurnRight,
-                    SteamVR_Actions.default_ToggleInventory,
                     SteamVR_Actions.default_Fire,
+                    SteamVR_Actions.default_ToggleInventory,
                     SteamVR_Actions.platformer_Move,
                     SteamVR_Actions.platformer_Jump,
                     SteamVR_Actions.buggy_Steering,
