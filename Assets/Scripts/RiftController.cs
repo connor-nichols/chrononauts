@@ -19,6 +19,8 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private Vector3 originalSize;
 
+        private float scaleFactor = 0.75f;
+
         private void OnTriggerEnter(Collider other)
         {
             AddInteractable(other.gameObject);
@@ -61,7 +63,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
                 rb.useGravity = false;
 
-                newObject.transform.localScale = new Vector3(0.48f, 0.48f, 0.48f);
+                newObject.transform.localScale *= scaleFactor;
 
                 rb.angularVelocity = Vector3.zero;
                 rb.velocity = Vector3.zero;

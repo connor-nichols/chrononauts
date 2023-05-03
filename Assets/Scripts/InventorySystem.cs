@@ -11,6 +11,8 @@ namespace Valve.VR.InteractionSystem.Sample
 
         public GameObject inventory;
 
+        private float scaleFactor = 0.75f;
+
         private void OnTriggerEnter(Collider other)
         {
             AddInteractable(other.gameObject);
@@ -31,7 +33,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 newObject.transform.SetParent(inventory.transform);
 
                 // Shrink object 
-                newObject.transform.localScale = new Vector3(0.48f, 0.48f, 0.48f);
+                newObject.transform.localScale *= scaleFactor; 
 
                 // set velocity to zero to stop it from floating out
                 rb.angularVelocity = Vector3.zero;
