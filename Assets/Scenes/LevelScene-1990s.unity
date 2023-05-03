@@ -25038,6 +25038,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 65
       objectReference: {fileID: 0}
+    - target: {fileID: 3133025734575117981, guid: e9331fa26a162f942bfb0995120103d3,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3230988241681841681, guid: e9331fa26a162f942bfb0995120103d3,
         type: 3}
       propertyPath: m_StaticEditorFlags
