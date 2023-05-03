@@ -567,6 +567,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7076311347015312428}
+  - component: {fileID: 348312977455785427}
   m_Layer: 0
   m_Name: bookcase40s_v02
   m_TagString: Untagged
@@ -596,6 +597,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!65 &348312977455785427
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7602017901253082774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1915383, y: 2.5736773, z: 0.7370752}
+  m_Center: {x: 0.0027980115, y: 1.2791208, z: 0.41116568}
 --- !u!1 &8919249425655988603
 GameObject:
   m_ObjectHideFlags: 0
