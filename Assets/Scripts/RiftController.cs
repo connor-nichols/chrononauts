@@ -17,8 +17,6 @@ namespace Valve.VR.InteractionSystem.Sample
 
         public RiftSpawner riftSpawner;
 
-        private Vector3 originalSize;
-
         private void OnTriggerEnter(Collider other)
         {
             AddInteractable(other.gameObject);
@@ -29,8 +27,6 @@ namespace Valve.VR.InteractionSystem.Sample
             if (newObject.tag == "Storeable")
             {
                 Rigidbody rb = newObject.GetComponent<Rigidbody>();
-
-                originalSize = newObject.transform.localScale;
 
                 if (riftOne != null && newObject.transform.name == correctItemNameOne)
                 {
@@ -61,7 +57,13 @@ namespace Valve.VR.InteractionSystem.Sample
 
                 rb.useGravity = false;
 
-                newObject.transform.localScale = new Vector3(0.48f, 0.48f, 0.48f);
+                Vector3 parentScale = newObject.transform.parent.transform.position;
+                float biggestValue = Mathf.Max(Mathf.Max(parentScale.x, parentScale.y), parentScale.z);
+                 
+                float scale = (float)(0.8 / biggestValue);
+                print(newObject.transform.localScale);
+
+                newObject.transform.localScale = new Vector3(scale, scale, scale);
 
                 rb.angularVelocity = Vector3.zero;
                 rb.velocity = Vector3.zero;
