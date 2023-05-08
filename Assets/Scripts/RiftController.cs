@@ -17,6 +17,10 @@ namespace Valve.VR.InteractionSystem.Sample
 
         public RiftSpawner riftSpawner;
 
+        private Vector3 originalSize;
+        private Vector3 markerSize;
+        private bool resize;
+
         private void OnTriggerEnter(Collider other)
         {
             AddInteractable(other.gameObject);
@@ -27,26 +31,36 @@ namespace Valve.VR.InteractionSystem.Sample
             if (newObject.tag == "Storeable")
             {
                 Rigidbody rb = newObject.GetComponent<Rigidbody>();
+                originalSize = newObject.transform.localScale;
 
                 if (riftOne != null && newObject.transform.name == correctItemNameOne)
                 {
                     if (riftOne.transform.childCount == 1)
                     {
+                        markerSize = riftOne.transform.GetChild(0).transform.localScale;
+                        print(riftOne.transform.GetChild(0));
                         newObject.transform.SetParent(riftOne.transform);
+                        resize = true;
                     }
                 }
                 else if (riftTwo != null && newObject.transform.name == correctItemNameTwo)
                 {
                     if (riftTwo.transform.childCount == 1)
                     {
+                        markerSize = riftTwo.transform.GetChild(0).transform.localScale;
+                        print(riftOne.transform.GetChild(0));
                         newObject.transform.SetParent(riftTwo.transform);
+                        resize = true;
                     }
                 }
                 else if (riftThree != null && newObject.transform.name == correctItemNameThree)
                 {
                     if (riftThree.transform.childCount == 1)
                     {
+                        markerSize = riftThree.transform.GetChild(0).transform.localScale;
+                        print(riftOne.transform.GetChild(0));
                         newObject.transform.SetParent(riftThree.transform);
+                        resize = true;
                     }
                 }
                 else {
@@ -57,13 +71,21 @@ namespace Valve.VR.InteractionSystem.Sample
 
                 rb.useGravity = false;
 
-                Vector3 parentScale = newObject.transform.parent.transform.position;
-                float biggestValue = Mathf.Max(Mathf.Max(parentScale.x, parentScale.y), parentScale.z);
-                 
-                float scale = (float)(0.8 / biggestValue);
-                print(newObject.transform.localScale);
+                if (resize)
+                {
+                    print(markerSize);
+                    /*Vector3 parentScale = newObject.transform.parent.transform.localScale;
+                   
+                    float biggestValue = Mathf.Max(originalSize.x, originalSize.y, originalSize.z);
+                    //print(originalSize.x);
+                    
+                    float scale = (float)((0.8)/biggestValue);
+                    print(scale);*/
 
-                newObject.transform.localScale = new Vector3(scale, scale, scale);
+                    newObject.transform.localScale = markerSize;
+                    resize = false;
+                }
+               
 
                 rb.angularVelocity = Vector3.zero;
                 rb.velocity = Vector3.zero;
