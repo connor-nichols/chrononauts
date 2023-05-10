@@ -13,7 +13,18 @@ namespace Valve.VR.InteractionSystem.Sample
 
         Dictionary<string, Vector3> resizeValues = new Dictionary<string, Vector3>
         {
-            {"item1 placeholder", new Vector3(0f, 0f, 0f) },
+            {"typewriter_70s", new Vector3(2.5f, 2.5f, 2.5f)},
+            {"PocketWatch40s", new Vector3(45f, 45f, 45f)},
+            {"newtons_cradle", new Vector3(8f, 8f, 8f)},
+            {"deskLamp2020s", new Vector3(0.8f, 0.8f, 0.8f)},
+            {"whoopeeCushion", new Vector3(0.2f, 0.2f, 0.2f)},
+            {"benBassPlaque_v01", new Vector3(18f, 18f, 18f)},
+            {"officeButton90s", new Vector3(25f, 25f, 25f)},
+            {"TrashB", new Vector3(0.15f, 0.15f, 0.15f)},
+            {"computer90s", new Vector3(0.015f, 0.015f, 0.015f)},
+            {"trashBin70s_v03", new Vector3(25f, 25f, 25f)},
+            {"handWatch2020s", new Vector3(0.65f, 0.65f, 0.65f)},
+            {"mugPiece3", new Vector3(20f, 20f, 20f)}
         };
 
         private void OnTriggerEnter(Collider other)
@@ -36,7 +47,15 @@ namespace Valve.VR.InteractionSystem.Sample
                 newObject.transform.SetParent(inventory.transform);
 
                 // Shrink object 
-                // newObject.transform.localScale = new Vector3(0.48f, 0.48f, 0.48f);
+                if (resizeValues.ContainsKey(newObject.transform.name))
+                {
+                    Vector3 scale = resizeValues[newObject.transform.name];
+                    newObject.transform.localScale = scale;
+                }
+                else
+                {
+                    newObject.transform.localScale = new Vector3(0.48f, 0.48f, 0.48f);
+                }
 
                 // set velocity to zero to stop it from floating out
                 rb.angularVelocity = Vector3.zero;
