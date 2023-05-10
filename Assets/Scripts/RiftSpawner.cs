@@ -12,6 +12,7 @@ public class RiftSpawner : MonoBehaviour
     private bool riftCompleted;
     private string sceneName;
     private string previousScene;
+    private GameObject futureScene;
 
     public GameObject PortalXXs;
     public GameObject Portal20s;
@@ -33,6 +34,8 @@ public class RiftSpawner : MonoBehaviour
     };
 
     public SteamVR_Action_Boolean ToggleInventory = SteamVR_Input.GetBooleanAction("ToggleInventory");
+
+    public int portalsCompleted = 0;
 
     private void riftSpawn()
     {
@@ -57,7 +60,7 @@ public class RiftSpawner : MonoBehaviour
                     break;
 
                 case "LevelScene-30xx":
-                    PortalXXs.SetActive(false);
+                    //PortalXXs.SetActive(false);
                     break;
             }
         }
@@ -88,12 +91,28 @@ public class RiftSpawner : MonoBehaviour
                     break;
 
                 case "LevelScene-30xx":
-                    PortalXXs.SetActive(true);
+                    //PortalXXs.SetActive(true);
                     break;
             }
         }
 
         
+    }
+
+    private void Start()
+    {
+        if (SceneManager.GetActiveScene().name == "LevelScene-30xx" && portalsCompleted == 4)
+        {
+            futureScene = GameObject.Find("RoomEnvironment");
+            futureScene.transform.GetChild(0).gameObject.SetActive(true);
+            print("You win!");
+        }
+        else if (SceneManager.GetActiveScene().name == "LevelScene-30xx")
+        {
+            futureScene = GameObject.Find("RoomEnvironment");
+            futureScene.transform.GetChild(1).gameObject.SetActive(true);
+            print("WHATRE YOU DOING GO CLEANUP THE PORTALS!");
+        }
     }
 
     void Update()
