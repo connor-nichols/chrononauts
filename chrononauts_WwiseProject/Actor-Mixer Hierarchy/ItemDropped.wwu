@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F9E9F07C-ED10-45FB-8F60-9440CF244772}" SchemaVersion="103" RootDocumentID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}" ParentDocumentID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}">
+	<AudioObjects>
+		<WorkUnit Name="ItemDropped" ID="{F9E9F07C-ED10-45FB-8F60-9440CF244772}" OwnerID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="DropImpacts" ID="{315EFEB9-D43C-4ABE-8AB1-805958D7B0EE}" ShortID="746641920">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{4982DFC3-8378-44EE-9B9B-66DC1ACA25CD}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{B3B75563-F5C4-499C-9E6D-E6437B6A33F1}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="2375"/>
+											<Property Name="Min" Type="Real64" Value="-1061"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="DropImpact_01" ID="{28B9F983-C23F-4E52-84B7-1E23CF149311}" ShortID="361724759">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DropImpact_01" ID="{D8CFBC56-53F5-4003-95C5-6BF1E57C9287}">
+									<Language>SFX</Language>
+									<AudioFile>DropImpact_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="140303940"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="DropImpact_01" ID="{D8CFBC56-53F5-4003-95C5-6BF1E57C9287}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DropImpact_02" ID="{D3EDBD35-0452-43BF-B4EB-D03549AE5556}" ShortID="645658421">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DropImpact_02" ID="{E30A3EA4-B66A-4F21-9566-BB0BEF17704F}">
+									<Language>SFX</Language>
+									<AudioFile>DropImpact_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="957355217"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="DropImpact_02" ID="{E30A3EA4-B66A-4F21-9566-BB0BEF17704F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DropImpact_03" ID="{39881C98-5F92-4594-B66D-D0A60CD64233}" ShortID="408909586">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DropImpact_03" ID="{89185D5C-C08E-42C7-933E-ED6F35DCA6C1}">
+									<Language>SFX</Language>
+									<AudioFile>DropImpact_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="889129263"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="DropImpact_03" ID="{89185D5C-C08E-42C7-933E-ED6F35DCA6C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DropImpact_04" ID="{3E30FACF-F420-4B57-B607-5F15230278AD}" ShortID="366952757">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DropImpact_04" ID="{F687C227-E19B-4983-AFC0-D0687FF9B9F3}">
+									<Language>SFX</Language>
+									<AudioFile>DropImpact_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="987448782"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="DropImpact_04" ID="{F687C227-E19B-4983-AFC0-D0687FF9B9F3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DropImpact_05" ID="{025C4AA3-15BC-4BB0-AF62-10D5FA3E2311}" ShortID="558214324">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DropImpact_05" ID="{0F1D82D4-38CD-40DE-957B-D556920B0112}">
+									<Language>SFX</Language>
+									<AudioFile>DropImpact_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="492303399"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="DropImpact_05" ID="{0F1D82D4-38CD-40DE-957B-D556920B0112}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DropImpact_06" ID="{29DC0EB4-EF66-4E26-8E8A-119889AE531C}" ShortID="590569251">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DropImpact_06" ID="{FD1E796B-0B73-4202-A7B8-373B6B117174}">
+									<Language>SFX</Language>
+									<AudioFile>DropImpact_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="868629996"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="DropImpact_06" ID="{FD1E796B-0B73-4202-A7B8-373B6B117174}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DropImpact_07" ID="{17FFBAE3-4225-4695-A648-5540988063E7}" ShortID="607747471">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DropImpact_07" ID="{A614AD15-58C6-42D2-B011-82EEF0972297}">
+									<Language>SFX</Language>
+									<AudioFile>DropImpact_07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="504257700"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="DropImpact_07" ID="{A614AD15-58C6-42D2-B011-82EEF0972297}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

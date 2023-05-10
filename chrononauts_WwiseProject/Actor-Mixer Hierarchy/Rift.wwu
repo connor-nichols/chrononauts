@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{337B32EE-D106-4A22-98FF-D46F786E24BF}" SchemaVersion="103" RootDocumentID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}" ParentDocumentID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}">
+	<AudioObjects>
+		<WorkUnit Name="Rift" ID="{337B32EE-D106-4A22-98FF-D46F786E24BF}" OwnerID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Rift_ItemPlaced" ID="{C558D166-E513-429E-9BA2-655E9485A862}" ShortID="849669566">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Rift_ItemPlaced_01" ID="{F46E74E8-0871-443E-9BE8-5E01B6B7F021}" ShortID="393045721">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Rift_ItemPlaced_01" ID="{A621689F-D13A-4F63-8BB0-5ABE2D4A2684}">
+									<Language>SFX</Language>
+									<AudioFile>Rift_ItemPlaced_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="179557789"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Rift_ItemPlaced_01" ID="{A621689F-D13A-4F63-8BB0-5ABE2D4A2684}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Rift_ItemPlaced_02" ID="{A8B2A332-6D57-4A9B-997D-FF2A5F7C6A87}" ShortID="126120301">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Rift_ItemPlaced_02" ID="{ABC61863-3FD2-4E05-A5EA-468146E198D6}">
+									<Language>SFX</Language>
+									<AudioFile>Rift_ItemPlaced_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="937935258"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Rift_ItemPlaced_02" ID="{ABC61863-3FD2-4E05-A5EA-468146E198D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Rift_ItemPlaced_03" ID="{9CFCAC70-459E-4B62-AA71-DC89AA273B09}" ShortID="703695188">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Rift_ItemPlaced_03" ID="{0D817886-F227-4265-A64E-9FE6A3E0C91E}">
+									<Language>SFX</Language>
+									<AudioFile>Rift_ItemPlaced_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="628093014"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Rift_ItemPlaced_03" ID="{0D817886-F227-4265-A64E-9FE6A3E0C91E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Rift_Solved" ID="{F43EBCA5-7AEC-4E90-93C3-03F125EC85A3}" ShortID="485788061">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Rift_Solved01" ID="{88032E58-F20D-4D5F-AC5B-BE01D8B7CD27}" ShortID="662527778">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Rift_Solved01" ID="{3277EE4B-52D7-4D94-A3F1-0FAF4BE1626B}">
+									<Language>SFX</Language>
+									<AudioFile>Rift_Solved01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="107469150"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Rift_Solved01" ID="{3277EE4B-52D7-4D94-A3F1-0FAF4BE1626B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Rift_Solved02" ID="{C74D5F83-F3C0-473D-B14E-E2754F9B9CBF}" ShortID="375069131">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Rift_Solved02" ID="{F5526F41-6072-4E02-95D6-4F44218455F5}">
+									<Language>SFX</Language>
+									<AudioFile>Rift_Solved02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="802075953"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Rift_Solved02" ID="{F5526F41-6072-4E02-95D6-4F44218455F5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

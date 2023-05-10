@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{55BFC65C-2410-4ED5-8F62-E524A38789B3}" SchemaVersion="103" RootDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" ParentDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}">
+	<Events>
+		<WorkUnit Name="Rift" ID="{55BFC65C-2410-4ED5-8F62-E524A38789B3}" OwnerID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Rift_ItemPlaced" ID="{A4BCDD8A-5D6A-40DA-AA8B-B411B83C4331}">
+					<ChildrenList>
+						<Action Name="" ID="{D902021D-E3FF-4923-A2AE-92F8FC90DB88}" ShortID="386317246">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rift_ItemPlaced" ID="{C558D166-E513-429E-9BA2-655E9485A862}" WorkUnitID="{337B32EE-D106-4A22-98FF-D46F786E24BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Rift_Solved" ID="{011D8740-5188-4CC4-88DA-6B775DF111CC}">
+					<ChildrenList>
+						<Action Name="" ID="{75A3C67D-FC95-439D-A925-CF39A88627EC}" ShortID="927706609">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rift_Solved" ID="{F43EBCA5-7AEC-4E90-93C3-03F125EC85A3}" WorkUnitID="{337B32EE-D106-4A22-98FF-D46F786E24BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
