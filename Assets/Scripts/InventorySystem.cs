@@ -11,6 +11,11 @@ namespace Valve.VR.InteractionSystem.Sample
 
         public GameObject inventory;
 
+        Dictionary<string, Vector3> resizeValues = new Dictionary<string, Vector3>
+        {
+            {"item1 placeholder", new Vector3(0f, 0f, 0f) },
+        };
+
         private void OnTriggerEnter(Collider other)
         {
             AddInteractable(other.gameObject);
@@ -31,7 +36,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 newObject.transform.SetParent(inventory.transform);
 
                 // Shrink object 
-                newObject.transform.localScale = new Vector3(0.48f, 0.48f, 0.48f);
+                // newObject.transform.localScale = new Vector3(0.48f, 0.48f, 0.48f);
 
                 // set velocity to zero to stop it from floating out
                 rb.angularVelocity = Vector3.zero;
