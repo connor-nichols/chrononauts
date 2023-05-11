@@ -6,10 +6,11 @@ public class MiniRiftController : MonoBehaviour
 {
     private bool correctItem = false;
     public string correctItemName;
+
     void Update()
     {
-        // rotate object/container
-        transform.Rotate(new Vector3(15, 45, 30) * Time.deltaTime);
+        
+        transform.Rotate(new Vector3(0, 50, 0) * Time.deltaTime);
 
         if (transform.childCount == 2)
         {
