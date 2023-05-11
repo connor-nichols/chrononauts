@@ -18,7 +18,9 @@ public class RiftSpawner : MonoBehaviour
     public GameObject Portal90s;
     public GameObject Portal70s;
     public GameObject Portal40s;
-    public GameObject Inventory;
+
+    public GameObject LeftInventory;
+    public GameObject RightInventory;
 
     public GameObject TutorialRift;
 
@@ -122,16 +124,29 @@ public class RiftSpawner : MonoBehaviour
 
         if (ToggleInventory != null && ToggleInventory.activeBinding)
         {
-            //checking if the player swipes down on the touchpad to toggle the inventory on and off
+            //checking if the player swipes down on the touchpad to toggle the inventory set
             if (ToggleInventory.GetStateDown(SteamVR_Input_Sources.LeftHand) || ToggleInventory.GetStateDown(SteamVR_Input_Sources.RightHand))
             {
-                if (Inventory.activeSelf)
+                if (RightInventory.transform.GetChild(0).gameObject.activeSelf)
                 {
-                    Inventory.SetActive(false);
+                    RightInventory.transform.GetChild(1).gameObject.SetActive(true);
+                    RightInventory.transform.GetChild(0).gameObject.SetActive(false);
                 }
-                else
+                else if (RightInventory.transform.GetChild(1).gameObject.activeSelf)
                 {
-                    Inventory.SetActive(true);
+                    RightInventory.transform.GetChild(0).gameObject.SetActive(true);
+                    RightInventory.transform.GetChild(1).gameObject.SetActive(false);
+                }
+
+                if (LeftInventory.transform.GetChild(0).gameObject.activeSelf)
+                {
+                    LeftInventory.transform.GetChild(1).gameObject.SetActive(true);
+                    LeftInventory.transform.GetChild(0).gameObject.SetActive(false);
+                }
+                else if (LeftInventory.transform.GetChild(1).gameObject.activeSelf)
+                {
+                    LeftInventory.transform.GetChild(0).gameObject.SetActive(true);
+                    LeftInventory.transform.GetChild(1).gameObject.SetActive(false);
                 }
             }
         }
