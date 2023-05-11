@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 5025588881532656836}
   - component: {fileID: 8219528792346399585}
   - component: {fileID: 6193952153530787755}
+  - component: {fileID: 2641113360323040360}
+  - component: {fileID: 542797669129552903}
+  - component: {fileID: 1906427109822748221}
   m_Layer: 0
   m_Name: victorianDesk
   m_TagString: Untagged
@@ -83,3 +86,42 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2641113360323040360
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5689641560155113086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.26464066, y: 0.15054846, z: 0.026986795}
+  m_Center: {x: 0, y: 0, z: 0.11443628}
+--- !u!65 &542797669129552903
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5689641560155113086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07327546, y: 0.15054846, z: 0.12794448}
+  m_Center: {x: -0.09568246, y: 0, z: 0.06395747}
+--- !u!65 &1906427109822748221
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5689641560155113086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07286251, y: 0.15054846, z: 0.12794448}
+  m_Center: {x: 0.09588895, y: 0, z: 0.06395747}

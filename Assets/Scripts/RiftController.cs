@@ -116,6 +116,7 @@ namespace Valve.VR.InteractionSystem.Sample
             {
                 transform.parent.gameObject.SetActive(false);
                 riftSpawner.riftData[SceneManager.GetActiveScene().name] = true;
+                riftSpawner.portalsCompleted += 1;
             }
             
         }
