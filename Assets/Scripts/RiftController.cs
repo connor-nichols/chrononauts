@@ -97,7 +97,16 @@ namespace Valve.VR.InteractionSystem.Sample
         void Update()
         {
             // transform.Rotate(new Vector3(0, 0, 15) * Time.deltaTime);
-            if (transform.childCount == 0)
+            int activeRifts = transform.childCount;
+            int inactiveRifts = 0;
+            while(activeRifts > 0){
+                if (!transform.GetChild(activeRifts - 1).gameObject.activeSelf)
+                {
+                    inactiveRifts += 1;
+                }
+                activeRifts -= 1;
+            }
+            if (inactiveRifts == 3 || (transform.parent.gameObject.name == "TutorialRift" && inactiveRifts == 1))
             {
                 StartCoroutine(Delay());
             }

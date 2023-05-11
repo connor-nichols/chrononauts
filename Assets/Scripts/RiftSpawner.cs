@@ -7,7 +7,7 @@ using Valve.VR;
 
 public class RiftSpawner : MonoBehaviour
 {
-    private bool canSpawnRift = false;
+    public bool canSpawnRift = false;
 
     private bool riftCompleted;
     private string sceneName;
@@ -119,7 +119,7 @@ public class RiftSpawner : MonoBehaviour
 
     void Update()
     {
-        if ( (SceneManager.GetActiveScene().name == "LevelScene-2020s" || SceneManager.GetActiveScene().name == "Start") && TutorialRift.transform.GetChild(0).childCount != 0)
+        if ( (SceneManager.GetActiveScene().name == "LevelScene-2020s" || SceneManager.GetActiveScene().name == "Start") && TutorialRift.transform.GetChild(0).GetChild(0).gameObject.activeSelf)
         {
             TutorialRift.SetActive(true);
         }
@@ -129,7 +129,7 @@ public class RiftSpawner : MonoBehaviour
         }
 
         // check if file has been brought back to level and put in tutorialRift, if so activate rift spawning
-        if (SceneManager.GetActiveScene().name == "LevelScene-2020s" && !GameObject.Find("TutorialRift") && !canSpawnRift)
+        if (SceneManager.GetActiveScene().name == "LevelScene-2020s" && !TutorialRift.activeSelf && !canSpawnRift)
         {
             canSpawnRift = true;
         }
