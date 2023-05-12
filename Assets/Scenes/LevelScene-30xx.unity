@@ -2023,6 +2023,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JoeJeff
       objectReference: {fileID: 0}
+    - target: {fileID: 4284833119817599920, guid: 98db2017ffca0bc469a716f0b74294d5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4286144236643686666, guid: 98db2017ffca0bc469a716f0b74294d5,
         type: 3}
       propertyPath: m_RootOrder
