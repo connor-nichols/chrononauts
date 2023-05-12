@@ -5,14 +5,15 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{ACBDA82F-88C0-4AC8-9641-F19B7C4D90A0}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Safebox" ID="{41C59D54-7624-402E-8027-FBA2050D2458}" WorkUnitID="{41C59D54-7624-402E-8027-FBA2050D2458}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Roomtone" ID="{851D14FA-3546-4308-8C8D-713D996B02D7}" WorkUnitID="{851D14FA-3546-4308-8C8D-713D996B02D7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Elevator" ID="{CCEBF7B1-A407-430A-AFD6-7216F5BF906B}" WorkUnitID="{CCEBF7B1-A407-430A-AFD6-7216F5BF906B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FlorescentBuzz" ID="{E0B083A6-1CD5-4322-893B-5CD60FE8D137}" WorkUnitID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ItemPhysics" ID="{ECA47E50-7AE3-44FE-B481-ABA9E07D183E}" WorkUnitID="{ECA47E50-7AE3-44FE-B481-ABA9E07D183E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LazyDayBlues_wav" ID="{A5A7AEC5-7C00-4729-8EBE-90EFE9E59F4D}" WorkUnitID="{49295F40-5A11-492A-B0F5-15CDD359A1B4}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Scene1990s" ID="{2A8D7A60-1AD5-4158-8216-0E259688660E}">
-					<ObjectInclusionList>
-						<ObjectRef Name="FlorescentBuzz" ID="{62B226BA-41BC-4BA1-B026-C3AAAE97052A}" WorkUnitID="{4686FC4E-08B5-4B03-A60D-DDA9966D90FE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Inventory" ID="{8D5D3731-AD66-4D57-B542-84677570CF9F}" WorkUnitID="{8D5D3731-AD66-4D57-B542-84677570CF9F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LazyDayBlues_wav" ID="{86A84741-C9E8-4D7B-9699-428AD1B0B3B3}" WorkUnitID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Rift" ID="{55BFC65C-2410-4ED5-8F62-E524A38789B3}" WorkUnitID="{55BFC65C-2410-4ED5-8F62-E524A38789B3}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

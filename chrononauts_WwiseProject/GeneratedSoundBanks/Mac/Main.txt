@@ -1,8 +1,62 @@
 Event	ID	Name			Wwise Object Path	Notes
 	119164842	Play_LazyDayBlues_wav			\Default Work Unit\Play_LazyDayBlues_wav	
+	182147364	Roomtone1990s			\Default Work Unit\Roomtone\Roomtone1990s	
+	575746267	ElevatorTravel			\Default Work Unit\Elevator\ElevatorTravel	
+	702061953	ElevatorButtonClick			\Default Work Unit\Elevator\ElevatorButtonClick	
+	748051766	ElevatorDoorSlide			\Default Work Unit\Elevator\ElevatorDoorSlide	
+	752450508	Rift_Solved			\Default Work Unit\Rift\Rift_Solved	
+	1545920960	Safebox_DoorOpen			\Default Work Unit\Safebox\Safebox_DoorOpen	
+	1552205833	Roomtone30XX			\Default Work Unit\Roomtone\Roomtone30XX	
+	1634299854	SafeBox_DialClick			\Default Work Unit\Safebox\SafeBox_DialClick	
+	2083830872	InventoryOutput			\Default Work Unit\Inventory\InventoryOutput	
+	2601892650	ItemDropped			\Default Work Unit\ItemPhysics\ItemDropped	
 	3191176734	Play_FlorescentBuzz			\Default Work Unit\Play_FlorescentBuzz	
+	3321777685	Rift_ItemPlaced			\Default Work Unit\Rift\Rift_ItemPlaced	
+	3357836269	InventoryInput			\Default Work Unit\Inventory\InventoryInput	
+	4068587995	Roomtone2020s			\Default Work Unit\Roomtone\Roomtone2020s	
+	4139296746	Roomtone1970s			\Default Work Unit\Roomtone\Roomtone1970s	
+	4240109521	Roomtone1940s			\Default Work Unit\Roomtone\Roomtone1940s	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	347652226	FlorescentBuzz	C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\FlorescentBuzz_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\FlorescentBuzz		304344
-	394686312	LazyDayBlues_wav	C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\LazyDayBlues.wav_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\LazyDayBlues_wav		29749312
+	95989480	Safebox_DoorOpen	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Safebox_DoorOpen_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Safebox\Safebox_DoorOpen\Safebox_DoorOpen		357780
+	107469150	Rift_Solved01	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Rift_Solved01_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Rift\Rift_Solved\Rift_Solved01		2110556
+	140303940	DropImpact_01	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\DropImpact_01_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\ItemDropped\DropImpacts\DropImpact_01		101524
+	179557789	Rift_ItemPlaced_01	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Rift_ItemPlaced_01_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Rift\Rift_ItemPlaced\Rift_ItemPlaced_01		1333168
+	197706183	ElevatorButtonClick_01	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\ElevatorButtonClick_01_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Elevator\ElevatorButtonClicks\ElevatorButtonClick_01		49102
+	227144965	InventoryInput_03	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\InventoryInput_03_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Inventory\InventoryInput\InventoryInput_03		103940
+	274446639	InventoryInput_02	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\InventoryInput_02_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Inventory\InventoryInput\InventoryInput_02		86880
+	339690023	Safebox_DialClick_03	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Safebox_DialClick_03_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Safebox\Safebox_DialClick\Safebox_DialClick_03		28556
+	347652226	FlorescentBuzz	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\FlorescentBuzz_C5579977.wem		\Actor-Mixer Hierarchy\3D_Roomtone\FlorescentBuzz		304344
+	357050698	ElevatorButtonClick_04	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\ElevatorButtonClick_04_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Elevator\ElevatorButtonClicks\ElevatorButtonClick_04		34980
+	389274523	Roomtone1940s	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Roomtone1940s_D79FB2B7.wem		\Actor-Mixer Hierarchy\3D_Roomtone\Roomtone1940s\Roomtone1940s		1764064
+	394686312	LazyDayBlues_wav	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\LazyDayBlues.wav_10C4C929.wem		\Actor-Mixer Hierarchy\3D_RadioMusic\LazyDayBlues_wav		29749312
+	420286301	ElevatorDoorSlide_02	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\ElevatorDoorSlide_02_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Elevator\ElevatorDoorSlides\ElevatorDoorSlide_02		486136
+	452138316	Roomtone1990s	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Roomtone1990s_10C4C929.wem		\Actor-Mixer Hierarchy\3D_Roomtone\Roomtone1990s\Roomtone1990s		1729892
+	468476326	Safebox_DialClick_04	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Safebox_DialClick_04_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Safebox\Safebox_DialClick\Safebox_DialClick_04		15296
+	492303399	DropImpact_05	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\DropImpact_05_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\ItemDropped\DropImpacts\DropImpact_05		125284
+	504257700	DropImpact_07	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\DropImpact_07_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\ItemDropped\DropImpacts\DropImpact_07		105652
+	523786013	ElevatorDoorSlide_01	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\ElevatorDoorSlide_01_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Elevator\ElevatorDoorSlides\ElevatorDoorSlide_01		490752
+	579906057	Safebox_DialClick_05	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Safebox_DialClick_05_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Safebox\Safebox_DialClick\Safebox_DialClick_05		9820
+	586293810	ElevatorTravel	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\ElevatorTravel_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Elevator\ElevatorTravel\ElevatorTravel		1172116
+	590521799	Roomtone30XX	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Roomtone30XX_D79FB2B7.wem		\Actor-Mixer Hierarchy\3D_Roomtone\Roomtone30XX\Roomtone30XX		1700040
+	604769961	InventoryOutput_01	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\InventoryOutput_01_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Inventory\InventoryOutput\InventoryOutput_01		82224
+	628093014	Rift_ItemPlaced_03	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Rift_ItemPlaced_03_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Rift\Rift_ItemPlaced\Rift_ItemPlaced_03		1172116
+	637136113	InventoryInput_01	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\InventoryInput_01_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Inventory\InventoryInput\InventoryInput_01		86108
+	678764181	ElevatorButtonClick_03	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\ElevatorButtonClick_03_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Elevator\ElevatorButtonClicks\ElevatorButtonClick_03		32038
+	708340954	InventoryOutput_02	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\InventoryOutput_02_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Inventory\InventoryOutput\InventoryOutput_02		103940
+	784348039	Safebox_DialClick_02	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Safebox_DialClick_02_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Safebox\Safebox_DialClick\Safebox_DialClick_02		57600
+	788746103	ElevatorButtonClick_02	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\ElevatorButtonClick_02_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Elevator\ElevatorButtonClicks\ElevatorButtonClick_02		44832
+	796169696	Roomtone2020s	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Roomtone2020s_D79FB2B7.wem		\Actor-Mixer Hierarchy\3D_Roomtone\Roomtone2020s\Roomtone2020s		1764064
+	802075953	Rift_Solved02	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Rift_Solved02_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Rift\Rift_Solved\Rift_Solved02		1827804
+	868271355	ElevatorButtonClick_05	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\ElevatorButtonClick_05_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Elevator\ElevatorButtonClicks\ElevatorButtonClick_05		20084
+	868629996	DropImpact_06	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\DropImpact_06_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\ItemDropped\DropImpacts\DropImpact_06		105652
+	889129263	DropImpact_03	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\DropImpact_03_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\ItemDropped\DropImpacts\DropImpact_03		110664
+	937935258	Rift_ItemPlaced_02	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Rift_ItemPlaced_02_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Rift\Rift_ItemPlaced\Rift_ItemPlaced_02		838812
+	946056084	Roomtone1970s	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Roomtone1970s_D79FB2B7.wem		\Actor-Mixer Hierarchy\3D_Roomtone\Roomtone1970s\Roomtone1970s		1764064
+	957355217	DropImpact_02	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\DropImpact_02_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\ItemDropped\DropImpacts\DropImpact_02		110664
+	971610921	Safebox_DialClick_01	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Safebox_DialClick_01_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Safebox\Safebox_DialClick\Safebox_DialClick_01		10312
+	987448782	DropImpact_04	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\DropImpact_04_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\ItemDropped\DropImpacts\DropImpact_04		116484
+	1045256211	Safebox_DialClick_06	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Safebox_DialClick_06_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Safebox\Safebox_DialClick\Safebox_DialClick_06		9204
+	1058863094	Safebox_DialClick_07	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\Safebox_DialClick_07_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Safebox\Safebox_DialClick\Safebox_DialClick_07		3824
+	1066610035	ElevatorButtonClick_06	C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Mac\SFX\ElevatorButtonClick_06_10C4C929.wem		\Actor-Mixer Hierarchy\3D_SFX\Elevator\ElevatorButtonClicks\ElevatorButtonClick_06		40634
 

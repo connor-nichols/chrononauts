@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 539186247c37ab4192ebc59a661e2da5
     GuidInternal: 
-    m_lastTime: -8585178505374144690
+    m_lastTime: -8585176786778545325
     List:
     - name: Main
       guid: 2fa8bdacc088c84a9641f19b7c4d90a0
@@ -82,20 +82,6 @@ MonoBehaviour:
         ObjectType: 7
         guid: 2fa8bdacc088c84a9641f19b7c4d90a0
       Path: SoundBanks\Default Work Unit\Main
-    - name: Scene1990s
-      guid: 607a8d2ad51a584182160e259688660e
-      id: 4157757229
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 539186247c37ab4192ebc59a661e2da5
-      - ElementName: Scene1990s
-        ObjectType: 7
-        guid: 607a8d2ad51a584182160e259688660e
-      Path: SoundBanks\Default Work Unit\Scene1990s
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -178,8 +164,8 @@ MonoBehaviour:
         guid: ac87b60aff943a46a14e7223b861ebed
       Path: Events\Default Work Unit\Elevator\ElevatorButtonClick
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.555986
+      minDuration: 0.226984
     - name: ElevatorDoorSlide
       guid: 9a44c6a67e1900479261f4a035f463ef
       id: 748051766
@@ -198,8 +184,8 @@ MonoBehaviour:
         guid: 9a44c6a67e1900479261f4a035f463ef
       Path: Events\Default Work Unit\Elevator\ElevatorDoorSlide
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.452454
+      minDuration: 2.708172
     - name: ElevatorTravel
       guid: 9e90868797fb2446983462284027105a
       id: 575746267
@@ -218,8 +204,8 @@ MonoBehaviour:
         guid: 9e90868797fb2446983462284027105a
       Path: Events\Default Work Unit\Elevator\ElevatorTravel
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 6.644286
+      minDuration: 6.644286
   - PhysicalPath: Events\Inventory.wwu
     PathAndIcons:
     - ElementName: Events
@@ -254,8 +240,8 @@ MonoBehaviour:
         guid: f3e63fbe8dc69f4bb98136249817aca1
       Path: Events\Default Work Unit\Inventory\InventoryInput
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.671369
+      minDuration: 0.434059
     - name: InventoryOutput
       guid: 51caa784adf385418caf978e26a5cf43
       id: 2083830872
@@ -274,8 +260,8 @@ MonoBehaviour:
         guid: 51caa784adf385418caf978e26a5cf43
       Path: Events\Default Work Unit\Inventory\InventoryOutput
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.701498
+      minDuration: 0.402434
   - PhysicalPath: Events\ItemPhysics.wwu
     PathAndIcons:
     - ElementName: Events
@@ -310,8 +296,8 @@ MonoBehaviour:
         guid: e83dbf7392f9e5499338985bec6cbf5c
       Path: Events\Default Work Unit\ItemPhysics\ItemDropped
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.310195
+      minDuration: 0.145884
   - PhysicalPath: Events\Rift.wwu
     PathAndIcons:
     - ElementName: Events
@@ -346,8 +332,8 @@ MonoBehaviour:
         guid: 8addbca46a5dda40aa8bb411b83c4331
       Path: Events\Default Work Unit\Rift\Rift_ItemPlaced
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 7.557279
+      minDuration: 4.754807
     - name: Rift_Solved
       guid: 40871d018851c44c88da6b775df111cc
       id: 752450508
@@ -366,8 +352,8 @@ MonoBehaviour:
         guid: 40871d018851c44c88da6b775df111cc
       Path: Events\Default Work Unit\Rift\Rift_Solved
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 11.96424
+      minDuration: 10.361338
   - PhysicalPath: Events\Roomtone.wwu
     PathAndIcons:
     - ElementName: Events
@@ -442,8 +428,8 @@ MonoBehaviour:
         guid: fc77fdba82e68348a342551c4ac8224b
       Path: Events\Default Work Unit\Roomtone\Roomtone1990s
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 9.806281
+      minDuration: 9.806281
     - name: Roomtone2020s
       guid: fc4254cfe452b548970d378f66c8885c
       id: 4068587995
@@ -518,8 +504,8 @@ MonoBehaviour:
         guid: da5dc1b60ed59b4096b9785e6e962a6b
       Path: Events\Default Work Unit\Safebox\SafeBox_DialClick
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.326168
+      minDuration: 0.021315
     - name: Safebox_DoorOpen
       guid: c15df32a90167749ac076db9731eb1a0
       id: 1545920960
@@ -538,8 +524,8 @@ MonoBehaviour:
         guid: c15df32a90167749ac076db9731eb1a0
       Path: Events\Default Work Unit\Safebox\Safebox_DoorOpen
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.027869
+      minDuration: 2.027869
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -597,7 +583,7 @@ MonoBehaviour:
     m_lastTime: -8585180748945806580
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000060000000700000012000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
