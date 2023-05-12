@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 10a9d6aecd2a1842bc6a77910241792b
     GuidInternal: 
-    m_lastTime: -8585186342941023457
+    m_lastTime: -8585180748945796618
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 221d896d9bd75644a62311ace1cce5b2
     GuidInternal: 
-    m_lastTime: -8585186342943305472
+    m_lastTime: -8585180748947969343
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,11 +66,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 539186247c37ab4192ebc59a661e2da5
     GuidInternal: 
-    m_lastTime: -8585186342941053375
+    m_lastTime: -8585178505374144690
     List:
-    - name: Scene1940s
+    - name: Main
       guid: 2fa8bdacc088c84a9641f19b7c4d90a0
-      id: 1974945608
+      id: 3161908922
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -78,10 +78,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 539186247c37ab4192ebc59a661e2da5
-      - ElementName: Scene1940s
+      - ElementName: Main
         ObjectType: 7
         guid: 2fa8bdacc088c84a9641f19b7c4d90a0
-      Path: SoundBanks\Default Work Unit\Scene1940s
+      Path: SoundBanks\Default Work Unit\Main
     - name: Scene1990s
       guid: 607a8d2ad51a584182160e259688660e
       id: 4157757229
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 5e74dc54e4ba324b8535a1c65e992b20
     GuidInternal: 
-    m_lastTime: -8585186342951771217
+    m_lastTime: -8585178487298515403
     List:
     - name: Play_FlorescentBuzz
       guid: a683b0e0d51c2243893b5cd60fe8d137
@@ -144,6 +144,402 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 168.64653
       minDuration: 168.64653
+  - PhysicalPath: Events\Elevator.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5e74dc54e4ba324b8535a1c65e992b20
+    - ElementName: Elevator
+      ObjectType: 12
+      guid: b1f7ebcc07a40a43afd67216f5bf906b
+    ParentPath: Events\Default Work Unit\Elevator
+    guid: b1f7ebcc07a40a43afd67216f5bf906b
+    GuidInternal: 
+    m_lastTime: -8585178482059968652
+    List:
+    - name: ElevatorButtonClick
+      guid: ac87b60aff943a46a14e7223b861ebed
+      id: 702061953
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: Elevator
+        ObjectType: 12
+        guid: b1f7ebcc07a40a43afd67216f5bf906b
+      - ElementName: ElevatorButtonClick
+        ObjectType: 3
+        guid: ac87b60aff943a46a14e7223b861ebed
+      Path: Events\Default Work Unit\Elevator\ElevatorButtonClick
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ElevatorDoorSlide
+      guid: 9a44c6a67e1900479261f4a035f463ef
+      id: 748051766
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: Elevator
+        ObjectType: 12
+        guid: b1f7ebcc07a40a43afd67216f5bf906b
+      - ElementName: ElevatorDoorSlide
+        ObjectType: 3
+        guid: 9a44c6a67e1900479261f4a035f463ef
+      Path: Events\Default Work Unit\Elevator\ElevatorDoorSlide
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ElevatorTravel
+      guid: 9e90868797fb2446983462284027105a
+      id: 575746267
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: Elevator
+        ObjectType: 12
+        guid: b1f7ebcc07a40a43afd67216f5bf906b
+      - ElementName: ElevatorTravel
+        ObjectType: 3
+        guid: 9e90868797fb2446983462284027105a
+      Path: Events\Default Work Unit\Elevator\ElevatorTravel
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Inventory.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5e74dc54e4ba324b8535a1c65e992b20
+    - ElementName: Inventory
+      ObjectType: 12
+      guid: 31375d8d66ad574db54284677570cf9f
+    ParentPath: Events\Default Work Unit\Inventory
+    guid: 31375d8d66ad574db54284677570cf9f
+    GuidInternal: 
+    m_lastTime: -8585178482059875987
+    List:
+    - name: InventoryInput
+      guid: f3e63fbe8dc69f4bb98136249817aca1
+      id: 3357836269
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: Inventory
+        ObjectType: 12
+        guid: 31375d8d66ad574db54284677570cf9f
+      - ElementName: InventoryInput
+        ObjectType: 3
+        guid: f3e63fbe8dc69f4bb98136249817aca1
+      Path: Events\Default Work Unit\Inventory\InventoryInput
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: InventoryOutput
+      guid: 51caa784adf385418caf978e26a5cf43
+      id: 2083830872
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: Inventory
+        ObjectType: 12
+        guid: 31375d8d66ad574db54284677570cf9f
+      - ElementName: InventoryOutput
+        ObjectType: 3
+        guid: 51caa784adf385418caf978e26a5cf43
+      Path: Events\Default Work Unit\Inventory\InventoryOutput
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\ItemPhysics.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5e74dc54e4ba324b8535a1c65e992b20
+    - ElementName: ItemPhysics
+      ObjectType: 12
+      guid: 507ea4ece37afe44b481aba9e07d183e
+    ParentPath: Events\Default Work Unit\ItemPhysics
+    guid: 507ea4ece37afe44b481aba9e07d183e
+    GuidInternal: 
+    m_lastTime: -8585178482059915985
+    List:
+    - name: ItemDropped
+      guid: e83dbf7392f9e5499338985bec6cbf5c
+      id: 2601892650
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: ItemPhysics
+        ObjectType: 12
+        guid: 507ea4ece37afe44b481aba9e07d183e
+      - ElementName: ItemDropped
+        ObjectType: 3
+        guid: e83dbf7392f9e5499338985bec6cbf5c
+      Path: Events\Default Work Unit\ItemPhysics\ItemDropped
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Rift.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5e74dc54e4ba324b8535a1c65e992b20
+    - ElementName: Rift
+      ObjectType: 12
+      guid: 5cc6bf551024d54e8f62e524a38789b3
+    ParentPath: Events\Default Work Unit\Rift
+    guid: 5cc6bf551024d54e8f62e524a38789b3
+    GuidInternal: 
+    m_lastTime: -8585178482060058638
+    List:
+    - name: Rift_ItemPlaced
+      guid: 8addbca46a5dda40aa8bb411b83c4331
+      id: 3321777685
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: Rift
+        ObjectType: 12
+        guid: 5cc6bf551024d54e8f62e524a38789b3
+      - ElementName: Rift_ItemPlaced
+        ObjectType: 3
+        guid: 8addbca46a5dda40aa8bb411b83c4331
+      Path: Events\Default Work Unit\Rift\Rift_ItemPlaced
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Rift_Solved
+      guid: 40871d018851c44c88da6b775df111cc
+      id: 752450508
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: Rift
+        ObjectType: 12
+        guid: 5cc6bf551024d54e8f62e524a38789b3
+      - ElementName: Rift_Solved
+        ObjectType: 3
+        guid: 40871d018851c44c88da6b775df111cc
+      Path: Events\Default Work Unit\Rift\Rift_Solved
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Roomtone.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5e74dc54e4ba324b8535a1c65e992b20
+    - ElementName: Roomtone
+      ObjectType: 12
+      guid: fa141d85463508438c8d713d996b02d7
+    ParentPath: Events\Default Work Unit\Roomtone
+    guid: fa141d85463508438c8d713d996b02d7
+    GuidInternal: 
+    m_lastTime: -8585178482059812512
+    List:
+    - name: Roomtone1940s
+      guid: 25736ac5fe5d2746a2aa70e21835d40f
+      id: 4240109521
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: Roomtone
+        ObjectType: 12
+        guid: fa141d85463508438c8d713d996b02d7
+      - ElementName: Roomtone1940s
+        ObjectType: 3
+        guid: 25736ac5fe5d2746a2aa70e21835d40f
+      Path: Events\Default Work Unit\Roomtone\Roomtone1940s
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Roomtone1970s
+      guid: c2aa6cfe94a8424388fa47ee287b612f
+      id: 4139296746
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: Roomtone
+        ObjectType: 12
+        guid: fa141d85463508438c8d713d996b02d7
+      - ElementName: Roomtone1970s
+        ObjectType: 3
+        guid: c2aa6cfe94a8424388fa47ee287b612f
+      Path: Events\Default Work Unit\Roomtone\Roomtone1970s
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Roomtone1990s
+      guid: fc77fdba82e68348a342551c4ac8224b
+      id: 182147364
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: Roomtone
+        ObjectType: 12
+        guid: fa141d85463508438c8d713d996b02d7
+      - ElementName: Roomtone1990s
+        ObjectType: 3
+        guid: fc77fdba82e68348a342551c4ac8224b
+      Path: Events\Default Work Unit\Roomtone\Roomtone1990s
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Roomtone2020s
+      guid: fc4254cfe452b548970d378f66c8885c
+      id: 4068587995
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: Roomtone
+        ObjectType: 12
+        guid: fa141d85463508438c8d713d996b02d7
+      - ElementName: Roomtone2020s
+        ObjectType: 3
+        guid: fc4254cfe452b548970d378f66c8885c
+      Path: Events\Default Work Unit\Roomtone\Roomtone2020s
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Roomtone30XX
+      guid: d37eba0bee3a474484f359435f45bd50
+      id: 1552205833
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: Roomtone
+        ObjectType: 12
+        guid: fa141d85463508438c8d713d996b02d7
+      - ElementName: Roomtone30XX
+        ObjectType: 3
+        guid: d37eba0bee3a474484f359435f45bd50
+      Path: Events\Default Work Unit\Roomtone\Roomtone30XX
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Safebox.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5e74dc54e4ba324b8535a1c65e992b20
+    - ElementName: Safebox
+      ObjectType: 12
+      guid: 549dc54124762e408027fba2050d2458
+    ParentPath: Events\Default Work Unit\Safebox
+    guid: 549dc54124762e408027fba2050d2458
+    GuidInternal: 
+    m_lastTime: -8585178482060018651
+    List:
+    - name: SafeBox_DialClick
+      guid: da5dc1b60ed59b4096b9785e6e962a6b
+      id: 1634299854
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: Safebox
+        ObjectType: 12
+        guid: 549dc54124762e408027fba2050d2458
+      - ElementName: SafeBox_DialClick
+        ObjectType: 3
+        guid: da5dc1b60ed59b4096b9785e6e962a6b
+      Path: Events\Default Work Unit\Safebox\SafeBox_DialClick
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Safebox_DoorOpen
+      guid: c15df32a90167749ac076db9731eb1a0
+      id: 1545920960
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e74dc54e4ba324b8535a1c65e992b20
+      - ElementName: Safebox
+        ObjectType: 12
+        guid: 549dc54124762e408027fba2050d2458
+      - ElementName: Safebox_DoorOpen
+        ObjectType: 3
+        guid: c15df32a90167749ac076db9731eb1a0
+      Path: Events\Default Work Unit\Safebox\Safebox_DoorOpen
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -156,7 +552,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: f086904cf7556147a9ea0a6735e97b86
     GuidInternal: 
-    m_lastTime: -8585186342951771217
+    m_lastTime: -8585180748956311422
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -170,7 +566,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: b9516a3a6b49c14c8f9c9be4d10eee92
     GuidInternal: 
-    m_lastTime: -8585186342941043403
+    m_lastTime: -8585180748945816548
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -184,7 +580,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 69ea6424122c944db50fd6ef742497ca
     GuidInternal: 
-    m_lastTime: -8585186342941033431
+    m_lastTime: -8585180748945806580
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -198,7 +594,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 49f57b21829aa2438b491246cc8697f0
     GuidInternal: 
-    m_lastTime: -8585186342941033431
+    m_lastTime: -8585180748945806580
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 

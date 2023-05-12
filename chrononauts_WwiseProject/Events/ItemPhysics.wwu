@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ECA47E50-7AE3-44FE-B481-ABA9E07D183E}" SchemaVersion="103" RootDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" ParentDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}">
+	<Events>
+		<WorkUnit Name="ItemPhysics" ID="{ECA47E50-7AE3-44FE-B481-ABA9E07D183E}" OwnerID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="ItemDropped" ID="{73BF3DE8-F992-49E5-9338-985BEC6CBF5C}">
+					<ChildrenList>
+						<Action Name="" ID="{772BF894-44BF-45AF-AE8E-ABFE653CDB49}" ShortID="1037796168">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DropImpacts" ID="{315EFEB9-D43C-4ABE-8AB1-805958D7B0EE}" WorkUnitID="{F9E9F07C-ED10-45FB-8F60-9440CF244772}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
