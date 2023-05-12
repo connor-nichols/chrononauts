@@ -24,7 +24,23 @@ namespace Valve.VR.InteractionSystem.Sample
             {"computer90s", new Vector3(0.015f, 0.015f, 0.015f)},
             {"trashBin70s_v03", new Vector3(25f, 25f, 25f)},
             {"handWatch2020s", new Vector3(0.65f, 0.65f, 0.65f)},
-            {"mugPiece3", new Vector3(20f, 20f, 20f)}
+            {"mugPiece3", new Vector3(20f, 20f, 20f)},
+            {"coffeeMug90s", new Vector3(12f, 12f, 12f)},
+            {"digitalWatch90s", new Vector3(575f, 575f, 575f)},
+            {"deskLamp90s", new Vector3(0.15f, 0.15f, 0.15f)},
+            {"trashBin90s", new Vector3(0.2f, 0.2f, 0.2f)},
+            {"coffeeMug70s", new Vector3(12f, 12f, 12f)},
+            {"tapeRecorder70s_PREFAB", new Vector3(1f, 1f, 1f)},
+            {"deskPhone70s", new Vector3(3f, 3f, 3f)},
+            {"industrialLamp70s", new Vector3(0.9f, 0.9f, 0.9f)},
+            {"scienceBook", new Vector3(0.015f, 0.015f, 0.015f)},
+            {"vintageWatch70s", new Vector3(12f, 12f, 12f)},
+            {"deskLamp40s_PREFAB", new Vector3(300f, 300f, 300f)},
+            {"coffeeMug40s", new Vector3(12f, 12f, 12f)},
+            {"typewriter40s", new Vector3(0.3f, 0.3f, 0.3f)},
+            {"phone40s", new Vector3(2f, 2f, 2f)},
+            {"radio40s", new Vector3(1.3f, 1.3f, 1.3f)},
+            {"trashBin40s", new Vector3(0.5f, 0.5f, 0.5f)}
         };
 
         private void OnTriggerEnter(Collider other)
