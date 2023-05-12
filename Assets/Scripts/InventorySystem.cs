@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using AK.Wwise;
 
 namespace Valve.VR.InteractionSystem.Sample
 {
@@ -13,6 +14,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private void OnTriggerEnter(Collider other)
         {
+            AkSoundEngine.PostEvent("InventoryInput", inventory);
             AddInteractable(other.gameObject);
         }
 
@@ -44,6 +46,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private void OnTriggerExit(Collider other)
         {
+            AkSoundEngine.PostEvent("InventoryOutput", inventory);
             RemoveInteractable(other.gameObject);
         }
 
