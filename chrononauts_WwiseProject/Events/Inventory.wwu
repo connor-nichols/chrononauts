@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8D5D3731-AD66-4D57-B542-84677570CF9F}" SchemaVersion="103" RootDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" ParentDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}">
+	<Events>
+		<WorkUnit Name="Inventory" ID="{8D5D3731-AD66-4D57-B542-84677570CF9F}" OwnerID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="InventoryInput" ID="{BE3FE6F3-C68D-4B9F-B981-36249817ACA1}">
+					<ChildrenList>
+						<Action Name="" ID="{6EB0AAC9-CCF3-40C9-83B5-6BDEA8C406B1}" ShortID="63832486">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="InventoryInput" ID="{214449CC-72E2-42F7-84B8-E8C519078687}" WorkUnitID="{36DD0E33-F0AC-4C02-AC29-E8C1613AEF0C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="InventoryOutput" ID="{84A7CA51-F3AD-4185-8CAF-978E26A5CF43}">
+					<ChildrenList>
+						<Action Name="" ID="{5480210F-D634-4ABC-9AED-AC19016274BA}" ShortID="161026284">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="InventoryOutput" ID="{0F2444CD-8217-42D8-960A-5E10E65AA864}" WorkUnitID="{36DD0E33-F0AC-4C02-AC29-E8C1613AEF0C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

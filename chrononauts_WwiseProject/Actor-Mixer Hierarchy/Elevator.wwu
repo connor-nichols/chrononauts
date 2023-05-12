@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{462DE665-4433-4880-8159-B3F1A9BA0A09}" SchemaVersion="103" RootDocumentID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}" ParentDocumentID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}">
+	<AudioObjects>
+		<WorkUnit Name="Elevator" ID="{462DE665-4433-4880-8159-B3F1A9BA0A09}" OwnerID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="ElevatorDoorSlides" ID="{41FF3B8A-0F70-4874-BB70-D02DDFA34EE1}" ShortID="537774615">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{93DED042-5E90-42AE-99C9-3FC2C5A0E6DE}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-404"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ElevatorDoorSlide_01" ID="{645947D9-ADFD-4A70-8941-D48F7F32BB36}" ShortID="698353114">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ElevatorDoorSlide_01" ID="{18CE171C-3DD3-4A24-82CE-98A2D92DEFB7}">
+									<Language>SFX</Language>
+									<AudioFile>ElevatorDoorSlide_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="523786013"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ElevatorDoorSlide_01" ID="{18CE171C-3DD3-4A24-82CE-98A2D92DEFB7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ElevatorDoorSlide_02" ID="{8358AB2D-8A11-4A3D-AAE6-DCC763257BF5}" ShortID="986909140">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ElevatorDoorSlide_02" ID="{56927F83-2BD1-4FA0-858D-50012906B030}">
+									<Language>SFX</Language>
+									<AudioFile>ElevatorDoorSlide_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="420286301"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ElevatorDoorSlide_02" ID="{56927F83-2BD1-4FA0-858D-50012906B030}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="ElevatorButtonClicks" ID="{D5C73298-13F9-4275-8E0D-3608FB216F21}" ShortID="1050888082">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ElevatorButtonClick_01" ID="{1AFBE480-3B13-4868-9FF1-BCD1DFC1FEB1}" ShortID="929830071">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ElevatorButtonClick_01" ID="{5C7013D0-FE19-4680-BDAA-AABEDB2C5142}">
+									<Language>SFX</Language>
+									<AudioFile>ElevatorButtonClick_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="197706183"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ElevatorButtonClick_01" ID="{5C7013D0-FE19-4680-BDAA-AABEDB2C5142}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ElevatorButtonClick_02" ID="{311F30EC-F72B-42C9-8D22-9E66AB89CB03}" ShortID="642892288">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ElevatorButtonClick_02" ID="{0EEDA539-D3B6-4FAD-A5D3-6B0DFE0269A3}">
+									<Language>SFX</Language>
+									<AudioFile>ElevatorButtonClick_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="788746103"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ElevatorButtonClick_02" ID="{0EEDA539-D3B6-4FAD-A5D3-6B0DFE0269A3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ElevatorButtonClick_03" ID="{C74CEC3F-37AF-4B64-9E05-D7738DB191D6}" ShortID="430545193">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ElevatorButtonClick_03" ID="{3727DF57-790A-4FC7-B077-410A926F32DD}">
+									<Language>SFX</Language>
+									<AudioFile>ElevatorButtonClick_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="678764181"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ElevatorButtonClick_03" ID="{3727DF57-790A-4FC7-B077-410A926F32DD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ElevatorButtonClick_04" ID="{6EB5860A-1D12-4ADC-8D0C-CC2F2EFAF2CE}" ShortID="840004678">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ElevatorButtonClick_04" ID="{D4036836-839C-46EB-B3B8-8F136B0C970D}">
+									<Language>SFX</Language>
+									<AudioFile>ElevatorButtonClick_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="357050698"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ElevatorButtonClick_04" ID="{D4036836-839C-46EB-B3B8-8F136B0C970D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ElevatorButtonClick_05" ID="{018220AF-88FD-4584-92E9-AB089F412DA0}" ShortID="481410827">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ElevatorButtonClick_05" ID="{089B1831-53FF-43FF-9E25-A362AB97DD1A}">
+									<Language>SFX</Language>
+									<AudioFile>ElevatorButtonClick_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="868271355"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ElevatorButtonClick_05" ID="{089B1831-53FF-43FF-9E25-A362AB97DD1A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ElevatorButtonClick_06" ID="{3B55FEDF-EC1A-41FC-957A-524BD1BAB51C}" ShortID="345002482">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ElevatorButtonClick_06" ID="{B470486A-1897-4B33-9C7A-13E4BD035F4C}">
+									<Language>SFX</Language>
+									<AudioFile>ElevatorButtonClick_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1066610035"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ElevatorButtonClick_06" ID="{B470486A-1897-4B33-9C7A-13E4BD035F4C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<WorkUnit Name="ElevatorTravel" ID="{44C6A95C-2B77-4E84-AF3D-4773ACE26142}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

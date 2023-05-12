@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{41C59D54-7624-402E-8027-FBA2050D2458}" SchemaVersion="103" RootDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" ParentDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}">
+	<Events>
+		<WorkUnit Name="Safebox" ID="{41C59D54-7624-402E-8027-FBA2050D2458}" OwnerID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="SafeBox_DialClick" ID="{B6C15DDA-D50E-409B-96B9-785E6E962A6B}">
+					<ChildrenList>
+						<Action Name="" ID="{0F40A4C6-BD0F-43D0-B8C8-639BCC0675F9}" ShortID="128334385">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Safebox_DialClick" ID="{A8F71BF7-A241-43AF-8106-7CE9F0A6269D}" WorkUnitID="{B06022CF-4E36-4E66-862F-B1825E917548}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Safebox_DoorOpen" ID="{2AF35DC1-1690-4977-AC07-6DB9731EB1A0}">
+					<ChildrenList>
+						<Action Name="" ID="{1CB96672-192D-492D-96DA-AF5835913661}" ShortID="648761431">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Safebox_DoorOpen" ID="{2365A169-EE74-4377-9EDD-8E85D805B827}" WorkUnitID="{A4E3BF0C-7F1E-4E75-B21D-B4230047FAE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

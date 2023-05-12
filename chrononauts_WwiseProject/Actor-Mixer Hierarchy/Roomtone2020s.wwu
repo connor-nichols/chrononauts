@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{590C65F1-3BCB-477D-AC72-2B7BE4880DF9}" SchemaVersion="103" RootDocumentID="{4686FC4E-08B5-4B03-A60D-DDA9966D90FE}" ParentDocumentID="{4686FC4E-08B5-4B03-A60D-DDA9966D90FE}">
+	<AudioObjects>
+		<WorkUnit Name="Roomtone2020s" ID="{590C65F1-3BCB-477D-AC72-2B7BE4880DF9}" OwnerID="{4686FC4E-08B5-4B03-A60D-DDA9966D90FE}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Roomtone2020s" ID="{901405CC-F46F-4252-8899-9012FC49C953}" ShortID="1053162085">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Roomtone2020s" ID="{1A929B8A-A711-4B30-8A92-6C7C57A29D83}">
+							<Language>SFX</Language>
+							<AudioFile>Roomtone2020s.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="796169696"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Roomtone2020s" ID="{1A929B8A-A711-4B30-8A92-6C7C57A29D83}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CCEBF7B1-A407-430A-AFD6-7216F5BF906B}" SchemaVersion="103" RootDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" ParentDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}">
+	<Events>
+		<WorkUnit Name="Elevator" ID="{CCEBF7B1-A407-430A-AFD6-7216F5BF906B}" OwnerID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="ElevatorDoorSlide" ID="{A6C6449A-197E-4700-9261-F4A035F463EF}">
+					<ChildrenList>
+						<Action Name="" ID="{5C58B6EB-A16C-4413-9362-F970A4B1348E}" ShortID="1008250092">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ElevatorDoorSlides" ID="{41FF3B8A-0F70-4874-BB70-D02DDFA34EE1}" WorkUnitID="{462DE665-4433-4880-8159-B3F1A9BA0A09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ElevatorButtonClick" ID="{0AB687AC-94FF-463A-A14E-7223B861EBED}">
+					<ChildrenList>
+						<Action Name="" ID="{C5CA785D-367A-4034-8B31-C285121494B0}" ShortID="170711238">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ElevatorButtonClicks" ID="{D5C73298-13F9-4275-8E0D-3608FB216F21}" WorkUnitID="{462DE665-4433-4880-8159-B3F1A9BA0A09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ElevatorTravel" ID="{8786909E-FB97-4624-9834-62284027105A}">
+					<ChildrenList>
+						<Action Name="" ID="{1C19E31E-6C08-4CFD-AA18-295F3C403C42}" ShortID="161072260">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ElevatorTravel" ID="{BD33153D-29FE-4D02-9360-6BFB31A2F2FC}" WorkUnitID="{44C6A95C-2B77-4E84-AF3D-4773ACE26142}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

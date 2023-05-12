@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="3D_SFX" ID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Elevator" ID="{462DE665-4433-4880-8159-B3F1A9BA0A09}" PersistMode="Reference"/>
+				<WorkUnit Name="Rift" ID="{337B32EE-D106-4A22-98FF-D46F786E24BF}" PersistMode="Reference"/>
+				<WorkUnit Name="Safebox" ID="{B06022CF-4E36-4E66-862F-B1825E917548}" PersistMode="Reference"/>
+				<WorkUnit Name="ItemDropped" ID="{F9E9F07C-ED10-45FB-8F60-9440CF244772}" PersistMode="Reference"/>
+				<WorkUnit Name="Inventory" ID="{36DD0E33-F0AC-4C02-AC29-E8C1613AEF0C}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

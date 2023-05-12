@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{44C6A95C-2B77-4E84-AF3D-4773ACE26142}" SchemaVersion="103" RootDocumentID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}" ParentDocumentID="{462DE665-4433-4880-8159-B3F1A9BA0A09}">
+	<AudioObjects>
+		<WorkUnit Name="ElevatorTravel" ID="{44C6A95C-2B77-4E84-AF3D-4773ACE26142}" OwnerID="{462DE665-4433-4880-8159-B3F1A9BA0A09}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="ElevatorTravel" ID="{BD33153D-29FE-4D02-9360-6BFB31A2F2FC}" ShortID="702079323">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ElevatorTravel" ID="{946201A8-44A4-49B6-B8D0-E53888C5374B}">
+							<Language>SFX</Language>
+							<AudioFile>ElevatorTravel.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="586293810"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="ElevatorTravel" ID="{946201A8-44A4-49B6-B8D0-E53888C5374B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

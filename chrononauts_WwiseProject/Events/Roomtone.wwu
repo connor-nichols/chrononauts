@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{851D14FA-3546-4308-8C8D-713D996B02D7}" SchemaVersion="103" RootDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" ParentDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}">
+	<Events>
+		<WorkUnit Name="Roomtone" ID="{851D14FA-3546-4308-8C8D-713D996B02D7}" OwnerID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Roomtone30XX" ID="{0BBA7ED3-3AEE-4447-84F3-59435F45BD50}">
+					<ChildrenList>
+						<Action Name="" ID="{ED871A9E-5F77-4A93-8357-83FB83916488}" ShortID="207564987">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roomtone30XX" ID="{5B285606-6DD5-4814-8B41-FDFD6D01124E}" WorkUnitID="{D22020AB-AE4D-4876-B304-7E9B3EEB243D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Roomtone1940s" ID="{C56A7325-5DFE-4627-A2AA-70E21835D40F}">
+					<ChildrenList>
+						<Action Name="" ID="{22668457-E4CB-49F0-B871-A82E09C30013}" ShortID="292621934">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roomtone1940s" ID="{B00AB4F9-C19F-450B-8EA2-3034E1FDC782}" WorkUnitID="{E06CA42F-E807-4048-9B82-C56F2FF29B9E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Roomtone1970s" ID="{FE6CAAC2-A894-4342-88FA-47EE287B612F}">
+					<ChildrenList>
+						<Action Name="" ID="{AFE2A166-5AD5-4513-AE07-077D5AA68F3D}" ShortID="520406678">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roomtone1970s" ID="{5751C648-80F9-4734-854B-432217234FDA}" WorkUnitID="{9183563F-94FA-4F30-BCAE-B7B20105A4DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Roomtone1990s" ID="{BAFD77FC-E682-4883-A342-551C4AC8224B}">
+					<ChildrenList>
+						<Action Name="" ID="{D9864113-DBF0-407A-A595-10FE37B237EB}" ShortID="54597755">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roomtone1990s" ID="{3E3D1161-DCA1-4C17-9DF1-A898093101D1}" WorkUnitID="{00D31C1D-5BB7-4364-A57A-34497DB4D20A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Roomtone2020s" ID="{CF5442FC-52E4-48B5-970D-378F66C8885C}">
+					<ChildrenList>
+						<Action Name="" ID="{628AA6CA-4344-4D8A-BE56-211A02B8D566}" ShortID="994117944">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roomtone2020s" ID="{901405CC-F46F-4252-8899-9012FC49C953}" WorkUnitID="{590C65F1-3BCB-477D-AC72-2B7BE4880DF9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

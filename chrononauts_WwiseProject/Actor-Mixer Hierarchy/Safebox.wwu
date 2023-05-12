@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B06022CF-4E36-4E66-862F-B1825E917548}" SchemaVersion="103" RootDocumentID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}" ParentDocumentID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}">
+	<AudioObjects>
+		<WorkUnit Name="Safebox" ID="{B06022CF-4E36-4E66-862F-B1825E917548}" OwnerID="{4F6684B2-10E3-4577-A8D0-ED2A5FCF6216}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Safebox_DialClick" ID="{A8F71BF7-A241-43AF-8106-7CE9F0A6269D}" ShortID="323892677">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Safebox_DialClick_01" ID="{2C72761E-93FB-4ED5-BA71-D058F018C644}" ShortID="121629916">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Safebox_DialClick_01" ID="{F3E3030C-62D6-48E3-8311-727A29F4CE7F}">
+									<Language>SFX</Language>
+									<AudioFile>Safebox_DialClick_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="971610921"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Safebox_DialClick_01" ID="{F3E3030C-62D6-48E3-8311-727A29F4CE7F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Safebox_DialClick_02" ID="{DA691C5F-5621-4222-988A-0D7867A72E69}" ShortID="75548581">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Safebox_DialClick_02" ID="{08CAFE8B-1C5E-4644-B1AA-6A119E355001}">
+									<Language>SFX</Language>
+									<AudioFile>Safebox_DialClick_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="784348039"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Safebox_DialClick_02" ID="{08CAFE8B-1C5E-4644-B1AA-6A119E355001}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Safebox_DialClick_03" ID="{E16849CD-D45A-4EBE-B7BD-62582FEC367F}" ShortID="619078466">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Safebox_DialClick_03" ID="{8C0BBAB8-9C69-465A-B9B8-526EE73BDDF4}">
+									<Language>SFX</Language>
+									<AudioFile>Safebox_DialClick_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="339690023"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Safebox_DialClick_03" ID="{8C0BBAB8-9C69-465A-B9B8-526EE73BDDF4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Safebox_DialClick_04" ID="{B8C06B4E-55FC-457F-8151-3954F3830C2A}" ShortID="281556622">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Safebox_DialClick_04" ID="{ABA4F27D-C1FA-42BD-B514-8786785BCB07}">
+									<Language>SFX</Language>
+									<AudioFile>Safebox_DialClick_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="468476326"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Safebox_DialClick_04" ID="{ABA4F27D-C1FA-42BD-B514-8786785BCB07}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Safebox_DialClick_05" ID="{2FF94973-398A-4A90-8ADF-42DBBCE177D7}" ShortID="887892723">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Safebox_DialClick_05" ID="{B3026868-81D6-4B99-BC7C-9CB5EAF84567}">
+									<Language>SFX</Language>
+									<AudioFile>Safebox_DialClick_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="579906057"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Safebox_DialClick_05" ID="{B3026868-81D6-4B99-BC7C-9CB5EAF84567}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Safebox_DialClick_06" ID="{23971B7B-9343-45D7-8C74-1F12D2378E5C}" ShortID="315946257">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Safebox_DialClick_06" ID="{26A1CE0D-DA10-4DA4-AC3F-12967456DE44}">
+									<Language>SFX</Language>
+									<AudioFile>Safebox_DialClick_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1045256211"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Safebox_DialClick_06" ID="{26A1CE0D-DA10-4DA4-AC3F-12967456DE44}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Safebox_DialClick_07" ID="{43CEBC9F-4706-4590-A9D8-92119F9BD761}" ShortID="17773020">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Safebox_DialClick_07" ID="{165A7A08-B2CC-496A-9358-21DD01056675}">
+									<Language>SFX</Language>
+									<AudioFile>Safebox_DialClick_07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1058863094"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Safebox_DialClick_07" ID="{165A7A08-B2CC-496A-9358-21DD01056675}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<WorkUnit Name="Safebox_DoorOpen" ID="{A4E3BF0C-7F1E-4E75-B21D-B4230047FAE8}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
