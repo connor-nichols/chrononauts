@@ -522,7 +522,7 @@ PrefabInstance:
     - target: {fileID: 2701240717579331338, guid: e09c1bb3ecacfe14e91de92b0f5eaa45,
         type: 3}
       propertyPath: m_Name
-      value: deskLamp2020s (1)
+      value: deskLamp2020s
       objectReference: {fileID: 0}
     - target: {fileID: 3330249963011800496, guid: e09c1bb3ecacfe14e91de92b0f5eaa45,
         type: 3}

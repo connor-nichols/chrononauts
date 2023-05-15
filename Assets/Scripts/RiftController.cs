@@ -120,7 +120,7 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             // Play rift solved music
             AkSoundEngine.PostEvent("Rift_Solved", transform.parent.gameObject);
-            yield return new WaitForSeconds(4f);
+            yield return new WaitForSeconds(7f);
             // Destroy(transform.parent.gameObject);
             
             if (transform.parent.gameObject.name == "TutorialRift")
