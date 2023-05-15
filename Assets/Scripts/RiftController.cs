@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using AK.Wwise;
 
 namespace Valve.VR.InteractionSystem.Sample
 {
@@ -36,6 +37,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 {
                     if (riftOne.transform.childCount == 1)
                     {
+                        AkSoundEngine.PostEvent("Rift_ItemPlaced", riftOne);
                         newObject.transform.SetParent(riftOne.transform);
                     }
                 }
@@ -43,6 +45,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 {
                     if (riftTwo.transform.childCount == 1)
                     {
+                        AkSoundEngine.PostEvent("Rift_ItemPlaced", riftTwo);
                         newObject.transform.SetParent(riftTwo.transform);
                     }
                 }
@@ -50,6 +53,7 @@ namespace Valve.VR.InteractionSystem.Sample
                 {
                     if (riftThree.transform.childCount == 1)
                     {
+                        AkSoundEngine.PostEvent("Rift_ItemPlaced", riftThree);
                         newObject.transform.SetParent(riftThree.transform);
                     }
                 }
@@ -81,7 +85,9 @@ namespace Valve.VR.InteractionSystem.Sample
 
         IEnumerator Delay()
         {
-            yield return new WaitForSeconds(2f);
+            // Play rift solved music
+            AkSoundEngine.PostEvent("Rift_Solved", transform.parent.gameObject);
+            yield return new WaitForSeconds(4f);
             // Destroy(transform.parent.gameObject);
             
             if (transform.parent.gameObject.name == "TutorialRift")

@@ -365,6 +365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorAnimation: {fileID: 2488073998893263916}
+  safe: {fileID: 3962676164231122079}
 --- !u!114 &8218367517305643985
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 539186247c37ab4192ebc59a661e2da5
     GuidInternal: 
-    m_lastTime: -8585176785019044853
+    m_lastTime: -8585174295060273998
     List:
     - name: Main
       guid: 2fa8bdacc088c84a9641f19b7c4d90a0
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 5e74dc54e4ba324b8535a1c65e992b20
     GuidInternal: 
-    m_lastTime: -8585176804052848116
+    m_lastTime: -8585174296138171937
     List:
     - name: Play_FlorescentBuzz
       guid: a683b0e0d51c2243893b5cd60fe8d137
@@ -144,7 +144,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Elevator
     guid: b1f7ebcc07a40a43afd67216f5bf906b
     GuidInternal: 
-    m_lastTime: -8585176804052838142
+    m_lastTime: -8585174296138161968
     List:
     - name: ElevatorButtonClick
       guid: ac87b60aff943a46a14e7223b861ebed
@@ -220,7 +220,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Inventory
     guid: 31375d8d66ad574db54284677570cf9f
     GuidInternal: 
-    m_lastTime: -8585176804052828164
+    m_lastTime: -8585174296138161968
     List:
     - name: InventoryInput
       guid: f3e63fbe8dc69f4bb98136249817aca1
@@ -276,7 +276,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\ItemPhysics
     guid: 507ea4ece37afe44b481aba9e07d183e
     GuidInternal: 
-    m_lastTime: -8585176804052828164
+    m_lastTime: -8585174296138151981
     List:
     - name: ItemDropped
       guid: e83dbf7392f9e5499338985bec6cbf5c
@@ -312,7 +312,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Rift
     guid: 5cc6bf551024d54e8f62e524a38789b3
     GuidInternal: 
-    m_lastTime: -8585176804052818191
+    m_lastTime: -8585174296138142017
     List:
     - name: Rift_ItemPlaced
       guid: 8addbca46a5dda40aa8bb411b83c4331
@@ -368,7 +368,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Roomtone
     guid: fa141d85463508438c8d713d996b02d7
     GuidInternal: 
-    m_lastTime: -8585176804052808219
+    m_lastTime: -8585174296138132045
     List:
     - name: Roomtone1940s
       guid: 25736ac5fe5d2746a2aa70e21835d40f
@@ -484,7 +484,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Safebox
     guid: 549dc54124762e408027fba2050d2458
     GuidInternal: 
-    m_lastTime: -8585176804052798242
+    m_lastTime: -8585174296138132045
     List:
     - name: SafeBox_DialClick
       guid: da5dc1b60ed59b4096b9785e6e962a6b
@@ -582,7 +582,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585180748945806580
     List: []
-  ExpandedFileSystemItemIds: 
+  ExpandedFileSystemItemIds: 02000000030000000f000000
   ExpandedWaapiItemIds: 02000000030000000500000006000000070000000a00000012000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
