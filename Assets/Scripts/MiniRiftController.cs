@@ -6,10 +6,11 @@ public class MiniRiftController : MonoBehaviour
 {
     private bool correctItem = false;
     public string correctItemName;
+
     void Update()
     {
-        // rotate object/container
-        transform.Rotate(new Vector3(15, 45, 30) * Time.deltaTime);
+        
+        transform.Rotate(new Vector3(0, 50, 0) * Time.deltaTime);
 
         if (transform.childCount == 2)
         {
@@ -33,6 +34,7 @@ public class MiniRiftController : MonoBehaviour
         // Need to make it so TutorialRift doesn't get spawned once destoryed
         transform.Rotate(new Vector3(270, 270, 270) * Time.deltaTime);
         yield return new WaitForSeconds(2.5f);
-        Destroy(transform.gameObject);
+        //Destroy(transform.gameObject);
+        transform.gameObject.SetActive(false);
     }
 }

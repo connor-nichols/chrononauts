@@ -11,6 +11,14 @@ GameObject:
   - component: {fileID: 414495579419818254}
   - component: {fileID: 3634209314165929643}
   - component: {fileID: 1552538267530183265}
+  - component: {fileID: 8736563220998291727}
+  - component: {fileID: 5659546727725482106}
+  - component: {fileID: 8661296218714102609}
+  - component: {fileID: 7839829290352912069}
+  - component: {fileID: 1322962608559687076}
+  - component: {fileID: 8975288924144487523}
+  - component: {fileID: 3417227598437727386}
+  - component: {fileID: 7885794138935492977}
   m_Layer: 0
   m_Name: OfficeChair_Modern
   m_TagString: Untagged
@@ -83,3 +91,107 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8736563220998291727
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048007359600386996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5338616, y: 0.5497993, z: 0.11038661}
+  m_Center: {x: -0.0011277497, y: 0.24129534, z: -0.2999248}
+--- !u!65 &5659546727725482106
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048007359600386996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5615102, y: 0.088950455, z: 0.4990856}
+  m_Center: {x: -0.0014414191, y: 0.0045143664, z: 0.004752189}
+--- !u!65 &8661296218714102609
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048007359600386996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07606119, y: 0.044454694, z: 0.48955083}
+  m_Center: {x: 0.29213533, y: 0.2524193, z: -0.0031934977}
+--- !u!65 &7839829290352912069
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048007359600386996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.071103334, y: 0.048304617, z: 0.47453317}
+  m_Center: {x: -0.29114068, y: 0.2514296, z: 0.007002458}
+--- !u!65 &1322962608559687076
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048007359600386996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.080401, y: 0.16609082, z: 0.15505773}
+  m_Center: {x: 0.29105458, y: 0.1281756, z: 0.15672687}
+--- !u!65 &8975288924144487523
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048007359600386996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07482946, y: 0.17306232, z: 0.13751099}
+  m_Center: {x: -0.2892776, y: 0.13231933, z: 0.1437861}
+--- !u!65 &3417227598437727386
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048007359600386996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.13169372, y: 0.27861726, z: 0.10504727}
+  m_Center: {x: -0.0023650527, y: -0.1854778, z: -0.03161914}
+--- !u!65 &7885794138935492977
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048007359600386996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7204237, y: 0.15437472, z: 0.7495468}
+  m_Center: {x: 0.033519506, y: -0.37277007, z: -0.0314869}

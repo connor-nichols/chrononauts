@@ -10829,6 +10829,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: industrialLamp70s
       objectReference: {fileID: 0}
+    - target: {fileID: 407849394762927855, guid: 78d96864e0901714897be96d816bef21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Storeable
+      objectReference: {fileID: 0}
     - target: {fileID: 1072745604221998165, guid: 78d96864e0901714897be96d816bef21,
         type: 3}
       propertyPath: m_RootOrder

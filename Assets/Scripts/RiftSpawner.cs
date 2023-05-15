@@ -7,18 +7,21 @@ using Valve.VR;
 
 public class RiftSpawner : MonoBehaviour
 {
-    private bool canSpawnRift = false;
+    public bool canSpawnRift = false;
 
     private bool riftCompleted;
     private string sceneName;
     private string previousScene;
+    private GameObject futureScene;
 
     public GameObject PortalXXs;
     public GameObject Portal20s;
     public GameObject Portal90s;
     public GameObject Portal70s;
     public GameObject Portal40s;
-    public GameObject Inventory;
+
+    public GameObject LeftInventory;
+    public GameObject RightInventory;
 
     public GameObject TutorialRift;
 
@@ -33,6 +36,8 @@ public class RiftSpawner : MonoBehaviour
     };
 
     public SteamVR_Action_Boolean ToggleInventory = SteamVR_Input.GetBooleanAction("ToggleInventory");
+
+    public int portalsCompleted = 0;
 
     private void riftSpawn()
     {
@@ -57,7 +62,7 @@ public class RiftSpawner : MonoBehaviour
                     break;
 
                 case "LevelScene-30xx":
-                    PortalXXs.SetActive(false);
+                    //PortalXXs.SetActive(false);
                     break;
             }
         }
@@ -88,7 +93,7 @@ public class RiftSpawner : MonoBehaviour
                     break;
 
                 case "LevelScene-30xx":
-                    PortalXXs.SetActive(true);
+                    //PortalXXs.SetActive(true);
                     break;
             }
         }
@@ -96,9 +101,25 @@ public class RiftSpawner : MonoBehaviour
         
     }
 
+    private void Start()
+    {
+        if (SceneManager.GetActiveScene().name == "LevelScene-30xx" && portalsCompleted == 4)
+        {
+            futureScene = GameObject.Find("RoomEnvironment");
+            futureScene.transform.GetChild(0).gameObject.SetActive(true);
+            print("You win!");
+        }
+        else if (SceneManager.GetActiveScene().name == "LevelScene-30xx")
+        {
+            futureScene = GameObject.Find("RoomEnvironment");
+            futureScene.transform.GetChild(1).gameObject.SetActive(true);
+            print("WHATRE YOU DOING GO CLEANUP THE PORTALS!");
+        }
+    }
+
     void Update()
     {
-        if ( (SceneManager.GetActiveScene().name == "LevelScene-2020s" || SceneManager.GetActiveScene().name == "Start") && TutorialRift.transform.GetChild(0).childCount != 0)
+        if ( (SceneManager.GetActiveScene().name == "LevelScene-2020s" || SceneManager.GetActiveScene().name == "Start") && TutorialRift.transform.GetChild(0).GetChild(0).gameObject.activeSelf)
         {
             TutorialRift.SetActive(true);
         }
@@ -108,7 +129,7 @@ public class RiftSpawner : MonoBehaviour
         }
 
         // check if file has been brought back to level and put in tutorialRift, if so activate rift spawning
-        if (SceneManager.GetActiveScene().name == "LevelScene-2020s" && !GameObject.Find("TutorialRift") && !canSpawnRift)
+        if (SceneManager.GetActiveScene().name == "LevelScene-2020s" && !TutorialRift.activeSelf && !canSpawnRift)
         {
             canSpawnRift = true;
         }
@@ -122,16 +143,29 @@ public class RiftSpawner : MonoBehaviour
 
         if (ToggleInventory != null && ToggleInventory.activeBinding)
         {
-            //checking if the player swipes down on the touchpad to toggle the inventory on and off
+            //checking if the player swipes down on the touchpad to toggle the inventory set
             if (ToggleInventory.GetStateDown(SteamVR_Input_Sources.LeftHand) || ToggleInventory.GetStateDown(SteamVR_Input_Sources.RightHand))
             {
-                if (Inventory.activeSelf)
+                if (RightInventory.transform.GetChild(0).gameObject.activeSelf)
                 {
-                    Inventory.SetActive(false);
+                    RightInventory.transform.GetChild(1).gameObject.SetActive(true);
+                    RightInventory.transform.GetChild(0).gameObject.SetActive(false);
                 }
-                else
+                else if (RightInventory.transform.GetChild(1).gameObject.activeSelf)
                 {
-                    Inventory.SetActive(true);
+                    RightInventory.transform.GetChild(0).gameObject.SetActive(true);
+                    RightInventory.transform.GetChild(1).gameObject.SetActive(false);
+                }
+
+                if (LeftInventory.transform.GetChild(0).gameObject.activeSelf)
+                {
+                    LeftInventory.transform.GetChild(1).gameObject.SetActive(true);
+                    LeftInventory.transform.GetChild(0).gameObject.SetActive(false);
+                }
+                else if (LeftInventory.transform.GetChild(1).gameObject.activeSelf)
+                {
+                    LeftInventory.transform.GetChild(0).gameObject.SetActive(true);
+                    LeftInventory.transform.GetChild(1).gameObject.SetActive(false);
                 }
             }
         }
