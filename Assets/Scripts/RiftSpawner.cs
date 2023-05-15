@@ -25,7 +25,6 @@ public class RiftSpawner : MonoBehaviour
     public GameObject RightInventory;
 
     public GameObject TutorialRift;
-    public GameObject riftSpawner;
 
     public Dictionary<string, bool> riftData = new Dictionary<string, bool>
     {
@@ -103,46 +102,6 @@ public class RiftSpawner : MonoBehaviour
         
     }
 
-    private void Start()
-    {
-        if (SceneManager.GetActiveScene().name == "LevelScene-30xx" && portalsCompleted == 4)
-        {
-            futureScene = GameObject.Find("RoomEnvironment");
-            futureScene.transform.GetChild(0).gameObject.SetActive(true);
-            print("You win!");
-        }
-        else if (SceneManager.GetActiveScene().name == "LevelScene-30xx")
-        {
-            futureScene = GameObject.Find("RoomEnvironment");
-            futureScene.transform.GetChild(1).gameObject.SetActive(true);
-            print("WHATRE YOU DOING GO CLEANUP THE PORTALS!");
-        }
-
-        // Room Ambience
-        switch (sceneName)
-        {
-            case "LevelScene-2020s":
-                AkSoundEngine.PostEvent("Roomtone2020s", riftSpawner);
-                break;
-
-            case "LevelScene-1990s":
-                AkSoundEngine.PostEvent("Roomtone1990s", riftSpawner);
-                break;
-
-            case "LevelScene-1970s":
-                AkSoundEngine.PostEvent("Roomtone1970s", riftSpawner);
-                break;
-
-            case "LevelScene-1940s":
-                AkSoundEngine.PostEvent("Roomtone1940s", riftSpawner);
-                break;
-
-            case "LevelScene-30xx":
-                AkSoundEngine.PostEvent("Roomtone30XX", riftSpawner);
-                break;
-        }
-    }
-
     void Update()
     {
         if ( (SceneManager.GetActiveScene().name == "LevelScene-2020s" || SceneManager.GetActiveScene().name == "Start") && TutorialRift.transform.GetChild(0).GetChild(0).gameObject.activeSelf)
@@ -194,6 +153,19 @@ public class RiftSpawner : MonoBehaviour
                     LeftInventory.transform.GetChild(1).gameObject.SetActive(false);
                 }
             }
+        }
+
+        if (SceneManager.GetActiveScene().name == "LevelScene-30xx" && portalsCompleted == 4)
+        {
+            futureScene = GameObject.Find("RoomEnvironment");
+            futureScene.transform.GetChild(0).gameObject.SetActive(true);
+            print("You win!");
+        }
+        else if (SceneManager.GetActiveScene().name == "LevelScene-30xx")
+        {
+            futureScene = GameObject.Find("RoomEnvironment");
+            futureScene.transform.GetChild(1).gameObject.SetActive(true);
+            print("WHATRE YOU DOING GO CLEANUP THE PORTALS!");
         }
     }
 }
