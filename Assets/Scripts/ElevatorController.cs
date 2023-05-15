@@ -1,17 +1,19 @@
 using System.Collections;
 using UnityEngine;
+using AK.Wwise;
 
 public class ElevatorController : MonoBehaviour
 {
     public bool doorClosed = true;
 
     public Animation door_animation;
+    public GameObject elevatorDoor;
 
-    private AudioSource doorSource;
+    // private AudioSource doorSource;
 
     private void Start()
     {
-        doorSource = GetComponent<AudioSource>();
+        // doorSource = GetComponent<AudioSource>();
     }
 
 
@@ -22,7 +24,8 @@ public class ElevatorController : MonoBehaviour
             if (!door_animation.isPlaying)
             {
                 door_animation.Play("OpenElevator");
-                doorSource.Play();
+                AkSoundEngine.PostEvent("ElevatorDoorSlide", elevatorDoor);
+                // doorSource.Play();
                 doorClosed = false;
             }
 
@@ -32,7 +35,8 @@ public class ElevatorController : MonoBehaviour
             if (!door_animation.isPlaying)
             {
                 door_animation.Play("CloseElevator");
-                doorSource.Play();
+                AkSoundEngine.PostEvent("ElevatorDoorSlide", elevatorDoor);
+                // doorSource.Play();
                 doorClosed = true;
             }
 

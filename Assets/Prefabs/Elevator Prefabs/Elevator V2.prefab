@@ -261,6 +261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorClosed: 1
   door_animation: {fileID: 5470034068123377233}
+  elevatorDoor: {fileID: 7418486334520100894}
 --- !u!82 &1700009539798809366
 AudioSource:
   m_ObjectHideFlags: 0
@@ -268,7 +269,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700009539798809369}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243366450046692526, guid: ec12f7772c03e4c4c9e4c2f1643595ad,
     type: 2}

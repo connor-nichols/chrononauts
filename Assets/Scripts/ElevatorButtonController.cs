@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
+using AK.Wwise;
 
 public class ElevatorButtonController : MonoBehaviour
 {
     public ElevatorController elevatorController;
-
+    public GameObject elevatorButton;
     public void OnButtonDown(Hand fromHand)
     {
+        AkSoundEngine.PostEvent("ElevatorButtonClick", elevatorButton);
         ColorSelf(Color.cyan);
         if (elevatorController.getDoorPosition())
             ColorSelf(Color.cyan);
