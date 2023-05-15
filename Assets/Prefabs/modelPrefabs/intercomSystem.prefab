@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 7543638284621703946}
   - component: {fileID: 5973097112530093446}
   - component: {fileID: 767812734304826127}
+  - component: {fileID: 3213785372164281683}
   m_Layer: 0
   m_Name: wiringPipe
   m_TagString: Untagged
@@ -118,6 +119,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3213785372164281683
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307346607576402346}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.045169417, y: 0.64553976, z: 0.04754578}
+  m_Center: {x: 0.0000036161805, y: -0.32276982, z: 0.0068702004}
 --- !u!1 &772095434836327136
 GameObject:
   m_ObjectHideFlags: 0
@@ -3729,6 +3743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8309918703525178270}
+  - component: {fileID: 6039858205676396770}
   m_Layer: 0
   m_Name: intercomSystem
   m_TagString: Untagged
@@ -3772,6 +3787,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6039858205676396770
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8653969757978915108}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0007931316, y: 0.0010902404, z: 0.00043077563}
+  m_Center: {x: -0.000008398536, y: 0.00053082476, z: 0.00020214335}
 --- !u!1 &8837712026756850494
 GameObject:
   m_ObjectHideFlags: 0
