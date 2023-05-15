@@ -31,6 +31,7 @@
 				<WorkUnit Name="Safebox" ID="{41C59D54-7624-402E-8027-FBA2050D2458}" PersistMode="Reference"/>
 				<WorkUnit Name="ItemPhysics" ID="{ECA47E50-7AE3-44FE-B481-ABA9E07D183E}" PersistMode="Reference"/>
 				<WorkUnit Name="Roomtone" ID="{851D14FA-3546-4308-8C8D-713D996B02D7}" PersistMode="Reference"/>
+				<WorkUnit Name="Voiceovers" ID="{C2578F39-EECF-42B2-ADB4-7756916CDC70}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

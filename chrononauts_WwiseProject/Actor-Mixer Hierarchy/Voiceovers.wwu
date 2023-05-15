@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CF6A71B3-5C44-4937-889E-3B407B0A2FDD}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Voiceovers" ID="{CF6A71B3-5C44-4937-889E-3B407B0A2FDD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="IntroVoiceover" ID="{5880B331-41C7-458E-8FE8-477E5AC4E031}" ShortID="784977547">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="IntroVoiceover" ID="{E6979D98-8BC7-4611-A12C-8CC9F49CBD97}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="2.20069371653629"/>
+								<Property Name="FadeInShape" Type="int16" Value="9"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.283507370802973"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="36.3699455687236"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>IntroVoiceover.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="294404894"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="IntroVoiceover" ID="{E6979D98-8BC7-4611-A12C-8CC9F49CBD97}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PizzaPartyVoiceover" ID="{4B52B59C-D14C-4278-B0B5-30DF4BEC3ADF}" ShortID="1017768855">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PizzaPartyVoiceover" ID="{304F6ED1-75AC-4746-98F0-B1423B0A2082}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.207178463279092"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.133186154965131"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.25786924133735"/>
+								<Property Name="TrimEnd" Type="Real64" Value="26.5928356080378"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>PizzaPartyVoiceover.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="460172088"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PizzaPartyVoiceover" ID="{304F6ED1-75AC-4746-98F0-B1423B0A2082}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="RiftsAppearVoiceover" ID="{EEEE5D0E-5404-4458-B8C1-A6A766AAA17E}" ShortID="582532444">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EFC188-E6DE-463D-8E03-5365DB12F72D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D891D22-D79B-4456-A623-11ACE1CCE5B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RiftsAppearVoiceover" ID="{71F4C5CF-8981-4DA0-B208-AE838FF9B0C8}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.450781728262589"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.60104230435012"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.991719802177696"/>
+								<Property Name="TrimEnd" Type="Real64" Value="27.3774769631479"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>RiftsAppearVoiceover.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="484319015"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="RiftsAppearVoiceover" ID="{71F4C5CF-8981-4DA0-B208-AE838FF9B0C8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

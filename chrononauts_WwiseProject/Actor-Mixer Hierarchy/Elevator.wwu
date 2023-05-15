@@ -44,6 +44,12 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="ElevatorDoorSlide_01" ID="{18CE171C-3DD3-4A24-82CE-98A2D92DEFB7}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.334701397916767"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.646901861519802"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.3950579274514"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>ElevatorDoorSlide_01.wav</AudioFile>
 									<MediaIDList>
@@ -67,6 +73,12 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="ElevatorDoorSlide_02" ID="{56927F83-2BD1-4FA0-858D-50012906B030}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.351055900621118"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.495936113575865"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.36521739130435"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>ElevatorDoorSlide_02.wav</AudioFile>
 									<MediaIDList>

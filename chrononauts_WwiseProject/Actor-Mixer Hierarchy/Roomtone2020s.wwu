@@ -6,6 +6,11 @@
 				<Sound Name="Roomtone2020s" ID="{901405CC-F46F-4252-8899-9012FC49C953}" ShortID="1053162085">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

@@ -17,6 +17,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="ElevatorTravel" ID="{946201A8-44A4-49B6-B8D0-E53888C5374B}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.16325581395349"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="4.2660479560884"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>ElevatorTravel.wav</AudioFile>
 							<MediaIDList>

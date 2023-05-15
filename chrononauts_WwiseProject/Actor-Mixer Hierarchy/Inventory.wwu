@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<RandomSequenceContainer Name="InventoryInput" ID="{214449CC-72E2-42F7-84B8-E8C519078687}" ShortID="219524734">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
@@ -104,7 +104,7 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="InventoryOutput" ID="{0F2444CD-8217-42D8-960A-5E10E65AA864}" ShortID="283132291">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
