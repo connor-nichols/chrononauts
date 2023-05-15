@@ -1992,7 +1992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneOrigin: 
-  SceneDestination: LevelScene-2000s
+  SceneDestination: LevelScene-2020s
   Elevator: {fileID: 0}
   elevatorButton: {fileID: 2812146484911715088}
 --- !u!1001 &5174252527607153445
