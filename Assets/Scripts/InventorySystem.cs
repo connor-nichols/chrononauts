@@ -14,7 +14,6 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private void OnTriggerEnter(Collider other)
         {
-            AkSoundEngine.PostEvent("InventoryInput", inventory);
             AddInteractable(other.gameObject);
         }
 
@@ -22,6 +21,8 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             if (newObject.tag == "Storeable" && inventory.transform.childCount == 0)
             {
+                AkSoundEngine.PostEvent("InventoryInput", inventory);
+
                 Rigidbody rb = newObject.GetComponent<Rigidbody>();
 
                 // Store object size
@@ -46,7 +47,6 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private void OnTriggerExit(Collider other)
         {
-            AkSoundEngine.PostEvent("InventoryOutput", inventory);
             RemoveInteractable(other.gameObject);
         }
 
@@ -54,6 +54,8 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             if (newObject.tag == "Storeable")
             {
+                AkSoundEngine.PostEvent("InventoryOutput", inventory);
+
                 Rigidbody rb = newObject.GetComponent<Rigidbody>();
 
                 rb.useGravity = true;
