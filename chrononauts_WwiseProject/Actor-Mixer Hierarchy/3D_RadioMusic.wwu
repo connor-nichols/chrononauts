@@ -6,6 +6,11 @@
 				<Sound Name="LazyDayBlues_wav" ID="{A5A7AEC5-7C00-4729-8EBE-90EFE9E59F4D}" ShortID="764870421">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

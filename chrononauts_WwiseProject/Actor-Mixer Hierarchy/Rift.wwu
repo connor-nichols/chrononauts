@@ -115,6 +115,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Rift_Solved01" ID="{3277EE4B-52D7-4D94-A3F1-0FAF4BE1626B}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.9960562789322"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.01249653214842"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Rift_Solved01.wav</AudioFile>
 									<MediaIDList>
@@ -138,6 +143,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Rift_Solved02" ID="{F5526F41-6072-4E02-95D6-4F44218455F5}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.99055024773644"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.03081217657268"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Rift_Solved02.wav</AudioFile>
 									<MediaIDList>

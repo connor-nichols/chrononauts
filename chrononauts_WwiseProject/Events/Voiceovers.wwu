@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C2578F39-EECF-42B2-ADB4-7756916CDC70}" SchemaVersion="103" RootDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" ParentDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}">
+	<Events>
+		<WorkUnit Name="Voiceovers" ID="{C2578F39-EECF-42B2-ADB4-7756916CDC70}" OwnerID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="IntroVoiceover" ID="{5105F1CF-CC61-4750-A643-E5193FD08F8D}">
+					<ChildrenList>
+						<Action Name="" ID="{8695DFF3-5474-451F-A8BB-EC0C23FDFEC0}" ShortID="1016356415">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IntroVoiceover" ID="{5880B331-41C7-458E-8FE8-477E5AC4E031}" WorkUnitID="{CF6A71B3-5C44-4937-889E-3B407B0A2FDD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PizzaPartyVoiceover" ID="{B68462FD-A26A-4809-9E7C-4B7BB898B6C0}">
+					<ChildrenList>
+						<Action Name="" ID="{CC717713-FFC5-406E-86F6-E67197DC028E}" ShortID="458977506">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PizzaPartyVoiceover" ID="{4B52B59C-D14C-4278-B0B5-30DF4BEC3ADF}" WorkUnitID="{CF6A71B3-5C44-4937-889E-3B407B0A2FDD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RiftsAppearVoiceover" ID="{97996415-F7D2-4D18-9529-1FD4B891FA24}">
+					<ChildrenList>
+						<Action Name="" ID="{5805C280-A97C-47CA-8E26-B1FFE5C67323}" ShortID="990011562">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RiftsAppearVoiceover" ID="{EEEE5D0E-5404-4458-B8C1-A6A766AAA17E}" WorkUnitID="{CF6A71B3-5C44-4937-889E-3B407B0A2FDD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
