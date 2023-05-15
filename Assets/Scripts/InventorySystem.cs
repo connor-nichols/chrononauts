@@ -21,6 +21,7 @@ namespace Valve.VR.InteractionSystem.Sample
             {"whoopeeCushion", new Vector3(0.2f, 0.2f, 0.2f)},
             {"benBassPlaque_v01", new Vector3(18f, 18f, 18f)},
             {"officeButton90s", new Vector3(25f, 25f, 25f)},
+            {"TrashBin2020s", new Vector3(0.15f, 0.15f, 0.15f)},
             {"TrashB", new Vector3(0.15f, 0.15f, 0.15f)},
             {"computer90s", new Vector3(0.015f, 0.015f, 0.015f)},
             {"trashBin70s_v03", new Vector3(25f, 25f, 25f)},
