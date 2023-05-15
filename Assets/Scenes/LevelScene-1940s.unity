@@ -6391,6 +6391,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Storeable
       objectReference: {fileID: 0}
+    - target: {fileID: 5819298629728333801, guid: e087535013ca7d34c869a8e198a9fa85,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5868494973359765170, guid: e087535013ca7d34c869a8e198a9fa85,
         type: 3}
       propertyPath: m_UseGravity
@@ -6404,6 +6409,16 @@ PrefabInstance:
     - target: {fileID: 6379026303615637859, guid: e087535013ca7d34c869a8e198a9fa85,
         type: 3}
       propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7097604425301766078, guid: e087535013ca7d34c869a8e198a9fa85,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8471522003739747773, guid: e087535013ca7d34c869a8e198a9fa85,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
