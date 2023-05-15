@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
-using AK.Wwise;
 
 public class ElevatorButtonController : MonoBehaviour
 {
@@ -10,13 +9,12 @@ public class ElevatorButtonController : MonoBehaviour
     public GameObject elevatorButton;
     public void OnButtonDown(Hand fromHand)
     {
-        AkSoundEngine.PostEvent("ElevatorButtonClick", elevatorButton);
         ColorSelf(Color.cyan);
         if (elevatorController.getDoorPosition())
             ColorSelf(Color.cyan);
         else
             ColorSelf(Color.red);
-        fromHand.TriggerHapticPulse(1000);
+        // fromHand.TriggerHapticPulse(1000);
         CloseDoor();
     }
 
