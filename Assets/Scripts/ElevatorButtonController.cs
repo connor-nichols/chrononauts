@@ -14,7 +14,7 @@ public class ElevatorButtonController : MonoBehaviour
             ColorSelf(Color.cyan);
         else
             ColorSelf(Color.red);
-        // fromHand.TriggerHapticPulse(1000);
+        fromHand.TriggerHapticPulse(1000);
         CloseDoor();
     }
 

@@ -3406,6 +3406,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8029161351815884632, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
         type: 3}
+      propertyPath: riftSpawner
+      value: 
+      objectReference: {fileID: 2455268995105779060}
+    - target: {fileID: 8029161351815884632, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
+        type: 3}
       propertyPath: TutorialRift
       value: 
       objectReference: {fileID: 6454602474697755497}
@@ -3421,6 +3426,12 @@ PrefabInstance:
       objectReference: {fileID: 5029104442736851560}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fbcc44057e7db94d970dbd8cdb74f0d, type: 3}
+--- !u!1 &2455268995105779060 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4892793405782977523, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7058389152720356999}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6454602474697755497 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4064275776926223854, guid: 2fbcc44057e7db94d970dbd8cdb74f0d,

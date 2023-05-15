@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEditor;
 using Valve.VR;
+using AK.Wwise;
 
 public class RiftSpawner : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class RiftSpawner : MonoBehaviour
     public GameObject RightInventory;
 
     public GameObject TutorialRift;
+    public GameObject riftSpawner;
 
     public Dictionary<string, bool> riftData = new Dictionary<string, bool>
     {
@@ -114,6 +116,30 @@ public class RiftSpawner : MonoBehaviour
             futureScene = GameObject.Find("RoomEnvironment");
             futureScene.transform.GetChild(1).gameObject.SetActive(true);
             print("WHATRE YOU DOING GO CLEANUP THE PORTALS!");
+        }
+
+        // Room Ambience
+        switch (sceneName)
+        {
+            case "LevelScene-2020s":
+                AkSoundEngine.PostEvent("Roomtone2020s", riftSpawner);
+                break;
+
+            case "LevelScene-1990s":
+                AkSoundEngine.PostEvent("Roomtone1990s", riftSpawner);
+                break;
+
+            case "LevelScene-1970s":
+                AkSoundEngine.PostEvent("Roomtone1970s", riftSpawner);
+                break;
+
+            case "LevelScene-1940s":
+                AkSoundEngine.PostEvent("Roomtone1940s", riftSpawner);
+                break;
+
+            case "LevelScene-30xx":
+                AkSoundEngine.PostEvent("Roomtone30XX", riftSpawner);
+                break;
         }
     }
 
