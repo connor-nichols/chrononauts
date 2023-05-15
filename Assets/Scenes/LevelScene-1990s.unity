@@ -2911,10 +2911,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1647376397298493041, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3229679669276003939, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
       propertyPath: SceneOrigin
       value: LevelScene-1990s
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931301900204116068, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3958583222533726956, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
@@ -2924,6 +2934,11 @@ PrefabInstance:
     - target: {fileID: 3973424678134640612, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4132217723390914250, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4465729910401938434, guid: 63b2538e119f82343b5a1dc35c5010dd,
@@ -2940,6 +2955,16 @@ PrefabInstance:
         type: 3}
       propertyPath: SceneOrigin
       value: LevelScene-1990s
+      objectReference: {fileID: 0}
+    - target: {fileID: 6453600055948244603, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6627316142106116661, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6962588974522261578, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
@@ -2961,10 +2986,20 @@ PrefabInstance:
       propertyPath: SceneOrigin
       value: LevelScene-1990s
       objectReference: {fileID: 0}
+    - target: {fileID: 8109073020272603630, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8410633340116728181, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
       propertyPath: m_StaticShadowCaster
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8965953874231441168, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9168732562395040082, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
@@ -3793,6 +3828,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 141055554218710053, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1897167845590399441, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2231657732936105223, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4616893646420731696, guid: 7560e9323c302b24bb7378bc53e82fe3,
         type: 3}
       propertyPath: m_Name
@@ -3856,6 +3906,16 @@ PrefabInstance:
     - target: {fileID: 4616893646420907848, guid: 7560e9323c302b24bb7378bc53e82fe3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8079163341306941880, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8572425700020848261, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4338,6 +4398,11 @@ PrefabInstance:
     - target: {fileID: 1883661293279291285, guid: f37e80e7af6640b418fa2df8d3450927,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542959397445812445, guid: f37e80e7af6640b418fa2df8d3450927,
+        type: 3}
+      propertyPath: highlightOnHover
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6132,6 +6197,11 @@ PrefabInstance:
     - target: {fileID: 4446618903763162661, guid: ba6a1bec1c554224e9a8a96c4f05e427,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5444192600754866062, guid: ba6a1bec1c554224e9a8a96c4f05e427,
+        type: 3}
+      propertyPath: highlightOnHover
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13229,6 +13299,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5024632277990596226, guid: 1c5d1bbfc4bce5148baa16c3c37f16ea,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c5d1bbfc4bce5148baa16c3c37f16ea, type: 3}
 --- !u!1 &1646763119591389825
@@ -16710,7 +16785,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!33 &3120246706129813399
@@ -17929,6 +18004,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -6.614
+      objectReference: {fileID: 0}
+    - target: {fileID: 6205140762525254337, guid: 4fc9afbb21606444ab4f775156337034,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fc9afbb21606444ab4f775156337034, type: 3}
@@ -23059,6 +23139,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -21914184510577462, guid: 75065be7896f3924fa623ec2264613d6,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 957306744963693805, guid: 75065be7896f3924fa623ec2264613d6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29461,6 +29546,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -93.814
+      objectReference: {fileID: 0}
+    - target: {fileID: 4838740638932337331, guid: 2f1adfd469d7433498ba8a9cc3ff0b45,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f1adfd469d7433498ba8a9cc3ff0b45, type: 3}

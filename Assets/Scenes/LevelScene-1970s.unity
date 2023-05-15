@@ -466,6 +466,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tapeRecorder70s_PREFAB
       objectReference: {fileID: 0}
+    - target: {fileID: 5140654273372279928, guid: 6cd57e74b33061c488fe4a5880459648,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cd57e74b33061c488fe4a5880459648, type: 3}
 --- !u!1 &170417647 stripped
@@ -553,6 +558,11 @@ PrefabInstance:
     - target: {fileID: 4446618903763162661, guid: dd673922d5036cc45ac6cacfabd51b1d,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5444192600754866062, guid: dd673922d5036cc45ac6cacfabd51b1d,
+        type: 3}
+      propertyPath: highlightOnHover
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1534,15 +1544,30 @@ PrefabInstance:
       propertyPath: m_StaticShadowCaster
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1647376397298493041, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3229679669276003939, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
       propertyPath: SceneOrigin
       value: LevelScene-1970s
       objectReference: {fileID: 0}
+    - target: {fileID: 3931301900204116068, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3958583222533726956, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
       propertyPath: SceneOrigin
       value: LevelScene-1970s
+      objectReference: {fileID: 0}
+    - target: {fileID: 4132217723390914250, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4465729910401938434, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
@@ -1559,6 +1584,16 @@ PrefabInstance:
       propertyPath: SceneOrigin
       value: LevelScene-1970s
       objectReference: {fileID: 0}
+    - target: {fileID: 6453600055948244603, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6627316142106116661, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7556484555800033177, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
       propertyPath: m_StaticShadowCaster
@@ -1568,6 +1603,16 @@ PrefabInstance:
         type: 3}
       propertyPath: SceneOrigin
       value: LevelScene-1970s
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109073020272603630, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8965953874231441168, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9168732562395040082, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
@@ -2226,6 +2271,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 141055554218710053, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1897167845590399441, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2231657732936105223, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4616893646420731696, guid: 7560e9323c302b24bb7378bc53e82fe3,
         type: 3}
       propertyPath: m_Name
@@ -2289,6 +2349,16 @@ PrefabInstance:
     - target: {fileID: 4616893646420907848, guid: 7560e9323c302b24bb7378bc53e82fe3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8079163341306941880, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8572425700020848261, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6441,6 +6511,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4647871268743212833, guid: ceb6d5765dc6f76408b46aa2d9e70903,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7173538296939075832, guid: ceb6d5765dc6f76408b46aa2d9e70903,
         type: 3}
       propertyPath: m_Name
@@ -10613,6 +10688,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: typewriter_70s
       objectReference: {fileID: 0}
+    - target: {fileID: 2547193051106412371, guid: 7212dda3dbac9d74a91e5c7199890fe5,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7791315816796191848, guid: 7212dda3dbac9d74a91e5c7199890fe5,
         type: 3}
       propertyPath: m_RootOrder
@@ -10924,6 +11004,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UseColorTemperature
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8526350346315394847, guid: 78d96864e0901714897be96d816bef21,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78d96864e0901714897be96d816bef21, type: 3}
@@ -12185,6 +12270,11 @@ PrefabInstance:
     - target: {fileID: 3387241632399465630, guid: 82440275cc1127a4292bb1e9a6a28a79,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5384969211444316831, guid: 82440275cc1127a4292bb1e9a6a28a79,
+        type: 3}
+      propertyPath: highlightOnHover
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -14568,6 +14658,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3706239747578653029, guid: ed3be8b3a9eacb7449c8d672d9d2e2b9,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed3be8b3a9eacb7449c8d672d9d2e2b9, type: 3}
 --- !u!33 &3753799740791809546
@@ -16775,6 +16870,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 120.764
+      objectReference: {fileID: 0}
+    - target: {fileID: 4063803499063242905, guid: d69e9a3f223ed374ba74e8eb3433e8dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8800173656326355405, guid: d69e9a3f223ed374ba74e8eb3433e8dd,
         type: 3}
@@ -24169,6 +24269,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: benBassPlaque_v01
       objectReference: {fileID: 0}
+    - target: {fileID: 8563571347672217032, guid: b54526ebcb27066408e98e48ba5e6785,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b54526ebcb27066408e98e48ba5e6785, type: 3}
 --- !u!1 &7225996384204475654
@@ -25814,6 +25919,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coffeeMug70s
       objectReference: {fileID: 0}
+    - target: {fileID: 2433088856196201961, guid: 8d0a7c2de3a6e5548852e9cf1e35320f,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d0a7c2de3a6e5548852e9cf1e35320f, type: 3}
 --- !u!23 &7833058504865541109
@@ -25995,6 +26105,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 26.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141322005353481925, guid: 90253655ad8106849a956333de28cd18,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90253655ad8106849a956333de28cd18, type: 3}

@@ -1595,25 +1595,60 @@ PrefabInstance:
       propertyPath: SceneOrigin
       value: LevelScene-30xx
       objectReference: {fileID: 0}
+    - target: {fileID: 1647376397298493041, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3229679669276003939, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
       propertyPath: SceneOrigin
       value: LevelScene-30xx
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931301900204116068, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3958583222533726956, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
       propertyPath: SceneOrigin
       value: LevelScene-30xx
       objectReference: {fileID: 0}
+    - target: {fileID: 4132217723390914250, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5157836789262290984, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
       propertyPath: SceneOrigin
       value: LevelScene-30xx
       objectReference: {fileID: 0}
+    - target: {fileID: 6453600055948244603, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6627316142106116661, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7866634576680547953, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
       propertyPath: SceneOrigin
       value: LevelScene-30xx
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109073020272603630, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8965953874231441168, guid: 63b2538e119f82343b5a1dc35c5010dd,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9168732562395040082, guid: 63b2538e119f82343b5a1dc35c5010dd,
         type: 3}
@@ -2018,6 +2053,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 873749052}
     m_Modifications:
+    - target: {fileID: 4242468828473381560, guid: 98db2017ffca0bc469a716f0b74294d5,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4284833119817599920, guid: 98db2017ffca0bc469a716f0b74294d5,
         type: 3}
       propertyPath: m_Name
@@ -2352,9 +2392,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 141055554218710053, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1051907430526085599, guid: 7560e9323c302b24bb7378bc53e82fe3,
         type: 3}
       propertyPath: portalsCompleted
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1897167845590399441, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2231657732936105223, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4616893646420731696, guid: 7560e9323c302b24bb7378bc53e82fe3,
@@ -2420,6 +2475,16 @@ PrefabInstance:
     - target: {fileID: 4616893646420907848, guid: 7560e9323c302b24bb7378bc53e82fe3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8079163341306941880, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8572425700020848261, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: highlightOnHover
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
