@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4AC9BCEC-32FA-4BBA-A4A0-1A05D53B7FB8}" SchemaVersion="103" RootDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" ParentDocumentID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}">
+	<Events>
+		<WorkUnit Name="RadioMusic" ID="{4AC9BCEC-32FA-4BBA-A4A0-1A05D53B7FB8}" OwnerID="{54DC745E-BAE4-4B32-8535-A1C65E992B20}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="PortalRadioMusic" ID="{F5F875C6-D4EB-4A17-ABB1-E62476D47BED}">
+					<ChildrenList>
+						<Action Name="" ID="{F013A835-FD6D-44E9-BAA7-1E974372893D}" ShortID="332474108">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PortalRadioSong" ID="{7E6EAFB4-D31C-473F-BFBC-C415DF639894}" WorkUnitID="{49295F40-5A11-492A-B0F5-15CDD359A1B4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LazyDayBlues_wav" ID="{86A84741-C9E8-4D7B-9699-428AD1B0B3B3}">
+					<ChildrenList>
+						<Action Name="" ID="{F9D1A86B-519B-48AD-A2B5-868E86A3FD81}" ShortID="307212404">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LazyDayBlues_wav" ID="{A5A7AEC5-7C00-4729-8EBE-90EFE9E59F4D}" WorkUnitID="{49295F40-5A11-492A-B0F5-15CDD359A1B4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

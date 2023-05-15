@@ -58,6 +58,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_FlorescentBuzz" ID="{E0B083A6-1CD5-4322-893B-5CD60FE8D137}">
+					<ChildrenList>
+						<Action Name="" ID="{D1784673-AB7E-418A-B378-1161625382CF}" ShortID="575983280">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FlorescentBuzz" ID="{62B226BA-41BC-4BA1-B026-C3AAAE97052A}" WorkUnitID="{4686FC4E-08B5-4B03-A60D-DDA9966D90FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
