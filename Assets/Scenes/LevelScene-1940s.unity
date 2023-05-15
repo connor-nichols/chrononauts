@@ -2229,6 +2229,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1051907430526085599, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: canSpawnRift
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4616893646420731696, guid: 7560e9323c302b24bb7378bc53e82fe3,
         type: 3}
       propertyPath: m_Name
