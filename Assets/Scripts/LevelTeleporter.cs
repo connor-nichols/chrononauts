@@ -3,22 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Valve.VR.InteractionSystem;
+using AK.Wwise;
 
 public class LevelTeleporter : MonoBehaviour
 {
     public string SceneOrigin;
     public string SceneDestination;
     public ElevatorController Elevator;
-    private AudioSource audioSource;
+
+    public GameObject elevatorButton;
+    // private AudioSource audioSource;
 
     private void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        // audioSource = GetComponent<AudioSource>();
     }
 
     public void OnButtonDown(Hand fromHand)
     {
-        audioSource.Play();
+        AkSoundEngine.PostEvent("ElevatorButtonClick", elevatorButton);
+        // audioSource.Play();
         ColorSelf(Color.cyan);
         fromHand.TriggerHapticPulse(1000);
         if (Elevator.getDoorPosition())
@@ -40,6 +44,8 @@ public class LevelTeleporter : MonoBehaviour
     private void ScreenLoad()
     {
         SceneManager.UnloadSceneAsync(SceneOrigin);
-        SceneManager.LoadScene(SceneDestination);        
+        SceneManager.LoadScene(SceneDestination);
+        // maybe change this to the complete elevator
+        AkSoundEngine.PostEvent("ElevatorTravel", elevatorButton);
     }
 }

@@ -6,7 +6,7 @@ using Valve.VR.InteractionSystem;
 public class ElevatorButtonController : MonoBehaviour
 {
     public ElevatorController elevatorController;
-
+    public GameObject elevatorButton;
     public void OnButtonDown(Hand fromHand)
     {
         ColorSelf(Color.cyan);

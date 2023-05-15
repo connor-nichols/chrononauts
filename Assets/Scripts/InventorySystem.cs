@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using AK.Wwise;
 
 namespace Valve.VR.InteractionSystem.Sample
 {
@@ -52,6 +53,8 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             if (newObject.tag == "Storeable" && inventory.transform.childCount == 0)
             {
+                AkSoundEngine.PostEvent("InventoryInput", inventory);
+
                 Rigidbody rb = newObject.GetComponent<Rigidbody>();
 
                 // Store object size
@@ -91,6 +94,8 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             if (newObject.tag == "Storeable")
             {
+                AkSoundEngine.PostEvent("InventoryOutput", inventory);
+
                 Rigidbody rb = newObject.GetComponent<Rigidbody>();
 
                 rb.useGravity = true;

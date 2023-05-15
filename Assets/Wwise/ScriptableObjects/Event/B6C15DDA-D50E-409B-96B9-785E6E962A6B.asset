@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 930a87793efa3194ba5448a52b79578e, type: 3}
-  m_Name: 2A8D7A60-1AD5-4158-8216-0E259688660E
+  m_Script: {fileID: 11500000, guid: 3f42245a79659b94a8d17f679ec2a6c8, type: 3}
+  m_Name: B6C15DDA-D50E-409B-96B9-785E6E962A6B
   m_EditorClassIdentifier: 
-  objectName: Scene1990s
-  id: 4157757229
-  guid: 2A8D7A60-1AD5-4158-8216-0E259688660E
+  objectName: SafeBox_DialClick
+  id: 1634299854
+  guid: B6C15DDA-D50E-409B-96B9-785E6E962A6B
