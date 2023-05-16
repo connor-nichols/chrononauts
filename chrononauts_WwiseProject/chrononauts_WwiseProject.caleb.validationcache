@@ -32,7 +32,7 @@
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1682496177" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\States\Default Work Unit.wwu" DateLow="1682496177" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1682496177" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1682634418" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1684208931" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Queries\Factory Queries.wwu" DateLow="1682493013" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1682496177" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1682493013" DateHigh="0"/>
@@ -43,7 +43,15 @@
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1682496177" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1682496177" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1682496177" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Events\Default Work Unit.wwu" DateLow="1682500092" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Events\Voiceovers.wwu" DateLow="1684208930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Events\Safebox.wwu" DateLow="1683968418" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Events\Roomtone.wwu" DateLow="1684208930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Events\Rift.wwu" DateLow="1683968418" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Events\RadioMusic.wwu" DateLow="1684208930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Events\ItemPhysics.wwu" DateLow="1683968418" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Events\Inventory.wwu" DateLow="1683968418" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Events\Elevator.wwu" DateLow="1683968418" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Events\Default Work Unit.wwu" DateLow="1684208930" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Effects\Factory Effects.wwu" DateLow="1682493013" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1682496177" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1682496177" DateHigh="0"/>
@@ -51,8 +59,24 @@
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1682496177" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1682496900" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\chrononauts_WwiseProject.wproj" DateLow="1682496253" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\chrononauts_WwiseProject.caleb.wsettings" DateLow="1682501505" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\chrononauts_WwiseProject.caleb.wsettings" DateLow="1684208929" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1682496177" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1682496177" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1682501213" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\Voiceovers.wwu" DateLow="1684208930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\Safebox_DoorOpen.wwu" DateLow="1683968418" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\Safebox.wwu" DateLow="1683968418" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\Roomtone30XX.wwu" DateLow="1684208930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\Roomtone2020s.wwu" DateLow="1684208930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\Roomtone1990s.wwu" DateLow="1684208930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\Roomtone1970s.wwu" DateLow="1684208930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\Roomtone1940s.wwu" DateLow="1684208930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\Rift.wwu" DateLow="1684208930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\ItemDropped.wwu" DateLow="1683968418" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\Inventory.wwu" DateLow="1684208930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\ElevatorTravel.wwu" DateLow="1684208930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\Elevator.wwu" DateLow="1684208930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1683968418" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\3D_SFX.wwu" DateLow="1683968418" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\3D_Roomtone.wwu" DateLow="1684208930" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\Actor-Mixer Hierarchy\3D_RadioMusic.wwu" DateLow="1684208930" DateHigh="0"/>
 </ValidationCache>
