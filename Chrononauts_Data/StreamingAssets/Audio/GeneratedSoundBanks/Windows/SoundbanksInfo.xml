@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\ckirilov2\Documents\GitHub\chrononauts\chrononauts_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="2153171035">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="702061953" Name="ElevatorButtonClick" ObjectPath="\Events\Default Work Unit\Elevator\ElevatorButtonClick" DurationType="OneShot" DurationMin="0.226984" DurationMax="0.555986">
+					<IncludedMemoryFiles>
+						<File Id="197706183" Language="SFX">
+							<ShortName>ElevatorButtonClick_01.wav</ShortName>
+							<Path>SFX\ElevatorButtonClick_01_10C4C929.wem</Path>
+						</File>
+						<File Id="357050698" Language="SFX">
+							<ShortName>ElevatorButtonClick_04.wav</ShortName>
+							<Path>SFX\ElevatorButtonClick_04_10C4C929.wem</Path>
+						</File>
+						<File Id="678764181" Language="SFX">
+							<ShortName>ElevatorButtonClick_03.wav</ShortName>
+							<Path>SFX\ElevatorButtonClick_03_10C4C929.wem</Path>
+						</File>
+						<File Id="788746103" Language="SFX">
+							<ShortName>ElevatorButtonClick_02.wav</ShortName>
+							<Path>SFX\ElevatorButtonClick_02_10C4C929.wem</Path>
+						</File>
+						<File Id="868271355" Language="SFX">
+							<ShortName>ElevatorButtonClick_05.wav</ShortName>
+							<Path>SFX\ElevatorButtonClick_05_10C4C929.wem</Path>
+						</File>
+						<File Id="1066610035" Language="SFX">
+							<ShortName>ElevatorButtonClick_06.wav</ShortName>
+							<Path>SFX\ElevatorButtonClick_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="748051766" Name="ElevatorDoorSlide" ObjectPath="\Events\Default Work Unit\Elevator\ElevatorDoorSlide" DurationType="OneShot" DurationMin="1.362799" DurationMax="1.725549">
+					<IncludedMemoryFiles>
+						<File Id="420286301" Language="SFX">
+							<ShortName>ElevatorDoorSlide_02.wav</ShortName>
+							<Path>SFX\ElevatorDoorSlide_02_7E04C1F6.wem</Path>
+						</File>
+						<File Id="523786013" Language="SFX">
+							<ShortName>ElevatorDoorSlide_01.wav</ShortName>
+							<Path>SFX\ElevatorDoorSlide_01_CB9C4905.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="575746267" Name="ElevatorTravel" ObjectPath="\Events\Default Work Unit\Elevator\ElevatorTravel" DurationType="OneShot" DurationMin="4.266048" DurationMax="4.266048">
+					<IncludedMemoryFiles>
+						<File Id="586293810" Language="SFX">
+							<ShortName>ElevatorTravel.wav</ShortName>
+							<Path>SFX\ElevatorTravel_A3F769B1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3357836269" Name="InventoryInput" ObjectPath="\Events\Default Work Unit\Inventory\InventoryInput" DurationType="OneShot" DurationMin="0.434059" DurationMax="0.671369">
+					<IncludedMemoryFiles>
+						<File Id="227144965" Language="SFX">
+							<ShortName>InventoryInput_03.wav</ShortName>
+							<Path>SFX\InventoryInput_03_10C4C929.wem</Path>
+						</File>
+						<File Id="274446639" Language="SFX">
+							<ShortName>InventoryInput_02.wav</ShortName>
+							<Path>SFX\InventoryInput_02_10C4C929.wem</Path>
+						</File>
+						<File Id="637136113" Language="SFX">
+							<ShortName>InventoryInput_01.wav</ShortName>
+							<Path>SFX\InventoryInput_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2083830872" Name="InventoryOutput" ObjectPath="\Events\Default Work Unit\Inventory\InventoryOutput" DurationType="OneShot" DurationMin="0.402434" DurationMax="0.701498">
+					<IncludedMemoryFiles>
+						<File Id="604769961" Language="SFX">
+							<ShortName>InventoryOutput_01.wav</ShortName>
+							<Path>SFX\InventoryOutput_01_10C4C929.wem</Path>
+						</File>
+						<File Id="708340954" Language="SFX">
+							<ShortName>InventoryOutput_02.wav</ShortName>
+							<Path>SFX\InventoryOutput_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2601892650" Name="ItemDropped" ObjectPath="\Events\Default Work Unit\ItemPhysics\ItemDropped" DurationType="OneShot" DurationMin="0.145884" DurationMax="1.310195">
+					<IncludedMemoryFiles>
+						<File Id="140303940" Language="SFX">
+							<ShortName>DropImpact_01.wav</ShortName>
+							<Path>SFX\DropImpact_01_10C4C929.wem</Path>
+						</File>
+						<File Id="492303399" Language="SFX">
+							<ShortName>DropImpact_05.wav</ShortName>
+							<Path>SFX\DropImpact_05_10C4C929.wem</Path>
+						</File>
+						<File Id="504257700" Language="SFX">
+							<ShortName>DropImpact_07.wav</ShortName>
+							<Path>SFX\DropImpact_07_10C4C929.wem</Path>
+						</File>
+						<File Id="868629996" Language="SFX">
+							<ShortName>DropImpact_06.wav</ShortName>
+							<Path>SFX\DropImpact_06_10C4C929.wem</Path>
+						</File>
+						<File Id="889129263" Language="SFX">
+							<ShortName>DropImpact_03.wav</ShortName>
+							<Path>SFX\DropImpact_03_10C4C929.wem</Path>
+						</File>
+						<File Id="957355217" Language="SFX">
+							<ShortName>DropImpact_02.wav</ShortName>
+							<Path>SFX\DropImpact_02_10C4C929.wem</Path>
+						</File>
+						<File Id="987448782" Language="SFX">
+							<ShortName>DropImpact_04.wav</ShortName>
+							<Path>SFX\DropImpact_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3191176734" Name="Play_FlorescentBuzz" ObjectPath="\Events\Default Work Unit\Roomtone\Play_FlorescentBuzz" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="347652226" Language="SFX">
+							<ShortName>FlorescentBuzz.wav</ShortName>
+							<Path>SFX\FlorescentBuzz_C5579977.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="119164842" Name="Play_LazyDayBlues_wav" ObjectPath="\Events\Default Work Unit\RadioMusic\Play_LazyDayBlues_wav" DurationType="OneShot" DurationMin="168.64653" DurationMax="168.64653">
+					<IncludedMemoryFiles>
+						<File Id="394686312" Language="SFX">
+							<ShortName>LazyDayBlues.wav.wav</ShortName>
+							<Path>SFX\LazyDayBlues.wav_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3321777685" Name="Rift_ItemPlaced" ObjectPath="\Events\Default Work Unit\Rift\Rift_ItemPlaced" DurationType="OneShot" DurationMin="4.754807" DurationMax="7.557279">
+					<IncludedMemoryFiles>
+						<File Id="179557789" Language="SFX">
+							<ShortName>Rift_ItemPlaced_01.wav</ShortName>
+							<Path>SFX\Rift_ItemPlaced_01_10C4C929.wem</Path>
+						</File>
+						<File Id="628093014" Language="SFX">
+							<ShortName>Rift_ItemPlaced_03.wav</ShortName>
+							<Path>SFX\Rift_ItemPlaced_03_10C4C929.wem</Path>
+						</File>
+						<File Id="937935258" Language="SFX">
+							<ShortName>Rift_ItemPlaced_02.wav</ShortName>
+							<Path>SFX\Rift_ItemPlaced_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="752450508" Name="Rift_Solved" ObjectPath="\Events\Default Work Unit\Rift\Rift_Solved" DurationType="OneShot" DurationMin="9.012497" DurationMax="9.030812">
+					<IncludedMemoryFiles>
+						<File Id="107469150" Language="SFX">
+							<ShortName>Rift_Solved01.wav</ShortName>
+							<Path>SFX\Rift_Solved01_1568CEC9.wem</Path>
+						</File>
+						<File Id="802075953" Language="SFX">
+							<ShortName>Rift_Solved02.wav</ShortName>
+							<Path>SFX\Rift_Solved02_B78338C1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4240109521" Name="Roomtone1940s" ObjectPath="\Events\Default Work Unit\Roomtone\Roomtone1940s" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="389274523" Language="SFX">
+							<ShortName>Roomtone1940s.wav</ShortName>
+							<Path>SFX\Roomtone1940s_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4139296746" Name="Roomtone1970s" ObjectPath="\Events\Default Work Unit\Roomtone\Roomtone1970s" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="946056084" Language="SFX">
+							<ShortName>Roomtone1970s.wav</ShortName>
+							<Path>SFX\Roomtone1970s_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="182147364" Name="Roomtone1990s" ObjectPath="\Events\Default Work Unit\Roomtone\Roomtone1990s" DurationType="OneShot" DurationMin="9.806281" DurationMax="9.806281">
+					<IncludedMemoryFiles>
+						<File Id="452138316" Language="SFX">
+							<ShortName>Roomtone1990s.wav</ShortName>
+							<Path>SFX\Roomtone1990s_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4068587995" Name="Roomtone2020s" ObjectPath="\Events\Default Work Unit\Roomtone\Roomtone2020s" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="796169696" Language="SFX">
+							<ShortName>Roomtone2020s.wav</ShortName>
+							<Path>SFX\Roomtone2020s_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1552205833" Name="Roomtone30XX" ObjectPath="\Events\Default Work Unit\Roomtone\Roomtone30XX" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="590521799" Language="SFX">
+							<ShortName>Roomtone30XX.wav</ShortName>
+							<Path>SFX\Roomtone30XX_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1634299854" Name="SafeBox_DialClick" ObjectPath="\Events\Default Work Unit\Safebox\SafeBox_DialClick" DurationType="OneShot" DurationMin="0.021315" DurationMax="0.326168">
+					<IncludedMemoryFiles>
+						<File Id="339690023" Language="SFX">
+							<ShortName>Safebox_DialClick_03.wav</ShortName>
+							<Path>SFX\Safebox_DialClick_03_10C4C929.wem</Path>
+						</File>
+						<File Id="468476326" Language="SFX">
+							<ShortName>Safebox_DialClick_04.wav</ShortName>
+							<Path>SFX\Safebox_DialClick_04_10C4C929.wem</Path>
+						</File>
+						<File Id="579906057" Language="SFX">
+							<ShortName>Safebox_DialClick_05.wav</ShortName>
+							<Path>SFX\Safebox_DialClick_05_10C4C929.wem</Path>
+						</File>
+						<File Id="784348039" Language="SFX">
+							<ShortName>Safebox_DialClick_02.wav</ShortName>
+							<Path>SFX\Safebox_DialClick_02_10C4C929.wem</Path>
+						</File>
+						<File Id="971610921" Language="SFX">
+							<ShortName>Safebox_DialClick_01.wav</ShortName>
+							<Path>SFX\Safebox_DialClick_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1045256211" Language="SFX">
+							<ShortName>Safebox_DialClick_06.wav</ShortName>
+							<Path>SFX\Safebox_DialClick_06_10C4C929.wem</Path>
+						</File>
+						<File Id="1058863094" Language="SFX">
+							<ShortName>Safebox_DialClick_07.wav</ShortName>
+							<Path>SFX\Safebox_DialClick_07_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1545920960" Name="Safebox_DoorOpen" ObjectPath="\Events\Default Work Unit\Safebox\Safebox_DoorOpen" DurationType="OneShot" DurationMin="2.027869" DurationMax="2.027869">
+					<IncludedMemoryFiles>
+						<File Id="95989480" Language="SFX">
+							<ShortName>Safebox_DoorOpen.wav</ShortName>
+							<Path>SFX\Safebox_DoorOpen_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="394686312" Language="SFX">
+					<ShortName>LazyDayBlues.wav.wav</ShortName>
+					<Path>SFX\LazyDayBlues.wav_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

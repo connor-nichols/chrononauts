@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	119164842	Play_LazyDayBlues_wav			\Default Work Unit\Play_LazyDayBlues_wav	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	394686312	LazyDayBlues_wav	C:\Users\caleb\Files\Classes\EMA\EMA VirtualWorlds\FinalProject\chrononauts\chrononauts_WwiseProject\.cache\Windows\SFX\LazyDayBlues.wav_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\LazyDayBlues_wav		29749312
+
