@@ -36,6 +36,7 @@
 				</Sound>
 				<Sound Name="PortalRadioSong" ID="{7E6EAFB4-D31C-473F-BFBC-C415DF639894}" ShortID="971414364">
 					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-18</Value>
