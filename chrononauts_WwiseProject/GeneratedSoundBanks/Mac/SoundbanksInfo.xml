@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2125229681">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2153171035">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -49,23 +49,23 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="748051766" Name="ElevatorDoorSlide" ObjectPath="\Events\Default Work Unit\Elevator\ElevatorDoorSlide" DurationType="OneShot" DurationMin="2.708172" DurationMax="3.452454">
+				<Event Id="748051766" Name="ElevatorDoorSlide" ObjectPath="\Events\Default Work Unit\Elevator\ElevatorDoorSlide" DurationType="OneShot" DurationMin="1.362799" DurationMax="1.725549">
 					<IncludedMemoryFiles>
 						<File Id="420286301" Language="SFX">
 							<ShortName>ElevatorDoorSlide_02.wav</ShortName>
-							<Path>SFX\ElevatorDoorSlide_02_10C4C929.wem</Path>
+							<Path>SFX\ElevatorDoorSlide_02_7E04C1F6.wem</Path>
 						</File>
 						<File Id="523786013" Language="SFX">
 							<ShortName>ElevatorDoorSlide_01.wav</ShortName>
-							<Path>SFX\ElevatorDoorSlide_01_10C4C929.wem</Path>
+							<Path>SFX\ElevatorDoorSlide_01_CB9C4905.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="575746267" Name="ElevatorTravel" ObjectPath="\Events\Default Work Unit\Elevator\ElevatorTravel" DurationType="OneShot" DurationMin="6.644286" DurationMax="6.644286">
+				<Event Id="575746267" Name="ElevatorTravel" ObjectPath="\Events\Default Work Unit\Elevator\ElevatorTravel" DurationType="OneShot" DurationMin="4.266048" DurationMax="4.266048">
 					<IncludedMemoryFiles>
 						<File Id="586293810" Language="SFX">
 							<ShortName>ElevatorTravel.wav</ShortName>
-							<Path>SFX\ElevatorTravel_10C4C929.wem</Path>
+							<Path>SFX\ElevatorTravel_A3F769B1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -129,7 +129,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3191176734" Name="Play_FlorescentBuzz" ObjectPath="\Events\Default Work Unit\Play_FlorescentBuzz" DurationType="Infinite">
+				<Event Id="3191176734" Name="Play_FlorescentBuzz" ObjectPath="\Events\Default Work Unit\Roomtone\Play_FlorescentBuzz" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="347652226" Language="SFX">
 							<ShortName>FlorescentBuzz.wav</ShortName>
@@ -137,7 +137,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="119164842" Name="Play_LazyDayBlues_wav" ObjectPath="\Events\Default Work Unit\Play_LazyDayBlues_wav" DurationType="OneShot" DurationMin="168.64653" DurationMax="168.64653">
+				<Event Id="119164842" Name="Play_LazyDayBlues_wav" ObjectPath="\Events\Default Work Unit\RadioMusic\Play_LazyDayBlues_wav" DurationType="OneShot" DurationMin="168.64653" DurationMax="168.64653">
 					<IncludedMemoryFiles>
 						<File Id="394686312" Language="SFX">
 							<ShortName>LazyDayBlues.wav.wav</ShortName>
@@ -161,15 +161,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="752450508" Name="Rift_Solved" ObjectPath="\Events\Default Work Unit\Rift\Rift_Solved" DurationType="OneShot" DurationMin="10.361338" DurationMax="11.96424">
+				<Event Id="752450508" Name="Rift_Solved" ObjectPath="\Events\Default Work Unit\Rift\Rift_Solved" DurationType="OneShot" DurationMin="9.012497" DurationMax="9.030812">
 					<IncludedMemoryFiles>
 						<File Id="107469150" Language="SFX">
 							<ShortName>Rift_Solved01.wav</ShortName>
-							<Path>SFX\Rift_Solved01_10C4C929.wem</Path>
+							<Path>SFX\Rift_Solved01_1568CEC9.wem</Path>
 						</File>
 						<File Id="802075953" Language="SFX">
 							<ShortName>Rift_Solved02.wav</ShortName>
-							<Path>SFX\Rift_Solved02_10C4C929.wem</Path>
+							<Path>SFX\Rift_Solved02_B78338C1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
