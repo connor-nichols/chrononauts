@@ -36,7 +36,6 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID MAIN = 3161908922U;
-        static const AkUniqueID SCENE1990S = 4157757229U;
     } // namespace BANKS
 
     namespace BUSSES

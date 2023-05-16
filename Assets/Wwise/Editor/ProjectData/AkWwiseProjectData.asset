@@ -150,8 +150,8 @@ MonoBehaviour:
         guid: 9a44c6a67e1900479261f4a035f463ef
       Path: Events\Default Work Unit\Elevator\ElevatorDoorSlide
       maxAttenuation: 0
-      maxDuration: 3.452454
-      minDuration: 2.708172
+      maxDuration: 1.725549
+      minDuration: 1.362799
     - name: ElevatorTravel
       guid: 9e90868797fb2446983462284027105a
       id: 575746267
@@ -170,8 +170,8 @@ MonoBehaviour:
         guid: 9e90868797fb2446983462284027105a
       Path: Events\Default Work Unit\Elevator\ElevatorTravel
       maxAttenuation: 0
-      maxDuration: 6.644286
-      minDuration: 6.644286
+      maxDuration: 4.266048
+      minDuration: 4.266048
   - PhysicalPath: Events\Inventory.wwu
     PathAndIcons:
     - ElementName: Events
@@ -374,8 +374,8 @@ MonoBehaviour:
         guid: 40871d018851c44c88da6b775df111cc
       Path: Events\Default Work Unit\Rift\Rift_Solved
       maxAttenuation: 0
-      maxDuration: 11.96424
-      minDuration: 10.361338
+      maxDuration: 9.030812
+      minDuration: 9.012497
   - PhysicalPath: Events\Roomtone.wwu
     PathAndIcons:
     - ElementName: Events
