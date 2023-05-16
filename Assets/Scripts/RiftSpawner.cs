@@ -26,6 +26,11 @@ public class RiftSpawner : MonoBehaviour
 
     public GameObject TutorialRift;
 
+    public GameObject intercom;
+    private bool introPlayed = false;
+    private bool riftsAppearPlayed = false;
+    private bool pizzaPartyPlayed = false;
+
     public Dictionary<string, bool> riftData = new Dictionary<string, bool>
     {
         {"Start", false },  
@@ -40,8 +45,21 @@ public class RiftSpawner : MonoBehaviour
 
     public int portalsCompleted = 0;
 
+    private void Start()
+    {
+        if (!introPlayed) 
+        {
+            StartCoroutine(Introduction()); 
+        }
+    }
+
     private void riftSpawn()
     {
+        if (!riftsAppearPlayed)
+        {
+            StartCoroutine(RiftsAppear());
+        }
+        
         if (previousScene != SceneManager.GetActiveScene().name && previousScene != null)
         {
             switch (previousScene)
@@ -155,17 +173,44 @@ public class RiftSpawner : MonoBehaviour
             }
         }
 
+
+        if (portalsCompleted == 4 && !pizzaPartyPlayed) 
+        {
+            StartCoroutine(PizzaParty());
+        }
+
         if (SceneManager.GetActiveScene().name == "LevelScene-30xx" && portalsCompleted == 4)
         {
             futureScene = GameObject.Find("RoomEnvironment");
             futureScene.transform.GetChild(0).gameObject.SetActive(true);
-            print("You win!");
+           // print("You win!");
         }
         else if (SceneManager.GetActiveScene().name == "LevelScene-30xx")
         {
             futureScene = GameObject.Find("RoomEnvironment");
             futureScene.transform.GetChild(1).gameObject.SetActive(true);
-            print("WHATRE YOU DOING GO CLEANUP THE PORTALS!");
+            // print("WHATRE YOU DOING GO CLEANUP THE PORTALS!");
         }
+    }
+
+    IEnumerator Introduction()
+    {
+        yield return new WaitForSeconds(8f);
+        AkSoundEngine.PostEvent("IntroVoiceover", intercom);
+        introPlayed = true;
+    }
+    
+    IEnumerator RiftsAppear()
+    {
+        yield return new WaitForSeconds(2f);
+        AkSoundEngine.PostEvent("RiftsAppearVoiceover", intercom);
+        riftsAppearPlayed = true;
+    }
+
+    IEnumerator PizzaParty()
+    {
+        yield return new WaitForSeconds(2f);
+        AkSoundEngine.PostEvent("pizzaPartyVoiceover", intercom);
+        pizzaPartyPlayed = true;
     }
 }

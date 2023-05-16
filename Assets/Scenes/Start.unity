@@ -1789,6 +1789,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1051907430526085599, guid: 7560e9323c302b24bb7378bc53e82fe3,
+        type: 3}
+      propertyPath: intercom
+      value: 
+      objectReference: {fileID: 8653969757978915108, guid: dce6209908229184a82826b98636dd6a,
+        type: 3}
     - target: {fileID: 2455268995105779060, guid: 7560e9323c302b24bb7378bc53e82fe3,
         type: 3}
       propertyPath: m_IsActive
@@ -2253,6 +2259,12 @@ Transform:
   m_Father: {fileID: 1680610743}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &1143333587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6454602474697755497, guid: 7560e9323c302b24bb7378bc53e82fe3,
+    type: 3}
+  m_PrefabInstance: {fileID: 990295393}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1144651970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15848,6 +15860,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 124980240885438750, guid: dce6209908229184a82826b98636dd6a,
+        type: 3}
+      propertyPath: TutorialRift
+      value: 
+      objectReference: {fileID: 1143333587}
     - target: {fileID: 8309918703525178270, guid: dce6209908229184a82826b98636dd6a,
         type: 3}
       propertyPath: m_RootOrder

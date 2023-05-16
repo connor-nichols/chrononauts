@@ -2773,6 +2773,21 @@ PrefabInstance:
       propertyPath: highlightOnHover
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4242468829753585446, guid: 98db2017ffca0bc469a716f0b74294d5,
+        type: 3}
+      propertyPath: isBurning
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242468829753585446, guid: 98db2017ffca0bc469a716f0b74294d5,
+        type: 3}
+      propertyPath: startActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242468830521066514, guid: 98db2017ffca0bc469a716f0b74294d5,
+        type: 3}
+      propertyPath: animationSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4284833119817599920, guid: 98db2017ffca0bc469a716f0b74294d5,
         type: 3}
       propertyPath: m_Name

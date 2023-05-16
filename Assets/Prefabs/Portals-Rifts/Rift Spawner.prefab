@@ -50,12 +50,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8825909f796343a40886a2098ef7567f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canSpawnRift: 0
   PortalXXs: {fileID: 1679897862714929579}
   Portal20s: {fileID: 6238459411887917248}
   Portal90s: {fileID: 6725160783897931194}
   Portal70s: {fileID: 8157820686215018821}
   Portal40s: {fileID: 4319248699753591778}
+  LeftInventory: {fileID: 0}
+  RightInventory: {fileID: 0}
   TutorialRift: {fileID: 4064275776926223854}
+  ToggleInventory:
+    actionPath: /actions/default/in/ToggleInventory
+    needsReinit: 0
+  portalsCompleted: 0
 --- !u!1001 &815997335495661792
 PrefabInstance:
   m_ObjectHideFlags: 0

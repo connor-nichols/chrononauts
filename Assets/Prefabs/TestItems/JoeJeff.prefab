@@ -658,7 +658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e6e0fb6a756a434b9faeea744a9920c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 1.5
+  animationSpeed: 0.5
   jumpVelocity: 4.5
   m_MovingTurnSpeed: 360
   m_StationaryTurnSpeed: 180
