@@ -40,7 +40,7 @@ namespace Valve.VR.InteractionSystem.Sample
                     {
                         AkSoundEngine.PostEvent("Rift_ItemPlaced", riftOne);
                         markerSize = riftOne.transform.GetChild(0).transform.localScale;
-                        print(riftOne.transform.GetChild(0));
+                        // print(riftOne.transform.GetChild(0));
                         newObject.transform.SetParent(riftOne.transform);
                         resize = true;
                     }
@@ -51,7 +51,7 @@ namespace Valve.VR.InteractionSystem.Sample
                     {
                         AkSoundEngine.PostEvent("Rift_ItemPlaced", riftTwo);
                         markerSize = riftTwo.transform.GetChild(0).transform.localScale;
-                        print(riftOne.transform.GetChild(0));
+                        // print(riftOne.transform.GetChild(0));
                         newObject.transform.SetParent(riftTwo.transform);
                         resize = true;
                     }
@@ -62,7 +62,7 @@ namespace Valve.VR.InteractionSystem.Sample
                     {
                         AkSoundEngine.PostEvent("Rift_ItemPlaced", riftThree);
                         markerSize = riftThree.transform.GetChild(0).transform.localScale;
-                        print(riftOne.transform.GetChild(0));
+                        // print(riftOne.transform.GetChild(0));
                         newObject.transform.SetParent(riftThree.transform);
                         resize = true;
                     }
@@ -77,7 +77,7 @@ namespace Valve.VR.InteractionSystem.Sample
 
                 if (resize)
                 {
-                    print(markerSize);
+                    // print(markerSize);
                     /*Vector3 parentScale = newObject.transform.parent.transform.localScale;
                    
                     float biggestValue = Mathf.Max(originalSize.x, originalSize.y, originalSize.z);
