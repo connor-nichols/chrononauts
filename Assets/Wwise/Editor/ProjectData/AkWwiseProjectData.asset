@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 10a9d6aecd2a1842bc6a77910241792b
     GuidInternal: 
-    m_lastTime: -8585173460446380899
+    m_lastTime: -8585180748945796618
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 221d896d9bd75644a62311ace1cce5b2
     GuidInternal: 
-    m_lastTime: -8585173460451736602
+    m_lastTime: -8585180748947969343
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 539186247c37ab4192ebc59a661e2da5
     GuidInternal: 
-    m_lastTime: -8585173460446430767
+    m_lastTime: -8585174170422009521
     List:
     - name: Main
       guid: 2fa8bdacc088c84a9641f19b7c4d90a0
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 5e74dc54e4ba324b8535a1c65e992b20
     GuidInternal: 
-    m_lastTime: -8585173460458049728
+    m_lastTime: -8585174170422094458
     List: []
   - PhysicalPath: Events\Elevator.wwu
     PathAndIcons:
@@ -110,7 +110,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Elevator
     guid: b1f7ebcc07a40a43afd67216f5bf906b
     GuidInternal: 
-    m_lastTime: -8585173460458039753
+    m_lastTime: -8585178482059968652
     List:
     - name: ElevatorButtonClick
       guid: ac87b60aff943a46a14e7223b861ebed
@@ -186,7 +186,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Inventory
     guid: 31375d8d66ad574db54284677570cf9f
     GuidInternal: 
-    m_lastTime: -8585173460458029780
+    m_lastTime: -8585178482059875987
     List:
     - name: InventoryInput
       guid: f3e63fbe8dc69f4bb98136249817aca1
@@ -242,7 +242,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\ItemPhysics
     guid: 507ea4ece37afe44b481aba9e07d183e
     GuidInternal: 
-    m_lastTime: -8585173460458019806
+    m_lastTime: -8585178482059915985
     List:
     - name: ItemDropped
       guid: e83dbf7392f9e5499338985bec6cbf5c
@@ -278,7 +278,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\RadioMusic
     guid: ecbcc94afa32ba4ba4a01a05d53b7fb8
     GuidInternal: 
-    m_lastTime: -8585173460458019806
+    m_lastTime: -8585174170422133939
     List:
     - name: Play_LazyDayBlues_wav
       guid: 4147a886e8c97b4d9699428ad1b0b3b3
@@ -334,7 +334,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Rift
     guid: 5cc6bf551024d54e8f62e524a38789b3
     GuidInternal: 
-    m_lastTime: -8585173460458009833
+    m_lastTime: -8585178482060058638
     List:
     - name: Rift_ItemPlaced
       guid: 8addbca46a5dda40aa8bb411b83c4331
@@ -390,7 +390,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Roomtone
     guid: fa141d85463508438c8d713d996b02d7
     GuidInternal: 
-    m_lastTime: -8585173460457999859
+    m_lastTime: -8585174170422064485
     List:
     - name: Play_FlorescentBuzz
       guid: a683b0e0d51c2243893b5cd60fe8d137
@@ -526,7 +526,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Safebox
     guid: 549dc54124762e408027fba2050d2458
     GuidInternal: 
-    m_lastTime: -8585173460457999859
+    m_lastTime: -8585178482060018651
     List:
     - name: SafeBox_DialClick
       guid: da5dc1b60ed59b4096b9785e6e962a6b
@@ -582,7 +582,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Voiceovers
     guid: 398f57c2cfeeb242adb47756916cdc70
     GuidInternal: 
-    m_lastTime: -8585173460457989886
+    m_lastTime: -8585174207587354199
     List:
     - name: IntroVoiceover
       guid: cff1055161cc5047a643e5193fd08f8d
@@ -602,8 +602,8 @@ MonoBehaviour:
         guid: cff1055161cc5047a643e5193fd08f8d
       Path: Events\Default Work Unit\Voiceovers\IntroVoiceover
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 36.369946
+      minDuration: 36.369946
     - name: PizzaPartyVoiceover
       guid: fd6284b66aa209489e7c4b7bb898b6c0
       id: 2877115857
@@ -622,8 +622,8 @@ MonoBehaviour:
         guid: fd6284b66aa209489e7c4b7bb898b6c0
       Path: Events\Default Work Unit\Voiceovers\PizzaPartyVoiceover
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 25.334967
+      minDuration: 25.334967
     - name: RiftsAppearVoiceover
       guid: 15649997d2f7184d95291fd4b891fa24
       id: 1386895688
@@ -642,8 +642,8 @@ MonoBehaviour:
         guid: 15649997d2f7184d95291fd4b891fa24
       Path: Events\Default Work Unit\Voiceovers\RiftsAppearVoiceover
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 26.385757
+      minDuration: 26.385757
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -656,7 +656,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: f086904cf7556147a9ea0a6735e97b86
     GuidInternal: 
-    m_lastTime: -8585173460457979913
+    m_lastTime: -8585180748956311422
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -670,7 +670,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: b9516a3a6b49c14c8f9c9be4d10eee92
     GuidInternal: 
-    m_lastTime: -8585173460446410816
+    m_lastTime: -8585180748945816548
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -684,7 +684,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 69ea6424122c944db50fd6ef742497ca
     GuidInternal: 
-    m_lastTime: -8585173460446400845
+    m_lastTime: -8585180748945806580
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -698,7 +698,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 49f57b21829aa2438b491246cc8697f0
     GuidInternal: 
-    m_lastTime: -8585173460446390873
+    m_lastTime: -8585180748945806580
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
