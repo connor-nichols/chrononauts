@@ -57,6 +57,7 @@ public class RiftSpawner : MonoBehaviour
     {
         if (!riftsAppearPlayed)
         {
+            riftsAppearPlayed = true;
             StartCoroutine(RiftsAppear());
         }
         
@@ -181,6 +182,7 @@ public class RiftSpawner : MonoBehaviour
 
         if (portalsCompleted == 4 && !pizzaPartyPlayed) 
         {
+            pizzaPartyPlayed = true;
             StartCoroutine(PizzaParty());
         }
 
@@ -209,13 +211,11 @@ public class RiftSpawner : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         AkSoundEngine.PostEvent("RiftsAppearVoiceover", intercom);
-        riftsAppearPlayed = true;
     }
 
     IEnumerator PizzaParty()
     {
         yield return new WaitForSeconds(2f);
         AkSoundEngine.PostEvent("pizzaPartyVoiceover", intercom);
-        pizzaPartyPlayed = true;
     }
 }
