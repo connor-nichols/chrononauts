@@ -26,7 +26,7 @@ public class RiftSpawner : MonoBehaviour
 
     public GameObject TutorialRift;
 
-    public GameObject intercom;
+    private GameObject intercom;
     private bool introPlayed = false;
     private bool riftsAppearPlayed = false;
     private bool pizzaPartyPlayed = false;
@@ -122,6 +122,11 @@ public class RiftSpawner : MonoBehaviour
 
     void Update()
     {
+        if (SceneManager.GetActiveScene().name != "LevelScene-30xx")
+        {
+            intercom = GameObject.Find("intercomSystem");
+        }
+
         if ( (SceneManager.GetActiveScene().name == "LevelScene-2020s" || SceneManager.GetActiveScene().name == "Start") && TutorialRift.transform.GetChild(0).GetChild(0).gameObject.activeSelf)
         {
             TutorialRift.SetActive(true);
