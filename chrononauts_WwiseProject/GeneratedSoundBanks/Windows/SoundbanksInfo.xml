@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2921832972">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2732322111">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -207,41 +207,41 @@
 				</Event>
 				<Event Id="4240109521" Name="Roomtone1940s" ObjectPath="\Events\Default Work Unit\Roomtone\Roomtone1940s" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="389274523" Language="SFX">
-							<ShortName>Roomtone1940s.wav</ShortName>
-							<Path>SFX\Roomtone1940s_D79FB2B7.wem</Path>
+						<File Id="84064366" Language="SFX">
+							<ShortName>Roomtone1940s_v02.wav</ShortName>
+							<Path>SFX\Roomtone1940s_v02_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="4139296746" Name="Roomtone1970s" ObjectPath="\Events\Default Work Unit\Roomtone\Roomtone1970s" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="946056084" Language="SFX">
-							<ShortName>Roomtone1970s.wav</ShortName>
-							<Path>SFX\Roomtone1970s_D79FB2B7.wem</Path>
+						<File Id="601707091" Language="SFX">
+							<ShortName>Roomtone1970s_v02.wav</ShortName>
+							<Path>SFX\Roomtone1970s_v02_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="182147364" Name="Roomtone1990s" ObjectPath="\Events\Default Work Unit\Roomtone\Roomtone1990s" DurationType="OneShot" DurationMin="9.806281" DurationMax="9.806281">
+				<Event Id="182147364" Name="Roomtone1990s" ObjectPath="\Events\Default Work Unit\Roomtone\Roomtone1990s" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="452138316" Language="SFX">
-							<ShortName>Roomtone1990s.wav</ShortName>
-							<Path>SFX\Roomtone1990s_10C4C929.wem</Path>
+						<File Id="574685782" Language="SFX">
+							<ShortName>Roomtone1990s_v02.wav</ShortName>
+							<Path>SFX\Roomtone1990s_v02_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="4068587995" Name="Roomtone2020s" ObjectPath="\Events\Default Work Unit\Roomtone\Roomtone2020s" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="796169696" Language="SFX">
-							<ShortName>Roomtone2020s.wav</ShortName>
-							<Path>SFX\Roomtone2020s_D79FB2B7.wem</Path>
+						<File Id="574240844" Language="SFX">
+							<ShortName>Roomtone2020s_v02.wav</ShortName>
+							<Path>SFX\Roomtone2020s_v02_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1552205833" Name="Roomtone30XX" ObjectPath="\Events\Default Work Unit\Roomtone\Roomtone30XX" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="590521799" Language="SFX">
-							<ShortName>Roomtone30XX.wav</ShortName>
-							<Path>SFX\Roomtone30XX_D79FB2B7.wem</Path>
+						<File Id="156559580" Language="SFX">
+							<ShortName>Roomtone30XX_v02.wav</ShortName>
+							<Path>SFX\Roomtone30XX_v02_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

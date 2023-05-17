@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 539186247c37ab4192ebc59a661e2da5
     GuidInternal: 
-    m_lastTime: -8585172477979688629
+    m_lastTime: -8585172434981476919
     List:
     - name: Main
       guid: 2fa8bdacc088c84a9641f19b7c4d90a0
@@ -390,7 +390,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Roomtone
     guid: fa141d85463508438c8d713d996b02d7
     GuidInternal: 
-    m_lastTime: -8585174170422064485
+    m_lastTime: -8585172434981659591
     List:
     - name: Play_FlorescentBuzz
       guid: a683b0e0d51c2243893b5cd60fe8d137
@@ -470,8 +470,8 @@ MonoBehaviour:
         guid: fc77fdba82e68348a342551c4ac8224b
       Path: Events\Default Work Unit\Roomtone\Roomtone1990s
       maxAttenuation: 0
-      maxDuration: 9.806281
-      minDuration: 9.806281
+      maxDuration: -1
+      minDuration: -1
     - name: Roomtone2020s
       guid: fc4254cfe452b548970d378f66c8885c
       id: 4068587995
@@ -701,7 +701,7 @@ MonoBehaviour:
     m_lastTime: -8585180748945806580
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000070000000f000000
+  ExpandedWaapiItemIds: 06000000070000000d0000000f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

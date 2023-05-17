@@ -3,12 +3,17 @@
 	<AudioObjects>
 		<WorkUnit Name="Roomtone1940s" ID="{E06CA42F-E807-4048-9B82-C56F2FF29B9E}" OwnerID="{4686FC4E-08B5-4B03-A60D-DDA9966D90FE}" PersistMode="Nested">
 			<ChildrenList>
-				<Sound Name="Roomtone1940s" ID="{B00AB4F9-C19F-450B-8EA2-3034E1FDC782}" ShortID="164329890">
+				<Sound Name="Roomtone1940s_v02" ID="{F6E934BA-E4EB-411C-BF28-FFB01B143F59}" ShortID="846772769">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OutputBusLowpass" Type="int16">
+							<ValueList>
+								<Value>55</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>12</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -21,17 +26,17 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Roomtone1940s" ID="{2846D065-7F96-4619-93F8-6E3FE6AA3078}">
+						<AudioFileSource Name="Roomtone1940s_v02" ID="{CB569551-8AFA-4FE2-9ADA-889870894682}">
 							<Language>SFX</Language>
-							<AudioFile>Roomtone1940s.wav</AudioFile>
+							<AudioFile>Roomtone1940s_v02.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="389274523"/>
+								<MediaID ID="84064366"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
-						<ActiveSource Name="Roomtone1940s" ID="{2846D065-7F96-4619-93F8-6E3FE6AA3078}" Platform="Linked"/>
+						<ActiveSource Name="Roomtone1940s_v02" ID="{CB569551-8AFA-4FE2-9ADA-889870894682}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

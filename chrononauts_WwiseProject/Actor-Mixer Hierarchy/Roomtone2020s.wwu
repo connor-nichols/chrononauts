@@ -3,12 +3,12 @@
 	<AudioObjects>
 		<WorkUnit Name="Roomtone2020s" ID="{590C65F1-3BCB-477D-AC72-2B7BE4880DF9}" OwnerID="{4686FC4E-08B5-4B03-A60D-DDA9966D90FE}" PersistMode="Nested">
 			<ChildrenList>
-				<Sound Name="Roomtone2020s" ID="{901405CC-F46F-4252-8899-9012FC49C953}" ShortID="1053162085">
+				<Sound Name="Roomtone2020s_v02" ID="{E771E019-1724-4F25-AB4E-183099E228F3}" ShortID="440149884">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>12</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -21,17 +21,17 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Roomtone2020s" ID="{1A929B8A-A711-4B30-8A92-6C7C57A29D83}">
+						<AudioFileSource Name="Roomtone2020s_v02" ID="{B8B94457-D725-4119-900E-C1E06DF8B079}">
 							<Language>SFX</Language>
-							<AudioFile>Roomtone2020s.wav</AudioFile>
+							<AudioFile>Roomtone2020s_v02.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="796169696"/>
+								<MediaID ID="574240844"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
-						<ActiveSource Name="Roomtone2020s" ID="{1A929B8A-A711-4B30-8A92-6C7C57A29D83}" Platform="Linked"/>
+						<ActiveSource Name="Roomtone2020s_v02" ID="{B8B94457-D725-4119-900E-C1E06DF8B079}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

@@ -3,12 +3,12 @@
 	<AudioObjects>
 		<WorkUnit Name="Roomtone1970s" ID="{9183563F-94FA-4F30-BCAE-B7B20105A4DD}" OwnerID="{4686FC4E-08B5-4B03-A60D-DDA9966D90FE}" PersistMode="Nested">
 			<ChildrenList>
-				<Sound Name="Roomtone1970s" ID="{5751C648-80F9-4734-854B-432217234FDA}" ShortID="529992451">
+				<Sound Name="Roomtone1970s_v02" ID="{35E51133-46FE-4A6E-8EB3-C009258968CB}" ShortID="700088174">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>12</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -21,17 +21,17 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Roomtone1970s" ID="{73255797-C3B0-4E19-9D59-CE1AE8D80ED9}">
+						<AudioFileSource Name="Roomtone1970s_v02" ID="{54D7198E-09EA-4BC9-ABC5-D64AD3F69548}">
 							<Language>SFX</Language>
-							<AudioFile>Roomtone1970s.wav</AudioFile>
+							<AudioFile>Roomtone1970s_v02.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="946056084"/>
+								<MediaID ID="601707091"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
-						<ActiveSource Name="Roomtone1970s" ID="{73255797-C3B0-4E19-9D59-CE1AE8D80ED9}" Platform="Linked"/>
+						<ActiveSource Name="Roomtone1970s_v02" ID="{54D7198E-09EA-4BC9-ABC5-D64AD3F69548}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

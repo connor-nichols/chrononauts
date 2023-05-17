@@ -8,7 +8,7 @@
 						<Action Name="" ID="{ED871A9E-5F77-4A93-8357-83FB83916488}" ShortID="207564987">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Roomtone30XX" ID="{5B285606-6DD5-4814-8B41-FDFD6D01124E}" WorkUnitID="{D22020AB-AE4D-4876-B304-7E9B3EEB243D}"/>
+									<ObjectRef Name="Roomtone30XX_v02" ID="{B78926E3-46AC-4C6E-9E09-21CD8334557A}" WorkUnitID="{D22020AB-AE4D-4876-B304-7E9B3EEB243D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -19,7 +19,7 @@
 						<Action Name="" ID="{22668457-E4CB-49F0-B871-A82E09C30013}" ShortID="292621934">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Roomtone1940s" ID="{B00AB4F9-C19F-450B-8EA2-3034E1FDC782}" WorkUnitID="{E06CA42F-E807-4048-9B82-C56F2FF29B9E}"/>
+									<ObjectRef Name="Roomtone1940s_v02" ID="{F6E934BA-E4EB-411C-BF28-FFB01B143F59}" WorkUnitID="{E06CA42F-E807-4048-9B82-C56F2FF29B9E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -30,7 +30,7 @@
 						<Action Name="" ID="{AFE2A166-5AD5-4513-AE07-077D5AA68F3D}" ShortID="520406678">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Roomtone1970s" ID="{5751C648-80F9-4734-854B-432217234FDA}" WorkUnitID="{9183563F-94FA-4F30-BCAE-B7B20105A4DD}"/>
+									<ObjectRef Name="Roomtone1970s_v02" ID="{35E51133-46FE-4A6E-8EB3-C009258968CB}" WorkUnitID="{9183563F-94FA-4F30-BCAE-B7B20105A4DD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -41,7 +41,7 @@
 						<Action Name="" ID="{D9864113-DBF0-407A-A595-10FE37B237EB}" ShortID="54597755">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Roomtone1990s" ID="{3E3D1161-DCA1-4C17-9DF1-A898093101D1}" WorkUnitID="{00D31C1D-5BB7-4364-A57A-34497DB4D20A}"/>
+									<ObjectRef Name="Roomtone1990s_v02" ID="{90893312-795D-4B17-8A39-0D39D577D19F}" WorkUnitID="{00D31C1D-5BB7-4364-A57A-34497DB4D20A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -52,7 +52,7 @@
 						<Action Name="" ID="{628AA6CA-4344-4D8A-BE56-211A02B8D566}" ShortID="994117944">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Roomtone2020s" ID="{901405CC-F46F-4252-8899-9012FC49C953}" WorkUnitID="{590C65F1-3BCB-477D-AC72-2B7BE4880DF9}"/>
+									<ObjectRef Name="Roomtone2020s_v02" ID="{E771E019-1724-4F25-AB4E-183099E228F3}" WorkUnitID="{590C65F1-3BCB-477D-AC72-2B7BE4880DF9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
