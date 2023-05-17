@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2153171035">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2921832972">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -66,6 +66,14 @@
 						<File Id="586293810" Language="SFX">
 							<ShortName>ElevatorTravel.wav</ShortName>
 							<Path>SFX\ElevatorTravel_A3F769B1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2095298983" Name="IntroVoiceover" ObjectPath="\Events\Default Work Unit\Voiceovers\IntroVoiceover" DurationType="OneShot" DurationMin="36.369946" DurationMax="36.369946">
+					<IncludedMemoryFiles>
+						<File Id="294404894" Language="SFX">
+							<ShortName>IntroVoiceover.wav</ShortName>
+							<Path>SFX\IntroVoiceover_65028E11.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -129,6 +137,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2877115857" Name="PizzaPartyVoiceover" ObjectPath="\Events\Default Work Unit\Voiceovers\PizzaPartyVoiceover" DurationType="OneShot" DurationMin="25.334967" DurationMax="25.334967">
+					<IncludedMemoryFiles>
+						<File Id="460172088" Language="SFX">
+							<ShortName>PizzaPartyVoiceover.wav</ShortName>
+							<Path>SFX\PizzaPartyVoiceover_B2FA6DC9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3191176734" Name="Play_FlorescentBuzz" ObjectPath="\Events\Default Work Unit\Roomtone\Play_FlorescentBuzz" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="347652226" Language="SFX">
@@ -142,6 +158,14 @@
 						<File Id="394686312" Language="SFX">
 							<ShortName>LazyDayBlues.wav.wav</ShortName>
 							<Path>SFX\LazyDayBlues.wav_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2681971765" Name="PortalRadioMusic" ObjectPath="\Events\Default Work Unit\RadioMusic\PortalRadioMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="75182158" Language="SFX">
+							<ShortName>PortalRadioSong.wav</ShortName>
+							<Path>SFX\PortalRadioSong_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -170,6 +194,14 @@
 						<File Id="802075953" Language="SFX">
 							<ShortName>Rift_Solved02.wav</ShortName>
 							<Path>SFX\Rift_Solved02_B78338C1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1386895688" Name="RiftsAppearVoiceover" ObjectPath="\Events\Default Work Unit\Voiceovers\RiftsAppearVoiceover" DurationType="OneShot" DurationMin="26.385757" DurationMax="26.385757">
+					<IncludedMemoryFiles>
+						<File Id="484319015" Language="SFX">
+							<ShortName>RiftsAppearVoiceover.wav</ShortName>
+							<Path>SFX\RiftsAppearVoiceover_E7E4C385.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

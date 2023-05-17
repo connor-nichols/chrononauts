@@ -16,13 +16,17 @@ namespace AK
         static const AkUniqueID ELEVATORBUTTONCLICK = 702061953U;
         static const AkUniqueID ELEVATORDOORSLIDE = 748051766U;
         static const AkUniqueID ELEVATORTRAVEL = 575746267U;
+        static const AkUniqueID INTROVOICEOVER = 2095298983U;
         static const AkUniqueID INVENTORYINPUT = 3357836269U;
         static const AkUniqueID INVENTORYOUTPUT = 2083830872U;
         static const AkUniqueID ITEMDROPPED = 2601892650U;
+        static const AkUniqueID PIZZAPARTYVOICEOVER = 2877115857U;
         static const AkUniqueID PLAY_FLORESCENTBUZZ = 3191176734U;
         static const AkUniqueID PLAY_LAZYDAYBLUES_WAV = 119164842U;
+        static const AkUniqueID PORTALRADIOMUSIC = 2681971765U;
         static const AkUniqueID RIFT_ITEMPLACED = 3321777685U;
         static const AkUniqueID RIFT_SOLVED = 752450508U;
+        static const AkUniqueID RIFTSAPPEARVOICEOVER = 1386895688U;
         static const AkUniqueID ROOMTONE30XX = 1552205833U;
         static const AkUniqueID ROOMTONE1940S = 4240109521U;
         static const AkUniqueID ROOMTONE1970S = 4139296746U;
