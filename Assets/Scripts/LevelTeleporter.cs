@@ -54,6 +54,10 @@ public class LevelTeleporter : MonoBehaviour
         // Room Ambience
         switch (SceneDestination)
         {
+            case "Start":
+                AkSoundEngine.PostEvent("Roomtone2020s", playerObject);
+                break;
+
             case "LevelScene-2020s":
                 AkSoundEngine.PostEvent("Roomtone2020s", playerObject);
                 break;
